@@ -25,7 +25,7 @@
 #define RF_CONFIG_FILE_NAME	"./.run-free.cfg"
 
 /* configurables -defaults */
-#define TERM			"Eterm"			// assumed to be within path
+#define TERM			"xterm"			// assumed to be within path
 #define RF_KBHIT_FILE_NAME	"run-free-kbhit"	// assumed to be within path
 
 /* proto types */

@@ -211,6 +211,7 @@ config.status:3538: creating src/Makefile
 config.status:3538: creating src/run_free/Makefile
 config.status:3538: creating src/kbhit/Makefile
 config.status:3630: creating include/config.h
+config.status:3771: include/config.h is unchanged
 
 ## ----------------- ##
 ## Cache variables.  ##
