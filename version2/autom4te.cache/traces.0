@@ -140,102 +140,108 @@ configure.ac:75: the top level])
 m4trace:configure.ac:81: -1- AC_DEFINE_TRACE_LITERAL([DEFAULT_TERMINAL_PATH])
 m4trace:configure.ac:81: -1- AH_OUTPUT([DEFAULT_TERMINAL_PATH], [/* Specify default terminal for run_in_term mode */
 #undef DEFAULT_TERMINAL_PATH])
-m4trace:configure.ac:85: -1- AC_CHECK_LIB([cposix], [strerror], [LIBS="$LIBS -lcposix"])
-m4trace:configure.ac:85: -1- AC_PROG_CC
-m4trace:configure.ac:85: -1- AC_SUBST([CC])
-m4trace:configure.ac:85: -1- AC_SUBST([CFLAGS])
-m4trace:configure.ac:85: -1- AC_SUBST([LDFLAGS])
-m4trace:configure.ac:85: -1- AC_SUBST([CPPFLAGS])
-m4trace:configure.ac:85: -1- AC_SUBST([CC])
-m4trace:configure.ac:85: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:85: -1- AC_SUBST([CC])
-m4trace:configure.ac:85: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:85: -1- AC_SUBST([CC])
-m4trace:configure.ac:85: -1- AC_SUBST([CC])
-m4trace:configure.ac:85: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:85: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
-m4trace:configure.ac:85: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
-m4trace:configure.ac:86: -1- AC_PROG_CC
-m4trace:configure.ac:86: -1- AC_SUBST([CC])
-m4trace:configure.ac:86: -1- AC_SUBST([CFLAGS])
-m4trace:configure.ac:86: -1- AC_SUBST([LDFLAGS])
-m4trace:configure.ac:86: -1- AC_SUBST([CPPFLAGS])
-m4trace:configure.ac:86: -1- AC_SUBST([CC])
-m4trace:configure.ac:86: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:86: -1- AC_SUBST([CC])
-m4trace:configure.ac:86: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:86: -1- AC_SUBST([CC])
-m4trace:configure.ac:86: -1- AC_SUBST([CC])
-m4trace:configure.ac:86: -1- AC_SUBST([ac_ct_CC])
-m4trace:configure.ac:87: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+m4trace:configure.ac:88: -1- AC_DEFINE_TRACE_LITERAL([DEBUG_PRINTF])
+m4trace:configure.ac:88: -1- AH_OUTPUT([DEBUG_PRINTF], [/* Specify the printf type of function call used in debug.h */
+#undef DEBUG_PRINTF])
+m4trace:configure.ac:89: -1- AC_DEFINE_TRACE_LITERAL([DEBUG_PRINTF_INCLUDE])
+m4trace:configure.ac:89: -1- AH_OUTPUT([DEBUG_PRINTF_INCLUDE], [/* Specify the include file to support the printf statement */
+#undef DEBUG_PRINTF_INCLUDE])
+m4trace:configure.ac:93: -1- AC_CHECK_LIB([cposix], [strerror], [LIBS="$LIBS -lcposix"])
+m4trace:configure.ac:93: -1- AC_PROG_CC
+m4trace:configure.ac:93: -1- AC_SUBST([CC])
+m4trace:configure.ac:93: -1- AC_SUBST([CFLAGS])
+m4trace:configure.ac:93: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.ac:93: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:93: -1- AC_SUBST([CC])
+m4trace:configure.ac:93: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:93: -1- AC_SUBST([CC])
+m4trace:configure.ac:93: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:93: -1- AC_SUBST([CC])
+m4trace:configure.ac:93: -1- AC_SUBST([CC])
+m4trace:configure.ac:93: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:93: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
+m4trace:configure.ac:93: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
+m4trace:configure.ac:94: -1- AC_PROG_CC
+m4trace:configure.ac:94: -1- AC_SUBST([CC])
+m4trace:configure.ac:94: -1- AC_SUBST([CFLAGS])
+m4trace:configure.ac:94: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.ac:94: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:94: -1- AC_SUBST([CC])
+m4trace:configure.ac:94: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:94: -1- AC_SUBST([CC])
+m4trace:configure.ac:94: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:94: -1- AC_SUBST([CC])
+m4trace:configure.ac:94: -1- AC_SUBST([CC])
+m4trace:configure.ac:94: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:95: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
 You should run autoupdate.], [autoconf/general.m4:2180: AC_TRY_COMPILE is expanded from...
 autoconf/general.m4:1799: AC_CACHE_VAL is expanded from...
 aclocal.m4:1354: AM_PROG_CC_STDC is expanded from...
-configure.ac:87: the top level])
-m4trace:configure.ac:88: -1- AC_HEADER_STDC
-m4trace:configure.ac:88: -1- AC_PROG_CPP
-m4trace:configure.ac:88: -1- AC_SUBST([CPP])
-m4trace:configure.ac:88: -1- AC_SUBST([CPPFLAGS])
-m4trace:configure.ac:88: -1- AC_SUBST([CPP])
-m4trace:configure.ac:88: -1- AC_SUBST([EGREP])
-m4trace:configure.ac:88: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
-m4trace:configure.ac:88: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+configure.ac:95: the top level])
+m4trace:configure.ac:96: -1- AC_HEADER_STDC
+m4trace:configure.ac:96: -1- AC_PROG_CPP
+m4trace:configure.ac:96: -1- AC_SUBST([CPP])
+m4trace:configure.ac:96: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:96: -1- AC_SUBST([CPP])
+m4trace:configure.ac:96: -1- AC_SUBST([EGREP])
+m4trace:configure.ac:96: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.ac:96: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS])
-m4trace:configure.ac:89: -1- AC_PROG_INSTALL
-m4trace:configure.ac:89: -1- AC_SUBST([INSTALL_PROGRAM])
-m4trace:configure.ac:89: -1- AC_SUBST([INSTALL_SCRIPT])
-m4trace:configure.ac:89: -1- AC_SUBST([INSTALL_DATA])
-m4trace:configure.ac:91: -1- _m4_warn([obsolete], [The macro `AC_STDC_HEADERS' is obsolete.
+m4trace:configure.ac:97: -1- AC_PROG_INSTALL
+m4trace:configure.ac:97: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.ac:97: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.ac:97: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.ac:99: -1- _m4_warn([obsolete], [The macro `AC_STDC_HEADERS' is obsolete.
 You should run autoupdate.], [autoconf/oldnames.m4:96: AC_STDC_HEADERS is expanded from...
-configure.ac:91: the top level])
-m4trace:configure.ac:91: -1- AC_HEADER_STDC([])
-m4trace:configure.ac:91: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
-m4trace:configure.ac:91: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+configure.ac:99: the top level])
+m4trace:configure.ac:99: -1- AC_HEADER_STDC([])
+m4trace:configure.ac:99: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.ac:99: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS])
-m4trace:configure.ac:92: -1- AC_SUBST([GTK_CONFIG], [$ac_cv_path_GTK_CONFIG])
-m4trace:configure.ac:92: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+m4trace:configure.ac:100: -1- AC_SUBST([GTK_CONFIG], [$ac_cv_path_GTK_CONFIG])
+m4trace:configure.ac:100: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
 You should run autoupdate.], [autoconf/general.m4:2289: AC_TRY_RUN is expanded from...
 aclocal.m4:1549: AM_PATH_GTK is expanded from...
-configure.ac:92: the top level])
-m4trace:configure.ac:92: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+configure.ac:100: the top level])
+m4trace:configure.ac:100: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
 You should run autoupdate.], [autoconf/general.m4:2223: AC_TRY_LINK is expanded from...
 aclocal.m4:1549: AM_PATH_GTK is expanded from...
-configure.ac:92: the top level])
-m4trace:configure.ac:92: -1- AC_SUBST([GTK_CFLAGS])
-m4trace:configure.ac:92: -1- AC_SUBST([GTK_LIBS])
-m4trace:configure.ac:93: -1- AC_SUBST([PKG_CONFIG], [$ac_cv_path_PKG_CONFIG])
-m4trace:configure.ac:93: -1- AC_SUBST([GTK_CFLAGS])
-m4trace:configure.ac:93: -1- AC_SUBST([GTK_LIBS])
-m4trace:configure.ac:94: -1- AC_SUBST([GTK_CFLAGS])
-m4trace:configure.ac:95: -1- AC_SUBST([GTK_LIBS])
-m4trace:configure.ac:96: -1- AC_CHECK_HEADERS([curses.h curses/curses.h termios.h])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_CURSES_H], [/* Define to 1 if you have the <curses.h> header file. */
+configure.ac:100: the top level])
+m4trace:configure.ac:100: -1- AC_SUBST([GTK_CFLAGS])
+m4trace:configure.ac:100: -1- AC_SUBST([GTK_LIBS])
+m4trace:configure.ac:101: -1- AC_SUBST([PKG_CONFIG], [$ac_cv_path_PKG_CONFIG])
+m4trace:configure.ac:101: -1- AC_SUBST([GTK_CFLAGS])
+m4trace:configure.ac:101: -1- AC_SUBST([GTK_LIBS])
+m4trace:configure.ac:102: -1- AC_SUBST([GTK_CFLAGS])
+m4trace:configure.ac:103: -1- AC_SUBST([GTK_LIBS])
+m4trace:configure.ac:104: -1- AC_CHECK_HEADERS([curses.h curses/curses.h termios.h])
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_CURSES_H], [/* Define to 1 if you have the <curses.h> header file. */
 #undef HAVE_CURSES_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_CURSES_CURSES_H], [/* Define to 1 if you have the <curses/curses.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_CURSES_CURSES_H], [/* Define to 1 if you have the <curses/curses.h> header file. */
 #undef HAVE_CURSES_CURSES_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_TERMIOS_H], [/* Define to 1 if you have the <termios.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_TERMIOS_H], [/* Define to 1 if you have the <termios.h> header file. */
 #undef HAVE_TERMIOS_H])
-m4trace:configure.ac:96: -1- AC_CHECK_HEADERS([sys/types.h sys/stat.h stdlib.h string.h memory.h strings.h \
+m4trace:configure.ac:104: -1- AC_CHECK_HEADERS([sys/types.h sys/stat.h stdlib.h string.h memory.h strings.h \
 		  inttypes.h stdint.h unistd.h], [], [], [$ac_includes_default])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
 #undef HAVE_SYS_TYPES_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_SYS_STAT_H], [/* Define to 1 if you have the <sys/stat.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_SYS_STAT_H], [/* Define to 1 if you have the <sys/stat.h> header file. */
 #undef HAVE_SYS_STAT_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_STDLIB_H], [/* Define to 1 if you have the <stdlib.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_STDLIB_H], [/* Define to 1 if you have the <stdlib.h> header file. */
 #undef HAVE_STDLIB_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_STRING_H], [/* Define to 1 if you have the <string.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_STRING_H], [/* Define to 1 if you have the <string.h> header file. */
 #undef HAVE_STRING_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_MEMORY_H], [/* Define to 1 if you have the <memory.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_MEMORY_H], [/* Define to 1 if you have the <memory.h> header file. */
 #undef HAVE_MEMORY_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
 #undef HAVE_STRINGS_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_INTTYPES_H], [/* Define to 1 if you have the <inttypes.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_INTTYPES_H], [/* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_STDINT_H], [/* Define to 1 if you have the <stdint.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_STDINT_H], [/* Define to 1 if you have the <stdint.h> header file. */
 #undef HAVE_STDINT_H])
-m4trace:configure.ac:96: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+m4trace:configure.ac:104: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
 #undef HAVE_UNISTD_H])
-m4trace:configure.ac:115: -1- AC_CONFIG_FILES([Makefile \
+m4trace:configure.ac:123: -1- AC_CONFIG_FILES([Makefile \
 extradist/Makefile \
 src/Makefile \
 debian/Makefile \
@@ -243,7 +249,7 @@ docs/Makefile \
 docs/def/Makefile \
 docs/html/Makefile \
 run-free.spec])
-m4trace:configure.ac:115: -1- _m4_warn([obsolete], [AC_OUTPUT should be used without arguments.
+m4trace:configure.ac:123: -1- _m4_warn([obsolete], [AC_OUTPUT should be used without arguments.
 You should run autoupdate.], [])
-m4trace:configure.ac:115: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
-m4trace:configure.ac:115: -1- AC_SUBST([LTLIBOBJS], [$ac_ltlibobjs])
+m4trace:configure.ac:123: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
+m4trace:configure.ac:123: -1- AC_SUBST([LTLIBOBJS], [$ac_ltlibobjs])

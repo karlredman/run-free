@@ -1942,8 +1942,24 @@ cat >>confdefs.h <<_ACEOF
 _ACEOF
 
 ##
+#######################################
+#######################################
+#debuging output parameters (for debug.h)
+DEBUG_PRINTF="g_print"
+DEBUG_PRINTF_INCLUDE="<gtk/gtk.h>"
+
+cat >>confdefs.h <<_ACEOF
+@%:@define DEBUG_PRINTF $DEBUG_PRINTF
+_ACEOF
+
+
+cat >>confdefs.h <<_ACEOF
+@%:@define DEBUG_PRINTF_INCLUDE $DEBUG_PRINTF_INCLUDE
+_ACEOF
 
 ##
+#######################################
+#######################################
 ac_ext=c
 ac_cpp='$CPP $CPPFLAGS'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'

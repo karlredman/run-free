@@ -80,8 +80,16 @@ else
 fi
 AC_DEFINE_UNQUOTED(DEFAULT_TERMINAL_PATH, $DEFAULT_TERMINAL_PATH,Specify default terminal for run_in_term mode)
 ##
-
+#######################################
+#######################################
+#debuging output parameters (for debug.h)
+DEBUG_PRINTF="g_print"
+DEBUG_PRINTF_INCLUDE="<gtk/gtk.h>"
+AC_DEFINE_UNQUOTED(DEBUG_PRINTF, $DEBUG_PRINTF,Specify the printf type of function call used in debug.h)
+AC_DEFINE_UNQUOTED(DEBUG_PRINTF_INCLUDE, $DEBUG_PRINTF_INCLUDE, Specify the include file to support the printf statement)
 ##
+#######################################
+#######################################
 AC_ISC_POSIX
 AC_PROG_CC
 AM_PROG_CC_STDC

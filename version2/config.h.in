@@ -6,6 +6,12 @@
 /* GNU and SleepingStill copyright statement */
 #undef COPYRIGHT
 
+/* Specify the printf type of function call used in debug.h */
+#undef DEBUG_PRINTF
+
+/* Specify the include file to support the printf statement */
+#undef DEBUG_PRINTF_INCLUDE
+
 /* Specify history display entries length */
 #undef DEFAULT_HISTORY_LEN
 

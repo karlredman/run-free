@@ -1137,7 +1137,7 @@ dnl
 dnl   # end of file
 dnl   ---------- >8 ----------
 dnl
-dnl @version $Id: aclocal.m4,v 1.3 2004/03/18 13:41:34 parasyte Exp $
+dnl @version $Id: aclocal.m4,v 1.4 2004/04/03 08:17:41 parasyte Exp $
 dnl @author Dale K. Hawkins <dhawkins@cdrgts.com>
 
 dnl AM_RPM_INIT
