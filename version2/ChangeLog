@@ -1,0 +1,26 @@
+2004-04-03  Karl N. Redman  <parasyte@scyld>
+
+	* debug.h:
+	minor update -messing around with the debug file generic-ization
+
+2004-03-18  Karl N. Redman  <parasyte@scyld>
+
+	* callbacks.h, comboBox.c, comboHandlers.c, comboHandlers.h, main.c:
+	final release of version 2.0.0
+
+2004-03-17  Karl N. Redman  <parasyte@scyld>
+
+	* help.h: minor bug
+
+	* help.h, interface.c, interface.h, kbhit.c, kbhit.h, main.c, main.h, support.c, support.h:
+	New file.
+
+	* help.h, interface.c, interface.h, kbhit.c, kbhit.h, main.c, main.h, support.c, support.h:
+	initial import
+
+	* Makefile.am, Makefile.in, callbacks.c, callbacks.h, comboBox.c, comboBox.h, comboHandlers.c, comboHandlers.h, commonDefs.h, debug.h:
+	New file.
+
+	* Makefile.am, Makefile.in, callbacks.c, callbacks.h, comboBox.c, comboBox.h, comboHandlers.c, comboHandlers.h, commonDefs.h, debug.h:
+	initial import
+
