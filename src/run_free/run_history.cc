@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include <gtk/gtk.h>
+#include <string.h>
 
 #include <assert.h>
 
@@ -26,7 +27,7 @@ int writeHistory(char *s)
 
   if(fp == NULL)
     {
-      
+      //display dialog
     }
   
   //write command line to file
@@ -136,16 +137,31 @@ int historyInit(GList *cbitems)
       assert(hItem != NULL);
 
       int i = 0;
-      for(;i < (RF_MAX_COMBO_ELEM-1) && (hItem != NULL); i++, 
+      int loop_num = RF_MAX_COMBO_ELEM-1;
+
+      for(;i < loop_num && (hItem != NULL); i++, 
 	    hItem = g_list_next(hItem))
 	{
-#ifdef DEBUG
-	  g_print("%s\n",(char *)hItem->data);
-#endif
+
 	  //see if we've seen this one before
-	  if(g_list_find(cbitems, hItem->data) == NULL)
-	    //put the old command in the combo box
-	    cbitems = g_list_append(cbitems, (char *)hItem->data);
+	   if(g_list_find_custom(cbitems, hItem->data,
+				 (GCompareFunc)strcmp) == NULL) 
+	    {
+	      //put the old command in the combo box
+	      cbitems = g_list_append(cbitems, (char *)hItem->data);
+#ifdef DEBUG
+	   g_print("unique:%s\n",(char *)hItem->data);
+#endif
+	    }
+	   else
+	     {
+	       //increase the number of loops we're going to try and
+	       // grab the next one (unless NULL happens on next)
+	       ++loop_num;
+#ifdef DEBUG
+	   g_print("loop_num++ %s\n",(char *)hItem->data);
+#endif
+	     }
 	}
     }
   else
