@@ -1,0 +1,6 @@
+11-3-01
+	Setup the project for source forge. created spec file for making the rpms and setup sourceforge 
+	for this project (uploading CVS, setting up web page, etc)
+
+11-16-01
+	Release of 1.0.1: fixed memory leak in a string allocation and fixed anoying bug in history so that only the last n unique commands show up in the combo box
