@@ -12,7 +12,7 @@ file = {
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 (15)
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       define-mem-desc-line = '461';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -49,7 +49,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '60';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 called when the main window is destroyed
@@ -118,7 +118,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '76';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -159,7 +159,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '84';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -200,7 +200,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '102';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle when a keypress event occures in the combo box.
@@ -276,7 +276,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '208';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -316,7 +316,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '225';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle setting the run_in_term mode
@@ -361,7 +361,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '245';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle the OK button clicked in the fileselection dialog.
@@ -411,7 +411,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '271';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -457,7 +457,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '280';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -498,7 +498,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '302';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle a keypress event at the toplevel window level.
@@ -562,7 +562,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '354';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Execute the command in the combo entry box.
@@ -622,7 +622,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '375';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle the options mode selection.
@@ -660,7 +660,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'handle_options_display';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '404';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle options display.
@@ -732,7 +732,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '435';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -777,7 +777,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '444';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -828,7 +828,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '453';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -886,7 +886,7 @@ gint *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'width';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '484';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 figure out the combo box positions
@@ -930,7 +930,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       func-mem-desc-line = '570';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle a dialog ok button click
@@ -958,7 +958,7 @@ _EnD_oF_dEf_TeXt_;
       var-mem-initializer = <<_EnD_oF_dEf_TeXt_
  FALSE
 _EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
       var-mem-desc-line = '47';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 whether the "options" box is up (disabled)
@@ -983,7 +983,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* var-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 callback function deffinitions
@@ -1020,7 +1020,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '31';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 called when the main window is destroyed
@@ -1089,7 +1089,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '35';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1130,7 +1130,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '40';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle when a keypress event occures in the combo box.
@@ -1212,7 +1212,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '45';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1247,7 +1247,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '49';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1287,7 +1287,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '53';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle setting the run_in_term mode
@@ -1332,7 +1332,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '57';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle the OK button clicked in the fileselection dialog.
@@ -1382,7 +1382,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '61';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1428,7 +1428,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '66';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1469,7 +1469,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '71';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle a keypress event at the toplevel window level.
@@ -1533,7 +1533,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '74';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Execute the command in the combo entry box.
@@ -1593,7 +1593,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '78';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle the options mode selection.
@@ -1643,7 +1643,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '82';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1673,7 +1673,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '86';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1703,7 +1703,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '90';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1748,7 +1748,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '94';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1781,7 +1781,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'handle_options_display';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '96';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Handle options display.
@@ -1859,7 +1859,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '101';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1887,7 +1887,7 @@ _EnD_oF_dEf_TeXt_;
 int
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'combo_init';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '104';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 initialize combo box attributes
@@ -1950,7 +1950,7 @@ gint *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'width';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '112';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 calculate the combo box positions
@@ -1985,7 +1985,7 @@ gpointer
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
       func-mem-desc-line = '117';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle a dialog ok button click
@@ -2000,7 +2000,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 callback functions for the application
@@ -2031,7 +2031,7 @@ unsigned int
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'mode';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.c';
       func-mem-desc-line = '45';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 comob box initialization
@@ -2082,7 +2082,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Provide comboBox functionality.
@@ -2113,7 +2113,7 @@ unsigned int
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'mode';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.h';
       func-mem-desc-line = '44';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 comob box initialization
@@ -2174,7 +2174,7 @@ _EnD_oF_dEf_TeXt_;
 GList *
 _EnD_oF_dEf_TeXt_;
       var-mem-name = 'cbitems';
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.h';
       var-mem-desc-line = '39';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 the combo box list
@@ -2207,7 +2207,7 @@ _EnD_oF_dEf_TeXt_;
 unsigned int
 _EnD_oF_dEf_TeXt_;
       var-mem-name = 'combo_mode';
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.h';
       var-mem-desc-line = '41';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 the combo box mode
@@ -2232,7 +2232,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* var-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 comboBox specific functions
@@ -2269,7 +2269,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
       func-mem-desc-line = '58';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 read a history file
@@ -2325,7 +2325,7 @@ GList *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'list';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
       func-mem-desc-line = '174';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 free a GList object and all it's members
@@ -2371,7 +2371,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
       func-mem-desc-line = '196';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 write to a history file (append)
@@ -2409,7 +2409,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Handle comboBox operations.
@@ -2443,7 +2443,7 @@ GList *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'list';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
       func-mem-desc-line = '51';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 free a GList object and all it's members
@@ -2489,7 +2489,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
       func-mem-desc-line = '53';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 read a history file
@@ -2551,7 +2551,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
       func-mem-desc-line = '55';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 write to a history file (append)
@@ -2589,7 +2589,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 various handlers based on comboBox data
@@ -2606,7 +2606,7 @@ _EnD_oF_dEf_TeXt_;
 file = {
   file-id   = 'commonDefs_8h';
   file-name = 'commonDefs.h';
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/commonDefs.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/commonDefs.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 common deffinitions
@@ -2615,510 +2615,6 @@ _EnD_oF_dEf_TeXt_;
 
 
 
-
-_EnD_oF_dEf_TeXt_;
-}; /* file */
-file = {
-  file-id   = 'config_8h';
-  file-name = 'config.h';
-    define = {
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a0';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'BASH_HISTORY_FILENAME';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-".bash_history"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '5';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a1';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'COPYRIGHT';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"COPYRIGHT 2004, Karl N. Redman (parasyte@sleepingstill.com)"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '8';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a2';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'DEFAULT_HISTORY_LEN';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-20
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '11';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a3';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'DEFAULT_TERMINAL_PATH';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"xterm"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '14';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a4';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_CURSES_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '20';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a5';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_INTTYPES_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '23';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a6';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_MEMORY_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '26';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a7';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_STDINT_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '29';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a8';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_STDLIB_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '32';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a9';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_STRINGS_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '35';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a10';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_STRING_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '38';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a11';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_SYS_STAT_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '41';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a12';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_SYS_TYPES_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '44';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a13';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_TERMIOS_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '47';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a14';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'HAVE_UNISTD_H';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '50';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a15';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'LICENSE';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"This application comes with ABSOLUTELY NO WARRANTY; \nfor details see the licensing agreement distributed with this application"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '53';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a16';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"run-free"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '56';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a17';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE_BUGREPORT';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-""
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '59';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a18';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE_NAME';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-""
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '62';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a19';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE_STRING';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-""
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '65';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a20';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE_TARNAME';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-""
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '68';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a21';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'PACKAGE_VERSION';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-""
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '71';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a22';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'STDC_HEADERS';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '74';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a23';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'USER_HISTORY_FILENAME';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-".user_history"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '77';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    define-member = {
-      define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a24';
-      define-mem-virt = normal;
-      define-mem-prot = public;
-      define-mem-name = 'VERSION';
-      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"2.0.0"
-_EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-      define-mem-desc-line = '83';
-      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      define-mem-referenceby = {
-        define-mem-ref-id = 'main_8c_1a5';
-        define-mem-ref-line = '78';
-        define-mem-ref-name = 'main';
-    };
-    }; /* define-member */
-    };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
-  file-first-line = '1';
-  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  file-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
 }; /* file */
@@ -3135,7 +2631,7 @@ file = {
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 0
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/debug.h';
       define-mem-desc-line = '60';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 compile time option
@@ -3178,7 +2674,7 @@ _EnD_oF_dEf_TeXt_;
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 PACKAGE
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/debug.h';
       define-mem-desc-line = '64';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 The package name.
@@ -3196,7 +2692,7 @@ _EnD_oF_dEf_TeXt_;
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 "DEBUG"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/debug.h';
       define-mem-desc-line = '67';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 a submessage
@@ -3206,7 +2702,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/debug.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 run-free debug macros
@@ -3274,10 +2770,11 @@ file = {
 "Other application options\n"\
 "Ctrl-m........................Update history list from history file\n"\
 "Alt-h.........................Display keystroke help dialog\n"\
-"Alt-y.........................Set termstay switch\n"
+"Alt-y.........................Set termstay switch\n"\
+"Alt-u.........................keepalive toggle (don't die)\n"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/help.h';
-      define-mem-desc-line = '74';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/help.h';
+      define-mem-desc-line = '75';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 the definition of keystroke help
 _EnD_oF_dEf_TeXt_;
@@ -3296,7 +2793,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* define-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/help.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/help.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 run-free main include file
@@ -3328,7 +2825,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.c';
       func-mem-desc-line = '48';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 create the main window
@@ -3431,7 +2928,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.c';
       func-mem-desc-line = '283';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 create the persistant fileselection box
@@ -3484,7 +2981,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.c';
       func-mem-desc-line = '329';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 display help for keystrokes
@@ -3517,7 +3014,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Interface function definitions.
@@ -3548,7 +3045,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.h';
       func-mem-desc-line = '53';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 create the main window
@@ -3651,7 +3148,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.h';
       func-mem-desc-line = '55';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 create the persistant fileselection box
@@ -3704,7 +3201,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.h';
       func-mem-desc-line = '58';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 display help for keystrokes
@@ -3737,7 +3234,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/interface.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 interface globals and functions
@@ -3763,7 +3260,7 @@ file = {
 int
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'do_kbhit';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.c';
       func-mem-desc-line = '41';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 do a kbhit
@@ -3797,7 +3294,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'init_keyboard';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.c';
       func-mem-desc-line = '66';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 initialize the keyboard
@@ -3826,7 +3323,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'close_keyboard';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.c';
       func-mem-desc-line = '89';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 reset the keyboard terminal settings
@@ -3852,7 +3349,7 @@ _EnD_oF_dEf_TeXt_;
 termios initial_settings
 _EnD_oF_dEf_TeXt_;
       var-mem-name = 'new_settings';
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.c';
       var-mem-desc-line = '33';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 console termio settings (pre and post operation)
@@ -3867,7 +3364,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* var-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Handle console keyboard functionality.
@@ -3892,7 +3389,7 @@ file = {
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'init_keyboard';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.h';
       func-mem-desc-line = '30';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 initialize the keyboard
@@ -3921,7 +3418,7 @@ _EnD_oF_dEf_TeXt_;
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'close_keyboard';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.h';
       func-mem-desc-line = '32';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 reset the keyboard terminal settings
@@ -3945,7 +3442,7 @@ _EnD_oF_dEf_TeXt_;
 int
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'do_kbhit';
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.h';
       func-mem-desc-line = '34';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 do a kbhit
@@ -3971,7 +3468,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/kbhit.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 console keyboard keyHit functionality
@@ -4016,7 +3513,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'env';
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.c';
       func-mem-desc-line = '79';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 The Main.
@@ -4024,11 +3521,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
  Long mian function that is intended to be split up some day
 _EnD_oF_dEf_TeXt_;
-      func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a0';
-        func-mem-ref-line = '5';
-        func-mem-ref-name = 'BASH_HISTORY_FILENAME';
-    };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8h_1a9';
         func-mem-ref-line = '57';
@@ -4060,11 +3552,6 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'command';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a1';
-        func-mem-ref-line = '8';
-        func-mem-ref-name = 'COPYRIGHT';
-    };
-      func-mem-referenceto = {
         func-mem-ref-id = 'interface_8c_1a1';
         func-mem-ref-line = '282';
         func-mem-ref-name = 'create_fileselection';
@@ -4078,16 +3565,6 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-id = 'debug_8h_1a0';
         func-mem-ref-line = '60';
         func-mem-ref-name = 'DEBUG_MODE';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a2';
-        func-mem-ref-line = '11';
-        func-mem-ref-name = 'DEFAULT_HISTORY_LEN';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a3';
-        func-mem-ref-line = '14';
-        func-mem-ref-name = 'DEFAULT_TERMINAL_PATH';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8h_1a1';
@@ -4145,11 +3622,6 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'KEYSTROKES';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a15';
-        func-mem-ref-line = '53';
-        func-mem-ref-name = 'LICENSE';
-    };
-      func-mem-referenceto = {
         func-mem-ref-id = 'interface_8h_1a0';
         func-mem-ref-line = '32';
         func-mem-ref-name = 'mainWindow';
@@ -4185,11 +3657,6 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'OPTARG_HISTORY_LEN';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a16';
-        func-mem-ref-line = '56';
-        func-mem-ref-name = 'PACKAGE';
-    };
-      func-mem-referenceto = {
         func-mem-ref-id = 'commonDefs_8h_1a0';
         func-mem-ref-line = '39';
         func-mem-ref-name = 'RF_HISTORY_FILENAME';
@@ -4209,16 +3676,6 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-line = '51';
         func-mem-ref-name = 'terminal_path';
     };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a23';
-        func-mem-ref-line = '77';
-        func-mem-ref-name = 'USER_HISTORY_FILENAME';
-    };
-      func-mem-referenceto = {
-        func-mem-ref-id = 'config_8h_1a24';
-        func-mem-ref-line = '83';
-        func-mem-ref-name = 'VERSION';
-    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
@@ -4235,7 +3692,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'command';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.c';
       func-mem-desc-line = '381';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Run a command.
@@ -4323,7 +3780,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 run-free main file
@@ -4356,7 +3813,7 @@ char *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'command';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.h';
       func-mem-desc-line = '61';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Run a command.
@@ -4444,7 +3901,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 run-free main include file
@@ -4483,7 +3940,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       func-mem-desc-line = '40';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4512,7 +3969,7 @@ GtkWidget *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'widget';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       func-mem-desc-line = '43';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4552,7 +4009,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'widget_name';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       func-mem-desc-line = '48';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4580,7 +4037,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'directory';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       func-mem-desc-line = '103';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4615,7 +4072,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       func-mem-desc-line = '112';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4659,7 +4116,7 @@ _EnD_oF_dEf_TeXt_;
 " "
 }
 _EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       var-mem-desc-line = '76';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4685,7 +4142,7 @@ _EnD_oF_dEf_TeXt_;
       var-mem-initializer = <<_EnD_oF_dEf_TeXt_
  NULL
 _EnD_oF_dEf_TeXt_;
-      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      var-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
       var-mem-desc-line = '98';
       var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4705,7 +4162,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* var-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.c';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 glade, blah support functions
@@ -4730,7 +4187,7 @@ file = {
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 lookup_widget
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      define-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.h';
       define-mem-desc-line = '48';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4762,7 +4219,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'widget_name';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.h';
       func-mem-desc-line = '45';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4790,7 +4247,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'directory';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.h';
       func-mem-desc-line = '51';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4825,7 +4282,7 @@ const gchar *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.h';
       func-mem-desc-line = '60';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -4850,7 +4307,7 @@ _EnD_oF_dEf_TeXt_;
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+  file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/support.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 support functionality

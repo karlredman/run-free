@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 PROJECT_NAME           = run-free
 PROJECT_NUMBER         = "Version: 2.0.0"
-OUTPUT_DIRECTORY       = /home/parasyte/sandbox/projects/programming/current/run-free2/docs/
+OUTPUT_DIRECTORY       = /home/parasyte/sandbox/sourceforge/run-free/version2/docs/
 OUTPUT_LANGUAGE        = English
 USE_WINDOWS_ENCODING   = NO
 BRIEF_MEMBER_DESC      = YES
@@ -62,7 +62,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = /home/parasyte/sandbox/projects/programming/current/run-free2/
+INPUT                  = /home/parasyte/sandbox/sourceforge/run-free/version2/
 FILE_PATTERNS          = *.h \
                          *.c
 RECURSIVE              = YES
@@ -97,7 +97,7 @@ IGNORE_PREFIX          =
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
 HTML_FILE_EXTENSION    = .html
-HTML_HEADER            = /home/parasyte/sandbox/projects/programming/current/run-free2/extradist/header.html
+HTML_HEADER            = /home/parasyte/sandbox/sourceforge/run-free/version2/extradist/header.html
 HTML_FOOTER            = 
 HTML_STYLESHEET        = 
 HTML_ALIGN_MEMBERS     = YES

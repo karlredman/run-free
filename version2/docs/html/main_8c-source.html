@@ -68,7 +68,7 @@
 00039 
 00040 
 00041 <span class="preprocessor">#ifdef HAVE_CONFIG_H</span>
-00042 <span class="preprocessor"></span><span class="preprocessor">#  include &lt;<a class="code" href="config_8h.html">config.h</a>&gt;</span>
+00042 <span class="preprocessor"></span><span class="preprocessor">#  include &lt;config.h&gt;</span>
 00043 <span class="preprocessor">#endif</span>
 00044 <span class="preprocessor"></span>
 00045 
@@ -176,8 +176,8 @@
 00147                 }
 00148               <span class="keywordflow">else</span> <span class="keywordflow">if</span>(strcmp(<a class="code" href="main_8c.html#a0">optarg</a>, <a class="code" href="commonDefs_8h.html#a5">OPTARG_HISTORY_FILETYPE_BASH</a>)==0) <span class="comment">//bash</span>
 00149                 {
-00150                   <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(<a class="code" href="main_8h.html#a4">home_directory</a>)+strlen(<a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>)+2);
-00151                   sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s/%s"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, <a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>);
+00150                   <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(<a class="code" href="main_8h.html#a4">home_directory</a>)+strlen(BASH_HISTORY_FILENAME)+2);
+00151                   sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s/%s"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, BASH_HISTORY_FILENAME);
 00152                 }
 00153               <span class="keywordflow">else</span>
 00154                 {
@@ -206,8 +206,8 @@
 00177           <a class="code" href="main_8h.html#a1">die</a> = FALSE;
 00178           <span class="keywordflow">break</span>;
 00179         <span class="keywordflow">case</span> <span class="charliteral">'h'</span>:
-00180           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, <a class="code" href="config_8h.html#a16">PACKAGE</a>, <a class="code" href="config_8h.html#a24">VERSION</a>, <a class="code" href="config_8h.html#a1">COPYRIGHT</a>);
-00181           g_print(<span class="stringliteral">"%s\n\n"</span>, <a class="code" href="config_8h.html#a15">LICENSE</a>);
+00180           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, PACKAGE, VERSION, COPYRIGHT);
+00181           g_print(<span class="stringliteral">"%s\n\n"</span>, LICENSE);
 00182           g_print(<span class="stringliteral">"\nHELP:\n"</span>);
 00183           <span class="keywordtype">char</span> *help = 
 00184             <span class="stringliteral">"-b, --bash\t\tRun in Bash mode (reads ~/.bashrc before execution)"</span>
@@ -264,8 +264,8 @@
 00235             }
 00236           <span class="keywordflow">break</span>;
 00237         <span class="keywordflow">case</span> <span class="charliteral">'y'</span>:
-00238           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, <a class="code" href="config_8h.html#a16">PACKAGE</a>, <a class="code" href="config_8h.html#a24">VERSION</a>, <a class="code" href="config_8h.html#a1">COPYRIGHT</a>);
-00239           g_print(<span class="stringliteral">"%s\n\n"</span>, <a class="code" href="config_8h.html#a15">LICENSE</a>);
+00238           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, PACKAGE, VERSION, COPYRIGHT);
+00239           g_print(<span class="stringliteral">"%s\n\n"</span>, LICENSE);
 00240           g_print(<span class="stringliteral">"\nKEYSTROKES:\n"</span>);
 00241           g_print(<span class="stringliteral">"%s\n"</span>,<a class="code" href="help_8h.html#a0">KEYSTROKES</a>);
 00242 <span class="comment"></span>
@@ -280,8 +280,8 @@
 00251           exit(0);
 00252           <span class="keywordflow">break</span>;
 00253         <span class="keywordflow">case</span> <span class="charliteral">'V'</span>:
-00254           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, <a class="code" href="config_8h.html#a16">PACKAGE</a>, <a class="code" href="config_8h.html#a24">VERSION</a>, <a class="code" href="config_8h.html#a1">COPYRIGHT</a>);
-00255           g_print(<span class="stringliteral">"%s\n\n"</span>, <a class="code" href="config_8h.html#a15">LICENSE</a>);
+00254           g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, PACKAGE, VERSION, COPYRIGHT);
+00255           g_print(<span class="stringliteral">"%s\n\n"</span>, LICENSE);
 00256           exit(0);
 00257           <span class="keywordflow">break</span>;
 00258         <span class="keywordflow">default</span>:
@@ -296,29 +296,29 @@
 00267     {
 00268       <span class="comment">//string terminators are accounted for</span>
 00269 <span class="preprocessor">#ifdef USE_USER_HISTORY_FILENAME </span>
-00270 <span class="preprocessor"></span>      <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"user history compile option"</span>,<a class="code" href="config_8h.html#a23">USER_HISTORY_FILENAME</a>);
-00271       <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(<a class="code" href="config_8h.html#a23">USER_HISTORY_FILENAME</a>)+1);
-00272       sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s"</span>, <a class="code" href="config_8h.html#a23">USER_HISTORY_FILENAME</a>);
+00270 <span class="preprocessor"></span>      <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"user history compile option"</span>,USER_HISTORY_FILENAME);
+00271       <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(USER_HISTORY_FILENAME)+1);
+00272       sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s"</span>, USER_HISTORY_FILENAME);
 00273 <span class="preprocessor">#else </span>
-00274 <span class="preprocessor"></span>      <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"bash history compile option"</span>,<a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>);
-00275       <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(<a class="code" href="main_8h.html#a4">home_directory</a>)+strlen(<a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>)+2);
-00276       sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s/%s"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, <a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>);
+00274 <span class="preprocessor"></span>      <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"bash history compile option"</span>,BASH_HISTORY_FILENAME);
+00275       <a class="code" href="main_8h.html#a5">history_file</a> = g_malloc(strlen(<a class="code" href="main_8h.html#a4">home_directory</a>)+strlen(BASH_HISTORY_FILENAME)+2);
+00276       sprintf(<a class="code" href="main_8h.html#a5">history_file</a>, <span class="stringliteral">"%s/%s"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, BASH_HISTORY_FILENAME);
 00277 <span class="preprocessor">#endif</span>
 00278 <span class="preprocessor"></span>    }
 00279 
 00280   <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a6">history_len</a>)
-00281     <a class="code" href="main_8h.html#a6">history_len</a> = <a class="code" href="config_8h.html#a2">DEFAULT_HISTORY_LEN</a>;
+00281     <a class="code" href="main_8h.html#a6">history_len</a> = DEFAULT_HISTORY_LEN;
 00282 
 00283   <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a7">terminal_path</a> == NULL)
 00284     {
-00285       <a class="code" href="main_8h.html#a7">terminal_path</a> = g_malloc(strlen(<a class="code" href="config_8h.html#a3">DEFAULT_TERMINAL_PATH</a>)+1);
-00286       sprintf(<a class="code" href="main_8h.html#a7">terminal_path</a>, <span class="stringliteral">"%s"</span>, <a class="code" href="config_8h.html#a3">DEFAULT_TERMINAL_PATH</a>);
+00285       <a class="code" href="main_8h.html#a7">terminal_path</a> = g_malloc(strlen(DEFAULT_TERMINAL_PATH)+1);
+00286       sprintf(<a class="code" href="main_8h.html#a7">terminal_path</a>, <span class="stringliteral">"%s"</span>, DEFAULT_TERMINAL_PATH);
 00287     }
 00288 
 00289   <span class="keywordflow">if</span>(listops)
 00290     {
-00291       g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, <a class="code" href="config_8h.html#a16">PACKAGE</a>, <a class="code" href="config_8h.html#a24">VERSION</a>, <a class="code" href="config_8h.html#a1">COPYRIGHT</a>);
-00292       g_print(<span class="stringliteral">"%s\n\n"</span>, <a class="code" href="config_8h.html#a15">LICENSE</a>);
+00291       g_print(<span class="stringliteral">"%s: version %s.\n%s\n"</span>, PACKAGE, VERSION, COPYRIGHT);
+00292       g_print(<span class="stringliteral">"%s\n\n"</span>, LICENSE);
 00293       g_print(<span class="stringliteral">"\n"</span>);
 00294 
 00295 <span class="preprocessor">#ifdef USE_USER_HISTORY_FILENAME</span>
@@ -330,8 +330,8 @@
 00301       g_print(<span class="stringliteral">"debug mode \t\t\t\t=%s\n"</span>, <a class="code" href="debug_8h.html#a0">DEBUG_MODE</a>?<span class="stringliteral">"yes"</span>:<span class="stringliteral">"no"</span>);
 00302       g_print(<span class="stringliteral">"default history display length\t\t=%d\n"</span>, <a class="code" href="main_8h.html#a6">history_len</a>);
 00303       g_print(<span class="stringliteral">"use user history file by default\t=%s\n"</span>,use_user_history_filename);
-00304       g_print(<span class="stringliteral">"name of default user history file: %s\n"</span>, <a class="code" href="config_8h.html#a23">USER_HISTORY_FILENAME</a>);
-00305       g_print(<span class="stringliteral">"name of default bash history file:%s/%s\n"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, <a class="code" href="config_8h.html#a0">BASH_HISTORY_FILENAME</a>);
+00304       g_print(<span class="stringliteral">"name of default user history file: %s\n"</span>, USER_HISTORY_FILENAME);
+00305       g_print(<span class="stringliteral">"name of default bash history file:%s/%s\n"</span>, <a class="code" href="main_8h.html#a4">home_directory</a>, BASH_HISTORY_FILENAME);
 00306       g_print(<span class="stringliteral">"run_in_term mode terminal path:%s\n"</span>, <a class="code" href="main_8h.html#a7">terminal_path</a>);
 00307       exit(0);
 00308     }
@@ -527,7 +527,7 @@
 00498     }
 00499 }
 00500 
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 14:38:21 2004 for run-free by
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 16:19:43 2004 for run-free by
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border=0 > 
 </a>1.3.5 </small></address>

@@ -9,10 +9,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8c.html#a5"><param name="Name" value="support.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8h.html#a2"><param name="Name" value="support.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BASH_HISTORY_FILENAME"><param name="Name" value="BASH_HISTORY_FILENAME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a0"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="bash_shell_mode"><param name="Name" value="bash_shell_mode"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8h.html#a9"><param name="Name" value="main.h"></OBJECT>
@@ -134,38 +130,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="commonDefs_8h.html#a1"><param name="Name" value="RF_DEFAULT_HISTORY_FILE_NAME"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="commonDefs_8h.html#a2"><param name="Name" value="RF_HISTORY_FILENAME"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html"><param name="Name" value="config.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a0"><param name="Name" value="BASH_HISTORY_FILENAME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a1"><param name="Name" value="COPYRIGHT"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a2"><param name="Name" value="DEFAULT_HISTORY_LEN"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a3"><param name="Name" value="DEFAULT_TERMINAL_PATH"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a4"><param name="Name" value="HAVE_CURSES_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a5"><param name="Name" value="HAVE_INTTYPES_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a6"><param name="Name" value="HAVE_MEMORY_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a7"><param name="Name" value="HAVE_STDINT_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a8"><param name="Name" value="HAVE_STDLIB_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a10"><param name="Name" value="HAVE_STRING_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a9"><param name="Name" value="HAVE_STRINGS_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a11"><param name="Name" value="HAVE_SYS_STAT_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a12"><param name="Name" value="HAVE_SYS_TYPES_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a13"><param name="Name" value="HAVE_TERMIOS_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a14"><param name="Name" value="HAVE_UNISTD_H"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a15"><param name="Name" value="LICENSE"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a16"><param name="Name" value="PACKAGE"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a17"><param name="Name" value="PACKAGE_BUGREPORT"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a18"><param name="Name" value="PACKAGE_NAME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a19"><param name="Name" value="PACKAGE_STRING"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a20"><param name="Name" value="PACKAGE_TARNAME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a21"><param name="Name" value="PACKAGE_VERSION"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a22"><param name="Name" value="STDC_HEADERS"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a23"><param name="Name" value="USER_HISTORY_FILENAME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a24"><param name="Name" value="VERSION"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="COPYRIGHT"><param name="Name" value="COPYRIGHT"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a1"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="create_dummy_pixmap"><param name="Name" value="create_dummy_pixmap"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8c.html#a3"><param name="Name" value="support.c"></OBJECT>
@@ -207,14 +171,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEBUG_SUBMSG"><param name="Name" value="DEBUG_SUBMSG"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="debug_8h.html#a2"><param name="Name" value="debug.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEFAULT_HISTORY_LEN"><param name="Name" value="DEFAULT_HISTORY_LEN"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a2"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEFAULT_TERMINAL_PATH"><param name="Name" value="DEFAULT_TERMINAL_PATH"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a3"><param name="Name" value="config.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="dialog_ok_clicked"><param name="Name" value="dialog_ok_clicked"></OBJECT>
   <UL>
@@ -285,50 +241,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8c.html#a14"><param name="Name" value="callbacks.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a16"><param name="Name" value="callbacks.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_CURSES_H"><param name="Name" value="HAVE_CURSES_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a4"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_INTTYPES_H"><param name="Name" value="HAVE_INTTYPES_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a5"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_MEMORY_H"><param name="Name" value="HAVE_MEMORY_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a6"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_STDINT_H"><param name="Name" value="HAVE_STDINT_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a7"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_STDLIB_H"><param name="Name" value="HAVE_STDLIB_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a8"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_STRING_H"><param name="Name" value="HAVE_STRING_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a10"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_STRINGS_H"><param name="Name" value="HAVE_STRINGS_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a9"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_SYS_STAT_H"><param name="Name" value="HAVE_SYS_STAT_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a11"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_SYS_TYPES_H"><param name="Name" value="HAVE_SYS_TYPES_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a12"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_TERMIOS_H"><param name="Name" value="HAVE_TERMIOS_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a13"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HAVE_UNISTD_H"><param name="Name" value="HAVE_UNISTD_H"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a14"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="help_8h.html"><param name="Name" value="help.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="help_8h.html#a0"><param name="Name" value="KEYSTROKES"></OBJECT>
@@ -392,10 +304,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_8c.html#a2"><param name="Name" value="interface.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_8h.html#a7"><param name="Name" value="interface.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LICENSE"><param name="Name" value="LICENSE"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a15"><param name="Name" value="config.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="lookup_widget"><param name="Name" value="lookup_widget"></OBJECT>
   <UL>
@@ -557,30 +465,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html#a3"><param name="Name" value="main.c"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE"><param name="Name" value="PACKAGE"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a16"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE_BUGREPORT"><param name="Name" value="PACKAGE_BUGREPORT"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a17"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE_NAME"><param name="Name" value="PACKAGE_NAME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a18"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE_STRING"><param name="Name" value="PACKAGE_STRING"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a19"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE_TARNAME"><param name="Name" value="PACKAGE_TARNAME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a20"><param name="Name" value="config.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PACKAGE_VERSION"><param name="Name" value="PACKAGE_VERSION"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a21"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="pixmaps_directories"><param name="Name" value="pixmaps_directories"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8c.html#a1"><param name="Name" value="support.c"></OBJECT>
@@ -623,10 +507,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8h.html#a0"><param name="Name" value="main.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STDC_HEADERS"><param name="Name" value="STDC_HEADERS"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a22"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8c.html"><param name="Name" value="support.c"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="support_8c.html#a5"><param name="Name" value="add_pixmap_directory"></OBJECT>
@@ -648,10 +528,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8h.html#a7"><param name="Name" value="main.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="USER_HISTORY_FILENAME"><param name="Name" value="USER_HISTORY_FILENAME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a23"><param name="Name" value="config.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="vbox2"><param name="Name" value="vbox2"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_8h.html#a3"><param name="Name" value="interface.h"></OBJECT>
@@ -659,10 +535,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="vbox2Up"><param name="Name" value="vbox2Up"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8c.html#a1"><param name="Name" value="callbacks.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VERSION"><param name="Name" value="VERSION"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="config_8h.html#a24"><param name="Name" value="config.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="writeHistory"><param name="Name" value="writeHistory"></OBJECT>
   <UL>
