@@ -1,0 +1,12 @@
+Source: run-free
+Section: x11
+Priority: optional
+Maintainer: Karl N. Redman <parasyte@sleepingstill.com>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.0
+
+Package: run-free
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: my short description
+ my long description

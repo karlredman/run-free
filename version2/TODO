@@ -1,0 +1,32 @@
+### NOTE: this file is not meant to display a roadmap for the
+### project. It's merely here for development purposes.
+### -parasyte
+
+
+#### DOCUMENTATION
+Create man page
+
+##### BUILD SYSTEM
+Add man page target
+Add doxygen target
+Add debian target
+Add build docs target
+Add install docs target and support
+
+##### PACKAGING
+Make RPMs relocatable
+Add support for development stuff for packages(deb,rpm)?
+Add copy from extradifs/run-free.jpg to docs/html
+
+##### ADMINISTRATION
+Update CVS (sourceforge)
+
+##### DEVELOPMENT
+Add NO_BASH configure directive and code
+Add URL functionality
+Add configrc file
+Add su exec stuff
+    add options button back into the mix
+    add extended window thing back in
+Convert redundant text with autogen !!!
+Add accelerators!!

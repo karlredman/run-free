@@ -1,0 +1,265 @@
+TITLE: run-free 
+
+VERSION: 2.0.0
+
+RELEAESE DATE: 4-1-2004
+
+AUTHOR: Karl N. Redman 
+	parasyte@sleepingstill.com
+	http://www.sleepingstill.com
+
+COPYRIGHT: Karl N. Redman (2004)
+
+LICENSE: GNU Public License
+	 Please see the COPYING file from the source distribution
+	 directory (i.e. the licensing agreement). 
+
+
+DESCRIPTION: 
+	     run-free is a GUI commandline launcher application for
+	     your Xwindows desktop. It is designed to be key-driven
+	     and flexible. 
+
+	     The purpose for run-free is to be able to flexibly run
+	     command line programs and such from your X desktop
+	     without having to use your mouse. 
+
+	     run-free is a pure C implimentation of gtk+1.2 in an
+	     effort to maintain the widest compatibility across
+	     systems.  
+
+	     In order to use run-free it is suggested (and intended)
+	     that you bind 'run-free [options]' to a keystroke
+	     sequence in your X window manager. 
+
+	     Features:
+		+ Run a command line from your GUI desktop.
+		+ Run your commands in a terminal.
+		+ Optionally run a shell after a command has executed
+			     in a terminal.
+		+ Easy to use keystrokes with a help reference.
+		+ Persistant mode (keep run-free on your desktop)
+		+ Allow Bash aliases to be used (i.e. dircolors).
+		+ Specify the use of a particular history file.
+		+ Specify the use of a particular X terminal.
+		+ Specify the the length of your history list.
+		+ Gtk+ 1.2 & C compatibility.
+		+ Small footprint and relatively fast.
+
+NOTE FROM THE AUTHOR: 
+     run-free is/was a learning tool for me initially. Now I use
+     run-free very often in my day-to-day X GUI environment
+     (enlightenment). The code is a bit sloppy right now but I'll get
+     to cleaning it up in later versions of this 2.x version. There is
+     a C++ 3.0 version in the works for gtk+2 in the future.
+
+
+Download / Source / Documentation/Home Page:
+	http://run-free.sourceforge.net
+
+Distributions:
+	http://run-free.sourceforge.net
+	http://freshmeat.net/projects/run-free
+
+Dependencies:
+	What you need to install:
+	     gtk+ >=1.2
+	     xfree >=4.1.0 (or compat.)
+	     an xterm (at least)
+	     /bin/sh (bash prefered)
+
+	What you need to build:
+	     see install section above.
+	     gtk+_dev >=1.2 dev
+	     rpm packaging tools (optional)
+	     Doxygen >=1.3.5 (optional)
+	     patience...
+
+README Information:
+       ./README
+       ./extradist/README
+
+BUILD INFORMATION:
+	read the INSTALL file
+	read the README files
+	try out ./configure --help
+	try out ./configure --help=short
+
+     building source code (simple):
+	     ./extradist/my_bldpkg
+	     ./configure
+	     make
+	     make install #as root or user in non-default location
+	
+     configure options (complex):
+	       Note: many of these options can be overridden on the
+	       command line.
+
+	       (not all options are shown here, just the highlights)
+
+	       --enable-rpm-rules:
+		Use this if you inted on making RPM packages. 
+		that this distribution does NOT create relocatable
+		RPMs. (this option requires super user access)
+		
+		--enable-user_history:
+		 Use this option if you always want to default to
+		 running run-free with a file that you specify. There
+		 is a default filename provided ".user_history" but
+		 you can change this as well. The idea here is that
+		 you may want to discourage the use of a bash history
+		 file or the like.
+
+		--with-bash_history:
+		 The name of the bash history file that you want to
+		 use in the users home directory.
+
+		--with-user_history:
+		 Specify the user history filename and path. This
+		 option makes the user history filename an absolute
+		 path. if you want to change the filename on a per
+		 user basis then you would use the --with-bash-history
+		 option above.
+
+		--with-terminal_path:
+		 Use this option to specify the absolute or relative
+		 path of the X terminal you want run-free to use by
+		 default. 
+	       
+      
+      building source code documantation: 
+	#remove any distrobution files you might have i.e 'rm -rf ./run-free-2.0.0'
+	doxygen ./extradist/Doxyfile
+	     (-you may have to set the proper paths for 
+	     OUTPUT_DIRECTORY INPUT EXAMPLE_PATH variables.
+	     You can use doxywiard for this if needed)	
+
+     building packages:
+     	tarball: make dist
+	rpm (as root): make rpm #must be super user
+	debian: ./extradist/my_mk.debian
+	
+UNINSTALLING: (see man pages too)
+	from source assuming the same configure
+	options are set:
+		make uninstall;
+
+	debian: 
+		dpkg -P run-free;
+
+	RPM:
+		rpm -e run-free;
+
+
+APPLICATION INFORMATION:
+
+Examples: 
+	  (see 'run-free --help' for more information)
+
+	run-free -brc "ls -al /etc/";
+		 This option will open run-free with 'ls -al /etc' in
+		 the entry box with the run_in_term box checked and,
+		 when you hit enter, execute the command in bash shell
+		 mode. if you have dircolors in your .bashrc then the
+		 file will display in their respecive colors.
+
+	run-free -t Eterm
+		 This will start run-free and use Eterm as the
+		 terminal program if the run_in_term box is checked.
+
+	run-free -d;
+		 This will open run-free in persistant mode where
+		 run-free will not die after executing a
+		 command. 
+
+	run-free -b -t'Eterm --geometry  160x20'
+		 This is my personal setting for my keystroke set up
+		 in enlightenment. This displays an Eterm that is
+		 nearly as wide as the screen on my 1024x768
+		 display. Use this kind of setting to set bash mode
+		 and run a terminal for doing directory listings.
+
+	run-free -ob
+		 run run-free in bash mode and keep the terminal
+		 window open with a shell (in this case bash) when the
+		 command is finished executing.
+
+Command Line Completion:
+
+	Currently the only form of command line completion exists
+	through the use of the fileselection dialog box. From the
+	'Browse' button you can interactively select files and
+	directories that you want appended to the end of your command
+	line in the entry box.
+
+
+Keystrokes:
+	 Note: The Keystrokes are mostly a gtk+1.2 thing. As a
+	 standard, I'm not sure that these keystrokes work very
+	 well. However, given the fact that I'm not willing to take on
+	 the responsibility of generating new keystrokes and reinvent
+	 this wheel, this is what you get. Maybe custom keystrokes
+	 will be an option in the future; I don't know...
+
+Entry Box Text Editing and Navigation:
+Ctrl-h, Backspace		Delete previous character from cursor position
+Ctrl-w				Delete previous word from cursor position
+Ctrl-b, arrowleft		Move cursor back one character
+Ctrl-f, arrowright		Move cursor forward one character
+Alt-b, Ctrl-arrowleft		Move cursor back one word
+Alt-f, Ctrl-arrowright		Move cursor forward one word
+Ctrl-a, Ctrl-Home		Move cursor to begining of line
+Ctrl-e, Ctrl-End		Move cursor to end of line
+
+List Box Navigation (from Entry box):
+Alt-n, downarrow		Show next list item in entry box
+Alt-p, uparrow			Show previous list item in entry box
+Alt-Spacebar			Drop down list item box
+
+List Box Navigation (once dropped down):
+arrowup				Go up one item
+arrowdown			Go down one item
+PgDown				Page down
+PgUp				Page up
+Ctrl-Home			Goto top of list
+Ctrl-End			Goto bottom of list
+Escape				Close list popup box
+
+Application Focus Navigation:
+Tab				Focus next widget
+Alt-c				Focus Command entry box
+Alt-a				Focus Run_As entry box (N.A.)
+Alt-s				Focus Password entry box (N.A.)
+Alt-o				Show extended Options (N.A.)
+Alt-r				Run command in entry
+Alt-t				Toggle run command in terminal
+Alt-w				Browse/Add entry from file list
+Esc				Close run-free
+
+Other application options
+Ctrl-m				Update history list from history file
+Alt-h				Display keystroke help dialog
+Alt-y				Set termstay switch
+Alt-u				keepalive toggle (don't die)
+
+
+Original Build Tools Environment:
+	 autoconf 2.59
+	 automake 1.4-p6
+	 aclocal 1.4-p6
+	 autoheader 2.59
+	 Eterm 0.9.2
+	 i586 CPU
+	 cvs 1.12.5
+	 debian (sarge + custom)
+	 dselect 1.10.18
+	 doxygen 1.3.5
+	 doxywizard 1.3.5
+	 emacs 21.3
+	 enlightenment 0.16.6
+	 gcc 2.95x
+	 glade 0.6.4
+	 gtk+1.2
+	 rpm 4.0.4
+	 vim 6.2
+	 Xfree 4.3.0

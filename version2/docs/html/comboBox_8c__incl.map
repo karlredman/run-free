@@ -1,0 +1,5 @@
+base referer
+rect $comboBox_8h.html 92,17 175,36
+rect $comboHandlers_8h.html 199,17 311,36
+rect $interface_8h.html 335,17 404,36
+rect $main_8h.html 428,17 476,36

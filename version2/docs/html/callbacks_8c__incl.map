@@ -1,0 +1,7 @@
+base referer
+rect $callbacks_8h.html 57,86 135,105
+rect $support_8h.html 159,86 223,105
+rect $interface_8h.html 924,86 993,105
+rect $comboHandlers_8h.html 1017,86 1129,105
+rect $comboBox_8h.html 1153,86 1236,105
+rect $main_8h.html 1260,86 1308,105

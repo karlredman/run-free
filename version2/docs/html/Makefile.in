@@ -1,0 +1,184 @@
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ../..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+CC = @CC@
+GTK_CFLAGS = @GTK_CFLAGS@
+GTK_CONFIG = @GTK_CONFIG@
+GTK_LIBS = @GTK_LIBS@
+HAVE_LIB = @HAVE_LIB@
+LIB = @LIB@
+LTLIB = @LTLIB@
+MAKEINFO = @MAKEINFO@
+PACKAGE = @PACKAGE@
+PKG_CONFIG = @PKG_CONFIG@
+RPM_ARGS = @RPM_ARGS@
+RPM_CONFIGURE_ARGS = @RPM_CONFIGURE_ARGS@
+RPM_DIR = @RPM_DIR@
+RPM_PROG = @RPM_PROG@
+RPM_RELEASE = @RPM_RELEASE@
+RPM_TARBALL = @RPM_TARBALL@
+RPM_TARGET = @RPM_TARGET@
+VERSION = @VERSION@
+
+EXTRA_DIST =  	callbacks_8c-source.html 	callbacks_8c.html 	callbacks_8c__incl.map 	callbacks_8c__incl.md5 	callbacks_8c__incl.png 	callbacks_8c_a10_cgraph.map 	callbacks_8c_a10_cgraph.md5 	callbacks_8c_a10_cgraph.png 	callbacks_8c_a11_cgraph.map 	callbacks_8c_a11_cgraph.md5 	callbacks_8c_a11_cgraph.png 	callbacks_8c_a12_cgraph.map 	callbacks_8c_a12_cgraph.md5 	callbacks_8c_a12_cgraph.png 	callbacks_8c_a14_cgraph.map 	callbacks_8c_a14_cgraph.md5 	callbacks_8c_a14_cgraph.png 	callbacks_8c_a15_cgraph.map 	callbacks_8c_a15_cgraph.md5 	callbacks_8c_a15_cgraph.png 	callbacks_8c_a1_cgraph.map 	callbacks_8c_a1_cgraph.md5 	callbacks_8c_a1_cgraph.png 	callbacks_8c_a4_cgraph.map 	callbacks_8c_a4_cgraph.md5 	callbacks_8c_a4_cgraph.png 	callbacks_8h-source.html 	callbacks_8h.html 	callbacks_8h__dep__incl.map 	callbacks_8h__dep__incl.md5 	callbacks_8h__dep__incl.png 	callbacks_8h__incl.map 	callbacks_8h__incl.md5 	callbacks_8h__incl.png 	callbacks_8h_a0_cgraph.map 	callbacks_8h_a0_cgraph.md5 	callbacks_8h_a0_cgraph.png 	callbacks_8h_a10_cgraph.map 	callbacks_8h_a10_cgraph.md5 	callbacks_8h_a10_cgraph.png 	callbacks_8h_a11_cgraph.map 	callbacks_8h_a11_cgraph.md5 	callbacks_8h_a11_cgraph.png 	callbacks_8h_a14_cgraph.map 	callbacks_8h_a14_cgraph.md5 	callbacks_8h_a14_cgraph.png 	callbacks_8h_a15_cgraph.map 	callbacks_8h_a15_cgraph.md5 	callbacks_8h_a15_cgraph.png 	callbacks_8h_a2_cgraph.map 	callbacks_8h_a2_cgraph.md5 	callbacks_8h_a2_cgraph.png 	callbacks_8h_a9_cgraph.map 	callbacks_8h_a9_cgraph.md5 	callbacks_8h_a9_cgraph.png 	comboBox_8c-source.html 	comboBox_8c.html 	comboBox_8c__incl.map 	comboBox_8c__incl.md5 	comboBox_8c__incl.png 	comboBox_8c_a0_cgraph.map 	comboBox_8c_a0_cgraph.md5 	comboBox_8c_a0_cgraph.png 	comboBox_8h-source.html 	comboBox_8h.html 	comboBox_8h__dep__incl.map 	comboBox_8h__dep__incl.md5 	comboBox_8h__dep__incl.png 	comboBox_8h_a5_cgraph.map 	comboBox_8h_a5_cgraph.md5 	comboBox_8h_a5_cgraph.png 	comboHandlers_8c-source.html 	comboHandlers_8c.html 	comboHandlers_8c__incl.map 	comboHandlers_8c__incl.md5 	comboHandlers_8c__incl.png 	comboHandlers_8h-source.html 	comboHandlers_8h.html 	comboHandlers_8h__dep__incl.map 	comboHandlers_8h__dep__incl.md5 	comboHandlers_8h__dep__incl.png 	commonDefs_8h-source.html 	commonDefs_8h.html 	commonDefs_8h__dep__incl.map 	commonDefs_8h__dep__incl.md5 	commonDefs_8h__dep__incl.png 	debug_8h-source.html 	debug_8h.html 	debug_8h__dep__incl.map 	debug_8h__dep__incl.md5 	debug_8h__dep__incl.png 	doxygen.css 	doxygen.png 	files.html 	ftv2blank.png 	ftv2doc.png 	ftv2folderclosed.png 	ftv2folderopen.png 	ftv2lastnode.png 	ftv2link.png 	ftv2mlastnode.png 	ftv2mnode.png 	ftv2node.png 	ftv2plastnode.png 	ftv2pnode.png 	ftv2vertline.png 	globals.html 	globals_defs.html 	globals_func.html 	globals_vars.html 	graph_legend.dot 	graph_legend.html 	graph_legend.png 	index.hhc 	index.hhk 	index.hhp 	index.html 	installdox 	interface_8c-source.html 	interface_8c.html 	interface_8c__incl.map 	interface_8c__incl.md5 	interface_8c__incl.png 	interface_8c_a0_cgraph.map 	interface_8c_a0_cgraph.md5 	interface_8c_a0_cgraph.png 	interface_8c_a1_cgraph.map 	interface_8c_a1_cgraph.md5 	interface_8c_a1_cgraph.png 	interface_8h-source.html 	interface_8h.html 	interface_8h__dep__incl.map 	interface_8h__dep__incl.md5 	interface_8h__dep__incl.png 	interface_8h_a5_cgraph.map 	interface_8h_a5_cgraph.md5 	interface_8h_a5_cgraph.png 	interface_8h_a6_cgraph.map 	interface_8h_a6_cgraph.md5 	interface_8h_a6_cgraph.png 	kbhit_8c-source.html 	kbhit_8c.html 	kbhit_8c__incl.map 	kbhit_8c__incl.md5 	kbhit_8c__incl.png 	kbhit_8c_a1_cgraph.map 	kbhit_8c_a1_cgraph.md5 	kbhit_8c_a1_cgraph.png 	kbhit_8h-source.html 	kbhit_8h.html 	kbhit_8h__dep__incl.map 	kbhit_8h__dep__incl.md5 	kbhit_8h__dep__incl.png 	kbhit_8h_a2_cgraph.map 	kbhit_8h_a2_cgraph.md5 	kbhit_8h_a2_cgraph.png 	main.html 	main_8c-source.html 	main_8c.html 	main_8c__incl.map 	main_8c__incl.md5 	main_8c__incl.png 	main_8c_a5_cgraph.map 	main_8c_a5_cgraph.md5 	main_8c_a5_cgraph.png 	main_8c_a6_cgraph.map 	main_8c_a6_cgraph.md5 	main_8c_a6_cgraph.png 	main_8h-source.html 	main_8h.html 	main_8h__dep__incl.map 	main_8h__dep__incl.md5 	main_8h__dep__incl.png 	main_8h_a8_cgraph.map 	main_8h_a8_cgraph.md5 	main_8h_a8_cgraph.png 	pages.html 	search.idx 	search.php 	support_8c-source.html 	support_8c.html 	support_8c__incl.map 	support_8c__incl.md5 	support_8c__incl.png 	support_8c_a6_cgraph.map 	support_8c_a6_cgraph.md5 	support_8c_a6_cgraph.png 	support_8h-source.html 	support_8h.html 	support_8h__dep__incl.map 	support_8h__dep__incl.md5 	support_8h__dep__incl.png 	support_8h__incl.map 	support_8h__incl.md5 	support_8h__incl.png 	support_8h_a3_cgraph.map 	support_8h_a3_cgraph.md5 	support_8h_a3_cgraph.png 	todo.html 	tree.html 
+
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+CONFIG_HEADER = ../../config.h
+CONFIG_CLEAN_FILES = 
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = tar
+GZIP_ENV = --best
+all: all-redirect
+.SUFFIXES:
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.ac $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps docs/html/Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+tags: TAGS
+TAGS:
+
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = docs/html
+
+distdir: $(DISTFILES)
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+info-am:
+info: info-am
+dvi-am:
+dvi: dvi-am
+check-am: all-am
+check: check-am
+installcheck-am:
+installcheck: installcheck-am
+install-exec-am:
+install-exec: install-exec-am
+
+install-data-am:
+install-data: install-data-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-am
+uninstall-am:
+uninstall: uninstall-am
+all-am: Makefile
+all-redirect: all-am
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs:
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-generic
+
+mostlyclean: mostlyclean-am
+
+clean-am:  clean-generic mostlyclean-am
+
+clean: clean-am
+
+distclean-am:  distclean-generic clean-am
+
+distclean: distclean-am
+
+maintainer-clean-am:  maintainer-clean-generic distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-am
+
+.PHONY: tags distdir info-am info dvi-am dvi check check-am \
+installcheck-am installcheck install-exec-am install-exec \
+install-data-am install-data install-am install uninstall-am uninstall \
+all-redirect all-am all installdirs mostlyclean-generic \
+distclean-generic clean-generic maintainer-clean-generic clean \
+mostlyclean distclean maintainer-clean
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

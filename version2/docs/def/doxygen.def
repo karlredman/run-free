@@ -1,0 +1,4865 @@
+AutoGen Definitions dummy;
+file = {
+  file-id   = 'callbacks_8c';
+  file-name = 'callbacks.c';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'callbacks_8c_1a0';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'EMPTY_LIST_HEIGHT';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(15)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      define-mem-desc-line = '461';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'callbacks_8c_1a18';
+        define-mem-ref-line = '479';
+        define-mem-ref-name = 'gtk_combo_get_pos';
+    };
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_mainWindow_destroy';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkObject *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'object';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '60';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+called when the main window is destroyed
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	cleans up before exiting
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a3';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'cbitems';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a1';
+        func-mem-ref-line = '173';
+        func-mem-ref-name = 'freeList';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a4';
+        func-mem-ref-line = '48';
+        func-mem-ref-name = 'home_directory';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a7';
+        func-mem-ref-line = '51';
+        func-mem-ref-name = 'terminal_path';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_entry1_changed';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkEditable *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'editable';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '76';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '84';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_entry1_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '102';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle when a keypress event occures in the combo box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \note
+    This is a lengthy function for now. run-free 3.0 will handle this
+    better in the futue. For now we just handle the common
+    functionality of the application from here
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a1';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'die';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a3';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'keep_open';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a2';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_browseButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '208';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_checkbutton_toggled';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkToggleButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'togglebutton';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '225';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle setting the run_in_term mode
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Toggle between run_in_term and normal (exit) modes of
+    operation
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a0';
+        func-mem-ref-line = '38';
+        func-mem-ref-name = 'run_in_term';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a8';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_ok_button1_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '245';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle the OK button clicked in the fileselection dialog.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Sets the combo box entry and hides the fileselection
+    dialog.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a9';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_cancel_button1_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '271';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a10';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_fileselection_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '280';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a11';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_mainWindow_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '302';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle a keypress event at the toplevel window level.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Takes care of default keystrokes (closing the App. etc.).
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'combo_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a2';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a1';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'RF_HISTORY_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a2';
+        func-mem-ref-line = '35';
+        func-mem-ref-name = 'RF_MAX_MODE';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a12';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_runButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '354';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Execute the command in the combo entry box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Write to the history file and execute the command in the
+    entry box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a13';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_optionsButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '375';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle the options mode selection.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Resize the main window and display the options allowed by
+    the options mode of operation.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a14';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'handle_options_display';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '404';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle options display.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Handle mainWindow resizing when Options are desired
+
+
+<p>set the focus to the combo box<p>hide the vbox<p> resize the main window
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a3';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'vbox2';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a11';
+        func-mem-ref-line = '373';
+        func-mem-ref-name = 'on_optionsButton_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a15';
+        func-mem-ref-line = '442';
+        func-mem-ref-name = 'on_passwordEntry_grab_focus';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '433';
+        func-mem-ref-name = 'on_whoEntry_grab_focus';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a15';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_whoEntry_grab_focus';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '435';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a16';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_passwordEntry_grab_focus';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '444';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a17';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_fileselection_delete_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEvent *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '453';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a18';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'gtk_combo_get_pos';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkCombo *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'combo';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'x';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'y';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'height';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'width';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '484';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+figure out the combo box positions
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author NOT ME! whoever wrote gtkhacks...
+    
+    \warning This function is "borrowed" from gtkhacks of glade (i think)
+    
+    
+    \par Purpose: 
+    grab the position of the combo box
+    
+    <p><p>\xrefitem todo 2
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a0';
+        func-mem-ref-line = '461';
+        func-mem-ref-name = 'EMPTY_LIST_HEIGHT';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8c_1a19';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'dialog_ok_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      func-mem-desc-line = '570';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle a dialog ok button click
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a7';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'callbacks_8c_1a1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'vbox2Up';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ FALSE
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+      var-mem-desc-line = '47';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+whether the "options" box is up (disabled)
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'callbacks_8c_1a16';
+        var-mem-ref-line = '403';
+        var-mem-ref-name = 'handle_options_display';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'callbacks_8c_1a15';
+        var-mem-ref-line = '442';
+        var-mem-ref-name = 'on_passwordEntry_grab_focus';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'callbacks_8c_1a14';
+        var-mem-ref-line = '433';
+        var-mem-ref-name = 'on_whoEntry_grab_focus';
+    };
+    }; /* var-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+callback function deffinitions
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'callbacks_8h';
+  file-name = 'callbacks.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_mainWindow_destroy';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkObject *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'object';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '31';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+called when the main window is destroyed
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	cleans up before exiting
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a3';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'cbitems';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a1';
+        func-mem-ref-line = '173';
+        func-mem-ref-name = 'freeList';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a4';
+        func-mem-ref-line = '48';
+        func-mem-ref-name = 'home_directory';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a7';
+        func-mem-ref-line = '51';
+        func-mem-ref-name = 'terminal_path';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_entry1_changed';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkEditable *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'editable';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '35';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_entry1_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '40';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle when a keypress event occures in the combo box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \note
+    This is a lengthy function for now. run-free 3.0 will handle this
+    better in the futue. For now we just handle the common
+    functionality of the application from here
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a1';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'die';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a3';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'keep_open';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a2';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_combo_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '45';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_browseButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '49';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_checkbutton_toggled';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkToggleButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'togglebutton';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '53';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle setting the run_in_term mode
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Toggle between run_in_term and normal (exit) modes of
+    operation
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a0';
+        func-mem-ref-line = '38';
+        func-mem-ref-name = 'run_in_term';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_ok_button1_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '57';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle the OK button clicked in the fileselection dialog.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Sets the combo box entry and hides the fileselection
+    dialog.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_cancel_button1_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '61';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a8';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_fileselection_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '66';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a9';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_mainWindow_key_press_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEventKey *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '71';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle a keypress event at the toplevel window level.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Takes care of default keystrokes (closing the App. etc.).
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'combo_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a2';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a1';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'RF_HISTORY_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a2';
+        func-mem-ref-line = '35';
+        func-mem-ref-name = 'RF_MAX_MODE';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a10';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_runButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '74';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Execute the command in the combo entry box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Write to the history file and execute the command in the
+    entry box.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a11';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_optionsButton_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '78';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle the options mode selection.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Resize the main window and display the options allowed by
+    the options mode of operation.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a12';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_whoEntry_activate';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkEditable *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'editable';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '82';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a13';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_passwordEntry_activate';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkEditable *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'editable';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '86';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a14';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_whoEntry_grab_focus';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '90';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a15';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_passwordEntry_grab_focus';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '94';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '403';
+        func-mem-ref-name = 'handle_options_display';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a5';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a16';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'handle_options_display';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '96';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Handle options display.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: 
+    	Handle mainWindow resizing when Options are desired
+
+
+<p>set the focus to the combo box<p>hide the vbox<p> resize the main window
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a3';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'vbox2';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a1';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'vbox2Up';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a11';
+        func-mem-ref-line = '373';
+        func-mem-ref-name = 'on_optionsButton_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a15';
+        func-mem-ref-line = '442';
+        func-mem-ref-name = 'on_passwordEntry_grab_focus';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a14';
+        func-mem-ref-line = '433';
+        func-mem-ref-name = 'on_whoEntry_grab_focus';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a17';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gboolean
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'on_fileselection_delete_event';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GdkEvent *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'event';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '101';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a6';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a18';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'combo_init';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '104';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+initialize combo box attributes
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a19';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'gtk_combo_get_pos';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkCombo *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'combo';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'x';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'y';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'height';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gint *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'width';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '112';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+calculate the combo box positions
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'callbacks_8h_1a20';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'dialog_ok_clicked';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkButton *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'button';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+gpointer
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'user_data';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+      func-mem-desc-line = '117';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+handle a dialog ok button click
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'interface_8c_1a7';
+        func-mem-ref-line = '328';
+        func-mem-ref-name = 'keystrokes_dialog';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/callbacks.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+callback functions for the application
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'comboBox_8c';
+  file-name = 'comboBox.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboBox_8c_1a0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'combo_init';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+unsigned int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mode';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.c';
+      func-mem-desc-line = '45';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+comob box initialization
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param mode The mode we want to initialize to.
+
+    \par Purpose: 
+    	This function is a bit misleading right now. What we want
+    to accomplish is the setting of the values of the combo box list
+    based on various predefined modes of operation.
+
+
+<p>the persistant history list
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a3';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'cbitems';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a2';
+        func-mem-ref-line = '57';
+        func-mem-ref-name = 'readHistory';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a0';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'RF_EXAMPLE_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a1';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'RF_HISTORY_MODE';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Provide comboBox functionality.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'comboBox_8h';
+  file-name = 'comboBox.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboBox_8h_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'combo_init';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+unsigned int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mode';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      func-mem-desc-line = '44';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+comob box initialization
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param mode The mode we want to initialize to.
+
+    \par Purpose: 
+    	This function is a bit misleading right now. What we want
+    to accomplish is the setting of the values of the combo box list
+    based on various predefined modes of operation.
+
+
+<p>the persistant history list
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a3';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'cbitems';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a2';
+        func-mem-ref-line = '57';
+        func-mem-ref-name = 'readHistory';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a0';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'RF_EXAMPLE_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a1';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'RF_HISTORY_MODE';
+    };
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'comboBox_8h_1a3';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'cbitems';
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      var-mem-desc-line = '39';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+the combo box list
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'comboBox_8c_1a5';
+        var-mem-ref-line = '44';
+        var-mem-ref-name = 'combo_init';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'main_8c_1a5';
+        var-mem-ref-line = '78';
+        var-mem-ref-name = 'main';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'callbacks_8c_1a0';
+        var-mem-ref-line = '58';
+        var-mem-ref-name = 'on_mainWindow_destroy';
+    };
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'comboBox_8h_1a4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'combo_mode';
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+      var-mem-desc-line = '41';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+the combo box mode
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'main_8c_1a5';
+        var-mem-ref-line = '78';
+        var-mem-ref-name = 'main';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'callbacks_8c_1a9';
+        var-mem-ref-line = '299';
+        var-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'main_8c_1a10';
+        var-mem-ref-line = '380';
+        var-mem-ref-name = 'run_command';
+    };
+    }; /* var-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboBox.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+comboBox specific functions
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'comboHandlers_8c';
+  file-name = 'comboHandlers.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8c_1a0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'readHistory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'list';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-line = '58';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+read a history file
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param list A list to populate (must be NULL) -probably
+    superfluious.
+    \param filename The filename of the file to read from
+
+    \return A populated GList.
+
+    \par Purpose:
+    Read a history file and populate a GList with it's data. The list
+    is populated in reverse of the file contents to accomidate for
+    (only) a file that is appended to.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'debug_8h_1a3';
+        func-mem-ref-line = '75';
+        func-mem-ref-name = 'dprint';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a6';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'history_len';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8h_1a0';
+        func-mem-ref-line = '45';
+        func-mem-ref-name = 'RF_LINE_MAX_LEN';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8c_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'freeList';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'list';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-line = '174';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+free a GList object and all it's members
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param list A pointer to a GList to be freed
+
+    \par Purpose:
+    Frees the points in the GList and then the GList pointer itself.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a0';
+        func-mem-ref-line = '58';
+        func-mem-ref-name = 'on_mainWindow_destroy';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8c_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'writeHistory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'command';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+      func-mem-desc-line = '196';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+write to a history file (append)
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param command the command to append to the file
+    \param filename the file to append the command to
+
+    \par
+    Purpose:
+    Appends the command to the end of the file
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Handle comboBox operations.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+  The functions here are somewhat misplaced for now. I'll fix this in
+  run-free 3.0. Basically, the idea is that we are trying to handle
+  functionality that is based on the values of the combo box.
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'comboHandlers_8h';
+  file-name = 'comboHandlers.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8h_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'freeList';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'list';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-line = '51';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+free a GList object and all it's members
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param list A pointer to a GList to be freed
+
+    \par Purpose:
+    Frees the points in the GList and then the GList pointer itself.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a0';
+        func-mem-ref-line = '58';
+        func-mem-ref-name = 'on_mainWindow_destroy';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8h_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'readHistory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'list';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-line = '53';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+read a history file
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param list A list to populate (must be NULL) -probably
+    superfluious.
+    \param filename The filename of the file to read from
+
+    \return A populated GList.
+
+    \par Purpose:
+    Read a history file and populate a GList with it's data. The list
+    is populated in reverse of the file contents to accomidate for
+    (only) a file that is appended to.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'debug_8h_1a3';
+        func-mem-ref-line = '75';
+        func-mem-ref-name = 'dprint';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a6';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'history_len';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8h_1a0';
+        func-mem-ref-line = '45';
+        func-mem-ref-name = 'RF_LINE_MAX_LEN';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'comboHandlers_8h_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'writeHistory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'command';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+      func-mem-desc-line = '55';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+write to a history file (append)
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param command the command to append to the file
+    \param filename the file to append the command to
+
+    \par
+    Purpose:
+    Appends the command to the end of the file
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '380';
+        func-mem-ref-name = 'run_command';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/comboHandlers.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+various handlers based on comboBox data
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+\note This stuff will be moved to more appropriate files in the near
+  future.
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'commonDefs_8h';
+  file-name = 'commonDefs.h';
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/commonDefs.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+common deffinitions
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'config_8h';
+  file-name = 'config.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a0';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'BASH_HISTORY_FILENAME';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+".bash_history"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '5';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a1';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'COPYRIGHT';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"COPYRIGHT 2004, Karl N. Redman (parasyte@sleepingstill.com)"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '8';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a2';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEFAULT_HISTORY_LEN';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+20
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '11';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a3';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEFAULT_TERMINAL_PATH';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"xterm"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '14';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a4';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_CURSES_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '20';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a5';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_INTTYPES_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '23';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a6';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_MEMORY_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '26';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a7';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_STDINT_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '29';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a8';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_STDLIB_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '32';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a9';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_STRINGS_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '35';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a10';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_STRING_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '38';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a11';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_SYS_STAT_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '41';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a12';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_SYS_TYPES_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '44';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a13';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_TERMIOS_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '47';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a14';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HAVE_UNISTD_H';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '50';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a15';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'LICENSE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"This application comes with ABSOLUTELY NO WARRANTY; \nfor details see the licensing agreement distributed with this application"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '53';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a16';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"run-free"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '56';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a17';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE_BUGREPORT';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '59';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a18';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE_NAME';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '62';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a19';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE_STRING';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '65';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a20';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE_TARNAME';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '68';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a21';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PACKAGE_VERSION';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '71';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a22';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STDC_HEADERS';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '74';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a23';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'USER_HISTORY_FILENAME';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+".user_history"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '77';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a24';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'VERSION';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"2.0.0"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+      define-mem-desc-line = '83';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/config.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'debug_8h';
+  file-name = 'debug.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'debug_8h_1a0';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEBUG_MODE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-line = '60';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+compile time option
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    run-free DEBUGING STATEMENTS. 
+    
+    These would be called in the following ways:<br>
+    dprint("this is a string");<br>
+    dprint_s1("this is also a string");<br>
+    dprint_s2("foo", "bar");<br>
+    dprint_f1("%s", "thing");<br>
+    dprint_f1("%d", 1);<br>
+    dprint_f2("%s", "%d", "stuff", 69);<br>
+    dprint_f2("%s", "%x", "a hex number", 255);<br>
+    
+    This would be the output (assuming PACKAGE is defined as
+    "run-free"):<br>
+    run-free DEBUG(this is a string)<br>
+    run-free DEBUG(this is also a string)<br>
+    run-free DEBUG(foo:bar)<br>
+    run-free DEBUG(thing)<br>
+    run-free DEBUG(1)<br>
+    run-free DEBUG(stuff:69)<br>
+    run-free DEBUG(a hex number:ff)  <br>
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'debug_8h_1a1';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEBUG_PREMSG';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+PACKAGE
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-line = '64';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+The package name.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'debug_8h_1a2';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEBUG_SUBMSG';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"DEBUG"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+      define-mem-desc-line = '67';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+a submessage
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/debug.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+run-free debug macros
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+    These macros are here for convenience. Mostly I use this kind of
+    stuff for light debug work here and there. Please feel free to
+    steal what you need and use it as your own -parasyte.
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'help_8h';
+  file-name = 'help.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'help_8h_1a0';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'KEYSTROKES';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"Entry Box Text Editing and Navigation:\n"\
+"Ctrl-h, Backspace.............Delete previous character from cursor position\n"\
+"Ctrl-w........................Delete previous word from cursor position\n"\
+"Ctrl-b, arrowleft.............Move cursor back one character\n"\
+"Ctrl-b, arrowleft.............Move cursor back one character\n"\
+"Ctrl-b, arrowleft.............Move cursor back one character\n"\
+"Ctrl-f, arrowright............Move cursor forward one character\n"\
+"Ctrl-f, arrowright............Move cursor forward one character\n"\
+"Ctrl-f, arrowright............Move cursor forward one character\n"\
+"Alt-b, Ctrl-arrowleft.........Move cursor back one word\n"\
+"Alt-f, Ctrl-arrowright........Move cursor forward one word\n"\
+"Ctrl-a, Ctrl-Home.............Move cursor to begining of line\n"\
+"Ctrl-e, Ctrl-End..............Move cursor to end of line\n"\
+"\n"\
+"List Box Navigation (from Entry box):\n"\
+"Alt-n, downarrow..............Show next list item in entry box\n"\
+"Alt-p, uparrow................Show previous list item in entry box\n"\
+"Alt-Spacebar..................Drop down list item box\n"\
+"\n"\
+"List Box Navigation (once dropped down):\n"\
+"arrowup.......................Go up one item\n"\
+"arrowdown.....................Go down one item\n"\
+"PgDown........................Page down\n"\
+"PgUp..........................Page up\n"\
+"Ctrl-Home.....................Goto top of list\n"\
+"Ctrl-End......................Goto bottom of list\n"\
+"Escape........................Close list popup box\n"\
+"\n"\
+"Application Focus Navigation:\n"\
+"Tab...........................Focus next widget\n"\
+"Alt-c.........................Focus Command entry box\n"\
+"Alt-a.........................Focus Run_As entry box (N.A.)\n"\
+"Alt-s.........................Focus Password entry box (N.A.)\n"\
+"Alt-o.........................Show extended Options (N.A.)\n"\
+"Alt-r.........................Run command in entry\n"\
+"Alt-t.........................Toggle run command in terminal\n"\
+"Alt-w.........................Browse/Add entry from file list\n"\
+"Esc...........................Close run-free\n"\
+"\n"\
+"Other application options\n"\
+"Ctrl-m........................Update history list from history file\n"\
+"Alt-h.........................Display keystroke help dialog\n"\
+"Alt-y.........................Set termstay switch\n"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/help.h';
+      define-mem-desc-line = '74';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+the definition of keystroke help
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-referenceby = {
+        define-mem-ref-id = 'interface_8c_1a7';
+        define-mem-ref-line = '328';
+        define-mem-ref-name = 'keystrokes_dialog';
+    };
+      define-mem-referenceby = {
+        define-mem-ref-id = 'main_8c_1a5';
+        define-mem-ref-line = '78';
+        define-mem-ref-name = 'main';
+    };
+    }; /* define-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/help.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+run-free main include file
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+  run-free is a command line launching program written in gtk. This
+  version of run-free is written is C for gtk+1.2
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'interface_8c';
+  file-name = 'interface.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8c_1a0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_mainWindow';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-line = '48';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+create the main window
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a2';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'checkbutton';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a6';
+        func-mem-ref-line = '206';
+        func-mem-ref-name = 'on_browseButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a7';
+        func-mem-ref-line = '223';
+        func-mem-ref-name = 'on_checkbutton_toggled';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a3';
+        func-mem-ref-line = '74';
+        func-mem-ref-name = 'on_combo_entry1_changed';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a5';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a4';
+        func-mem-ref-line = '81';
+        func-mem-ref-name = 'on_combo_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '58';
+        func-mem-ref-name = 'on_mainWindow_destroy';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a11';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a13';
+        func-mem-ref-line = '373';
+        func-mem-ref-name = 'on_optionsButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a16';
+        func-mem-ref-line = '442';
+        func-mem-ref-name = 'on_passwordEntry_grab_focus';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a12';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a15';
+        func-mem-ref-line = '433';
+        func-mem-ref-name = 'on_whoEntry_grab_focus';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a3';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'vbox2';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8c_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_fileselection';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-line = '283';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+create the persistant fileselection box
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '269';
+        func-mem-ref-name = 'on_cancel_button1_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a17';
+        func-mem-ref-line = '450';
+        func-mem-ref-name = 'on_fileselection_delete_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '277';
+        func-mem-ref-name = 'on_fileselection_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a8';
+        func-mem-ref-line = '243';
+        func-mem-ref-name = 'on_ok_button1_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8c_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'keystrokes_dialog';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+      func-mem-desc-line = '329';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+display help for keystrokes
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: display a dialog box of keystrokes
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a19';
+        func-mem-ref-line = '568';
+        func-mem-ref-name = 'dialog_ok_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'help_8h_1a0';
+        func-mem-ref-line = '31';
+        func-mem-ref-name = 'KEYSTROKES';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Interface function definitions.
+  This file was originally created by glade.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'interface_8h';
+  file-name = 'interface.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8h_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_mainWindow';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-line = '53';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+create the main window
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a2';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'checkbutton';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a6';
+        func-mem-ref-line = '206';
+        func-mem-ref-name = 'on_browseButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a7';
+        func-mem-ref-line = '223';
+        func-mem-ref-name = 'on_checkbutton_toggled';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a3';
+        func-mem-ref-line = '74';
+        func-mem-ref-name = 'on_combo_entry1_changed';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a5';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a4';
+        func-mem-ref-line = '81';
+        func-mem-ref-name = 'on_combo_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '58';
+        func-mem-ref-name = 'on_mainWindow_destroy';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a11';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a13';
+        func-mem-ref-line = '373';
+        func-mem-ref-name = 'on_optionsButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a16';
+        func-mem-ref-line = '442';
+        func-mem-ref-name = 'on_passwordEntry_grab_focus';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a12';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a15';
+        func-mem-ref-line = '433';
+        func-mem-ref-name = 'on_whoEntry_grab_focus';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a3';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'vbox2';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8h_1a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_fileselection';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-line = '55';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+create the persistant fileselection box
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '269';
+        func-mem-ref-name = 'on_cancel_button1_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a17';
+        func-mem-ref-line = '450';
+        func-mem-ref-name = 'on_fileselection_delete_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '277';
+        func-mem-ref-name = 'on_fileselection_key_press_event';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a8';
+        func-mem-ref-line = '243';
+        func-mem-ref-name = 'on_ok_button1_clicked';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'interface_8h_1a7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'keystrokes_dialog';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+      func-mem-desc-line = '58';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+display help for keystrokes
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \par Purpose: display a dialog box of keystrokes
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'callbacks_8c_1a19';
+        func-mem-ref-line = '568';
+        func-mem-ref-name = 'dialog_ok_clicked';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'help_8h_1a0';
+        func-mem-ref-line = '31';
+        func-mem-ref-name = 'KEYSTROKES';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/interface.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+interface globals and functions
+  These functions were originall created by glade (gtk1.2)
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'kbhit_8c';
+  file-name = 'kbhit.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8c_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'do_kbhit';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-line = '41';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+do a kbhit
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a3';
+        func-mem-ref-line = '88';
+        func-mem-ref-name = 'close_keyboard';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '65';
+        func-mem-ref-name = 'init_keyboard';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8c_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'init_keyboard';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-line = '66';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+initialize the keyboard
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a0';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'new_settings';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'do_kbhit';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8c_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'close_keyboard';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      func-mem-desc-line = '89';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+reset the keyboard terminal settings
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'do_kbhit';
+    };
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'kbhit_8c_1a0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+termios initial_settings
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'new_settings';
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+      var-mem-desc-line = '33';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+console termio settings (pre and post operation)
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'kbhit_8c_1a0';
+        var-mem-ref-line = '65';
+        var-mem-ref-name = 'init_keyboard';
+    };
+    }; /* var-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Handle console keyboard functionality.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'kbhit_8h';
+  file-name = 'kbhit.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8h_1a0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'init_keyboard';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-line = '30';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+initialize the keyboard
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a0';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'new_settings';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'do_kbhit';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8h_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'close_keyboard';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-line = '32';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+reset the keyboard terminal settings
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'do_kbhit';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'kbhit_8h_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'do_kbhit';
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+      func-mem-desc-line = '34';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+do a kbhit
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman, various.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a3';
+        func-mem-ref-line = '88';
+        func-mem-ref-name = 'close_keyboard';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a2';
+        func-mem-ref-line = '65';
+        func-mem-ref-name = 'init_keyboard';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/kbhit.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+console keyboard keyHit functionality
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8c';
+  file-name = 'main.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8c_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argc';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argv';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'env';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+      func-mem-desc-line = '79';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+The Main.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Long mian function that is intended to be split up some day
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a0';
+        func-mem-ref-line = '5';
+        func-mem-ref-name = 'BASH_HISTORY_FILENAME';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a9';
+        func-mem-ref-line = '57';
+        func-mem-ref-name = 'bash_shell_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a3';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'cbitems';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a2';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'checkbutton';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a4';
+        func-mem-ref-line = '46';
+        func-mem-ref-name = 'combo1';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'combo_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a1';
+        func-mem-ref-line = '8';
+        func-mem-ref-name = 'COPYRIGHT';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a1';
+        func-mem-ref-line = '282';
+        func-mem-ref-name = 'create_fileselection';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8c_1a0';
+        func-mem-ref-line = '47';
+        func-mem-ref-name = 'create_mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'debug_8h_1a0';
+        func-mem-ref-line = '60';
+        func-mem-ref-name = 'DEBUG_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a2';
+        func-mem-ref-line = '11';
+        func-mem-ref-name = 'DEFAULT_HISTORY_LEN';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a3';
+        func-mem-ref-line = '14';
+        func-mem-ref-name = 'DEFAULT_TERMINAL_PATH';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a1';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'die';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'kbhit_8c_1a1';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'do_kbhit';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'debug_8h_1a3';
+        func-mem-ref-line = '75';
+        func-mem-ref-name = 'dprint';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'debug_8h_1a5';
+        func-mem-ref-line = '79';
+        func-mem-ref-name = 'dprint_s2';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a1';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'fileselection';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a1';
+        func-mem-ref-line = '173';
+        func-mem-ref-name = 'freeList';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a6';
+        func-mem-ref-line = '50';
+        func-mem-ref-name = 'history_len';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a4';
+        func-mem-ref-line = '48';
+        func-mem-ref-name = 'home_directory';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a3';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'keep_open';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'help_8h_1a0';
+        func-mem-ref-line = '31';
+        func-mem-ref-name = 'KEYSTROKES';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a15';
+        func-mem-ref-line = '53';
+        func-mem-ref-name = 'LICENSE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'interface_8h_1a0';
+        func-mem-ref-line = '32';
+        func-mem-ref-name = 'mainWindow';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'no_kbhit';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a0';
+        func-mem-ref-line = '67';
+        func-mem-ref-name = 'optarg';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'commonDefs_8h_1a3';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'OPTARG_HISTORY';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'commonDefs_8h_1a5';
+        func-mem-ref-line = '42';
+        func-mem-ref-name = 'OPTARG_HISTORY_FILETYPE_BASH';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'commonDefs_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'OPTARG_HISTORY_FILETYPE_RF';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'commonDefs_8h_1a6';
+        func-mem-ref-line = '43';
+        func-mem-ref-name = 'OPTARG_HISTORY_LEN';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a16';
+        func-mem-ref-line = '56';
+        func-mem-ref-name = 'PACKAGE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'commonDefs_8h_1a0';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'RF_HISTORY_FILENAME';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a1';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'RF_HISTORY_MODE';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a0';
+        func-mem-ref-line = '38';
+        func-mem-ref-name = 'run_in_term';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a7';
+        func-mem-ref-line = '51';
+        func-mem-ref-name = 'terminal_path';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a23';
+        func-mem-ref-line = '77';
+        func-mem-ref-name = 'USER_HISTORY_FILENAME';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'config_8h_1a24';
+        func-mem-ref-line = '83';
+        func-mem-ref-name = 'VERSION';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8c_1a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'run_command';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'command';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+      func-mem-desc-line = '381';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Run a command.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param command The command we want to run
+
+    <b>
+    Purpose:</b> 
+    Execute the command in a way that is consistant with the
+    design of run-free.
+    
+    \note
+    This is a custom system() type call in order to handle
+    environment settings properly (in the future) if this program is
+    to be a setuid application (which is in the works)
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a9';
+        func-mem-ref-line = '57';
+        func-mem-ref-name = 'bash_shell_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'combo_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a1';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'die';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a4';
+        func-mem-ref-line = '71';
+        func-mem-ref-name = 'environ';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a3';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'keep_open';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'no_kbhit';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a0';
+        func-mem-ref-line = '38';
+        func-mem-ref-name = 'run_in_term';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a7';
+        func-mem-ref-line = '51';
+        func-mem-ref-name = 'terminal_path';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+run-free main file
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+  run-free is a command line launching program written in gtk. This
+  version of run-free is written is C for gtk+1.2
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8h';
+  file-name = 'main.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8h_1a10';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'run_command';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'command';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.h';
+      func-mem-desc-line = '61';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Run a command.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+    \author Karl N. Redman
+
+    \param command The command we want to run
+
+    <b>
+    Purpose:</b> 
+    Execute the command in a way that is consistant with the
+    design of run-free.
+    
+    \note
+    This is a custom system() type call in order to handle
+    environment settings properly (in the future) if this program is
+    to be a setuid application (which is in the works)
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a9';
+        func-mem-ref-line = '57';
+        func-mem-ref-name = 'bash_shell_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a4';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'combo_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a8';
+        func-mem-ref-line = '54';
+        func-mem-ref-name = 'command';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a1';
+        func-mem-ref-line = '39';
+        func-mem-ref-name = 'die';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8c_1a4';
+        func-mem-ref-line = '71';
+        func-mem-ref-name = 'environ';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a5';
+        func-mem-ref-line = '49';
+        func-mem-ref-name = 'history_file';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a3';
+        func-mem-ref-line = '41';
+        func-mem-ref-name = 'keep_open';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a2';
+        func-mem-ref-line = '40';
+        func-mem-ref-name = 'no_kbhit';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a0';
+        func-mem-ref-line = '38';
+        func-mem-ref-name = 'run_in_term';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8h_1a7';
+        func-mem-ref-line = '51';
+        func-mem-ref-name = 'terminal_path';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboHandlers_8c_1a3';
+        func-mem-ref-line = '195';
+        func-mem-ref-name = 'writeHistory';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a2';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'on_combo_entry1_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a10';
+        func-mem-ref-line = '352';
+        func-mem-ref-name = 'on_runButton_clicked';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/main.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+run-free main include file
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+  run-free is a command line launching program written in gtk. This
+  version of run-free is written is C for gtk+1.2
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'support_8c';
+  file-name = 'support.c';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8c_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+gchar *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'check_file_exists';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'directory';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-line = '40';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'support_8c_1a3';
+        func-mem-ref-line = '110';
+        func-mem-ref-name = 'create_pixmap';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8c_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_dummy_pixmap';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-line = '43';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a0';
+        func-mem-ref-line = '70';
+        func-mem-ref-name = 'dummy_pixmap_xpm';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'support_8c_1a3';
+        func-mem-ref-line = '110';
+        func-mem-ref-name = 'create_pixmap';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8c_1a4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'lookup_widget';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget_name';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-line = '48';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+ This function returns a widget in a component created by Glade.
+ Call it with the toplevel widget in the component (i.e. a window/dialog),
+ or alternatively any widget in the component, and the name of the widget
+ you want returned.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8c_1a5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'add_pixmap_directory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'directory';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-line = '103';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use this function to set the directory containing installed pixmaps.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a1';
+        func-mem-ref-line = '98';
+        func-mem-ref-name = 'pixmaps_directories';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8c_1a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_pixmap';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      func-mem-desc-line = '112';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ This is used to create the pixmaps in the interface.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a2';
+        func-mem-ref-line = '163';
+        func-mem-ref-name = 'check_file_exists';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a3';
+        func-mem-ref-line = '80';
+        func-mem-ref-name = 'create_dummy_pixmap';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a1';
+        func-mem-ref-line = '98';
+        func-mem-ref-name = 'pixmaps_directories';
+    };
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'support_8c_1a0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'dummy_pixmap_xpm';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ {
+
+"1 1 1 1",
+"  c None",
+
+" "
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      var-mem-desc-line = '76';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'support_8c_1a3';
+        var-mem-ref-line = '80';
+        var-mem-ref-name = 'create_dummy_pixmap';
+    };
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'support_8c_1a1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+GList *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pixmaps_directories';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ NULL
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+      var-mem-desc-line = '98';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referenceby = {
+        var-mem-ref-id = 'support_8c_1a2';
+        var-mem-ref-line = '102';
+        var-mem-ref-name = 'add_pixmap_directory';
+    };
+      var-mem-referenceby = {
+        var-mem-ref-id = 'support_8c_1a3';
+        var-mem-ref-line = '110';
+        var-mem-ref-name = 'create_pixmap';
+    };
+    }; /* var-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+glade, blah support functions
+  DO NOT EDIT THIS FILE - it is generated by Glade.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'support_8h';
+  file-name = 'support.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'support_8h_1a0';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'get_widget';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+lookup_widget
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      define-mem-desc-line = '48';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ get_widget() is deprecated. Use lookup_widget instead.
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8h_1a1';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'lookup_widget';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget_name';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-line = '45';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+ This function returns a widget in a component created by Glade.
+ Call it with the toplevel widget in the component (i.e. a window/dialog),
+ or alternatively any widget in the component, and the name of the widget
+ you want returned.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8h_1a2';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'add_pixmap_directory';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'directory';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-line = '51';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use this function to set the directory containing installed pixmaps.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a1';
+        func-mem-ref-line = '98';
+        func-mem-ref-name = 'pixmaps_directories';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'support_8h_1a3';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'create_pixmap';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+GtkWidget *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'widget';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const gchar *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+      func-mem-desc-line = '60';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ This is used to create the pixmaps in the interface.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a2';
+        func-mem-ref-line = '163';
+        func-mem-ref-name = 'check_file_exists';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a3';
+        func-mem-ref-line = '80';
+        func-mem-ref-name = 'create_dummy_pixmap';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'support_8c_1a1';
+        func-mem-ref-line = '98';
+        func-mem-ref-name = 'pixmaps_directories';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/parasyte/sandbox/projects/programming/current/run-free2/src/support.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+support functionality
+  This file was originally created by glade
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

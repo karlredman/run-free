@@ -1,0 +1,5 @@
+base referer
+rect $config_8h.html 319,17 375,36
+rect $main_8h.html 399,17 447,36
+rect $comboHandlers_8h.html 471,17 583,36
+rect $debug_8h.html 607,17 663,36
