@@ -20,12 +20,12 @@
 /* FILE DEFS */
 #define RF_DEFAULT_FILE_DIR	"HOME/.run-free"
 #define RF_DEFAULT_EXEC_DIR	"HOME/.run-free"
-#define RF_RUN_IN_TERM_NAME	".run-free.tmp"
-#define RF_HISTORY_FILE_NAME	".run-free.hst"
-#define RF_CONFIG_FILE_NAME	".run-free.cfg"
+#define RF_RUN_IN_TERM_NAME	"./.run-free.tmp"
+#define RF_HISTORY_FILE_NAME	"./.run-free.hst"
+#define RF_CONFIG_FILE_NAME	"./.run-free.cfg"
 
 /* configurables -defaults */
-#define TERM			"xterm"			// assumed to be within path
+#define TERM			"Eterm"			// assumed to be within path
 #define RF_KBHIT_FILE_NAME	"run-free-kbhit"	// assumed to be within path
 
 /* proto types */

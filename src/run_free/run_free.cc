@@ -49,7 +49,7 @@ int cleanUp()
 int my_system(const char *command)
 {
   /* performes a system call like systemi().  This is the recomended
-     method in the linux man pages; besides, I wasn't sure if if would
+     method in the linux man pages; besides, I wasn't sure if I would
      need this down the line -so I added it anyway
   */
   int pid;
@@ -192,9 +192,14 @@ if(s)
       sprintf(commandLine, "%s %s %s", TERM, t, RF_RUN_IN_TERM_NAME);
 
       //make script to run in terminal
-      if(createScript(s) == -1)
+      if(createScript(s) != 0)
 	{
 	  //display error message
+	  
+	  #ifdef DEBUG
+	  g_print("createScript() FAILED\n");
+	  #endif
+
 	  cleanUp();
 	  gtk_main_quit();
 	}

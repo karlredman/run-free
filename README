@@ -1,10 +1,21 @@
 README file for run-free.
 
 Original Author: Karl N. Redman (A.K.A. parasyte of knowledge) 
-	parasyte@enteract.com
+	parasyte@sleepingstill.com
 
 Project home page: run-free.sourceforge.net
 
+
+	REQUIREMENTS:
+
+		FOR COMPILATION
+			- gtk+ 1.2.10 or better development packages (headers, etc) -for compilation
+			- curses.h (this should be installed with your standard C package anyway) -for compilation
+
+		FOR RUNNING
+			- gtk+ 1.2.10 or better run-time pacages (libraries)
+			- xterm 
+	
 
 DESCRIPTION:
 

@@ -1,3 +1,13 @@
+2003-09-20  Karl Redman  <parasyte@scyld.local>
+
+	* AUTHORS, Makefile.in, README, aclocal.m4, configure, configure.ac, configure.in, depcomp, include/Makefile.in, include/config.h.in, include/stamp-h.in, my_automake, src/Makefile.in, src/kbhit/Makefile.in, src/run_free/Makefile.in:
+	update for new dist.
+
+2003-01-05  Karl Redman  <parasyte@scyld.local>
+
+	* include/run-free.h, src/kbhit/.deps/kbhit.P, src/kbhit/kbhit.c, src/kbhit/run-free-kbhit, src/run_free/run-free, src/run_free/run_free.cc, src/run_free/run_in_term.cc, Makefile, config.log, config.status:
+	fixed bug in .run-free.tmp
+
 2001-11-16  parasyte@scyld.my.net  <parasyte@scyld>
 
 	* /cvsroot/run-free/run-free/src/run_free/run_history.cc:

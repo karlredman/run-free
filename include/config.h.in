@@ -1,8 +1,19 @@
-/* include/config.h.in.  Generated automatically from configure.in by autoheader.  */
+/* include/config.h.in.  Generated automatically from configure.ac by autoheader.  */
+
+/* Define if you have the <curses/curses.h> header file. */
+#undef HAVE_CURSES_CURSES_H
+
+/* Define if you have the <curses.h> header file. */
+#undef HAVE_CURSES_H
+
+/* Define if you have the <termios.h> header file. */
+#undef HAVE_TERMIOS_H
 
 /* Name of package */
 #undef PACKAGE
 
+/* Define if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
 /* Version number of package */
 #undef VERSION
-

@@ -1,0 +1,36 @@
+# 1. create source file(s)
+
+# 2. compile source file(s) and verify that there is something working 
+
+# 3. create Makefile.am by hand
+## example:
+# ---begin file--
+# bin_PROGRAMS = hello
+# hello_SOURCES = hello.c
+# ---end file--
+
+# 4. create configure.in by hand
+## example:
+# ---begin file--
+# AC_INIT(hello.c)
+# AM_INIT_AUTOMAKE(hello, 1.0)
+# AC_PROG_CC
+# AC_PROG_INSTALL
+# AC_OUTPUT(Makefile)
+# ---end file--
+
+# 5. run GNU install tools
+if [ -e Makefile.am ] && [ -e configure.ac ]; then
+	aclocal
+	autoconf
+	automake -a --include-deps
+	touch NEWS README AUTHORS ChangeLog
+	automake -a --include-deps
+fi
+
+# 6. replace, update the following files NEWS README AUTHORS ChangLog + any
+#	additional files (like Copying)
+
+# 7. test the configure script generated
+./configure
+#make distcheck

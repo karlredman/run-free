@@ -35,8 +35,8 @@ int createScript(char *s)
       retval = -1;
     }
 
-  fclose(fp);			// close file
-  delete [] cL;			// delete array
+  //fclose(fp);			// close file
+  //delete [] cL;			// delete array
 
   if(retval == 0)
     {
@@ -49,6 +49,9 @@ int createScript(char *s)
 	  retval = -1;
 	}
     }
+
+  fclose(fp);			// close file
+  delete [] cL;			// delete array
 
   return retval;
 }
