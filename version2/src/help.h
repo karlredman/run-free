@@ -71,8 +71,8 @@
 "Other application options\n"\
 "Ctrl-m........................Update history list from history file\n"\
 "Alt-h.........................Display keystroke help dialog\n"\
-"Alt-y.........................Set termstay switch\n"
-"Alt-u.........................keepalive toggle (don't die)\n"\
+"Alt-y.........................Set termstay switch\n"\
+"Alt-u.........................keepalive toggle (don't die)\n"
 
 
 #endif //_HELP_H_
