@@ -1,3 +1,133 @@
+2001-11-09  parasyte@scyld.my.net  <parasyte@scyld>
+
+	* /cvsroot/run-free/run-free/src/run_free/run_free.cc:
+	woops, messed up an ifdef
+
+	* /cvsroot/run-free/run-free/ChangeLog, /cvsroot/run-free/run-free/Makefile, /cvsroot/run-free/run-free/Makefile.in, /cvsroot/run-free/run-free/config.log, /cvsroot/run-free/run-free/src/run_free/.run-free.hst, /cvsroot/run-free/run-free/src/run_free/.run-free.tmp, /cvsroot/run-free/run-free/src/run_free/run_free.cc, /cvsroot/run-free/run-free/src/run_free/run_history.cc:
+	fixed bug in runClicked:bad string len calculation
+
+2001-11-03  parasyte@scyld.my.net  <parasyte@scyld>
+
+	* /cvsroot/run-free/run-free/README: corrected readme file
+
+	* /cvsroot/run-free/run-free/src/run_free/.run-free.hst, /cvsroot/run-free/run-free/src/run_free/run_history.cc, /cvsroot/run-free/run-free/src/run_free/run_in_term.cc:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/run_free/.run-free.hst, /cvsroot/run-free/run-free/src/run_free/run_history.cc, /cvsroot/run-free/run-free/src/run_free/run_in_term.cc:
+	initial import
+
+	* /cvsroot/run-free/run-free/src/run_free/run_free.cc: New file.
+
+	* /cvsroot/run-free/run-free/src/run_free/run_free.cc: initial import
+
+	* /cvsroot/run-free/run-free/src/run_free/Makefile.in, /cvsroot/run-free/run-free/src/run_free/file.cc:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/run_free/Makefile.in, /cvsroot/run-free/run-free/src/run_free/file.cc:
+	initial import
+
+	* /cvsroot/run-free/run-free/src/run_free/.run-free.tmp, /cvsroot/run-free/run-free/src/run_free/Makefile.am:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/run_free/.run-free.tmp, /cvsroot/run-free/run-free/src/run_free/Makefile.am:
+	initial import
+
+	* /cvsroot/run-free/run-free/src/run_free/Makefile: New file.
+
+	* /cvsroot/run-free/run-free/src/run_free/Makefile: initial import
+
+	* /cvsroot/run-free/run-free/src/kbhit/Makefile, /cvsroot/run-free/run-free/src/kbhit/kbhit.c:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/kbhit/Makefile, /cvsroot/run-free/run-free/src/kbhit/kbhit.c:
+	initial import
+
+	* /cvsroot/run-free/run-free/src/kbhit/Makefile.am, /cvsroot/run-free/run-free/src/kbhit/Makefile.in:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/kbhit/Makefile.am, /cvsroot/run-free/run-free/src/kbhit/Makefile.in:
+	initial import
+
+	* /cvsroot/run-free/run-free/src/Makefile.in: New file.
+
+	* /cvsroot/run-free/run-free/src/Makefile.in: initial import
+
+	* /cvsroot/run-free/run-free/src/Makefile, /cvsroot/run-free/run-free/src/Makefile.am:
+	New file.
+
+	* /cvsroot/run-free/run-free/src/Makefile, /cvsroot/run-free/run-free/src/Makefile.am:
+	initial import
+
+	* /cvsroot/run-free/run-free/include/config.h.in: New file.
+
+	* /cvsroot/run-free/run-free/include/config.h.in: initial import
+
+	* /cvsroot/run-free/run-free/include/Makefile.in, /cvsroot/run-free/run-free/include/config.h, /cvsroot/run-free/run-free/include/run-free.h, /cvsroot/run-free/run-free/include/stamp-h:
+	New file.
+
+	* /cvsroot/run-free/run-free/include/Makefile.in, /cvsroot/run-free/run-free/include/config.h, /cvsroot/run-free/run-free/include/run-free.h, /cvsroot/run-free/run-free/include/stamp-h:
+	initial import
+
+	* /cvsroot/run-free/run-free/include/Makefile, /cvsroot/run-free/run-free/include/Makefile.am, /cvsroot/run-free/run-free/include/stamp-h.in:
+	New file.
+
+	* /cvsroot/run-free/run-free/include/Makefile, /cvsroot/run-free/run-free/include/Makefile.am, /cvsroot/run-free/run-free/include/stamp-h.in:
+	initial import
+
+	* /cvsroot/run-free/run-free/mkinstalldirs, /cvsroot/run-free/run-free/run-free.spec:
+	New file.
+
+	* /cvsroot/run-free/run-free/mkinstalldirs, /cvsroot/run-free/run-free/run-free.spec:
+	initial import
+
+	* /cvsroot/run-free/run-free/missing: New file.
+
+	* /cvsroot/run-free/run-free/missing: initial import
+
+	* /cvsroot/run-free/run-free/install-sh: New file.
+
+	* /cvsroot/run-free/run-free/install-sh: initial import
+
+	* /cvsroot/run-free/run-free/config.status: New file.
+
+	* /cvsroot/run-free/run-free/config.status: initial import
+
+	* /cvsroot/run-free/run-free/configure.in: New file.
+
+	* /cvsroot/run-free/run-free/configure.in: initial import
+
+	* /cvsroot/run-free/run-free/README: New file.
+
+	* /cvsroot/run-free/run-free/README: initial import
+
+	* /cvsroot/run-free/run-free/Makefile, /cvsroot/run-free/run-free/NEWS:
+	New file.
+
+	* /cvsroot/run-free/run-free/Makefile, /cvsroot/run-free/run-free/NEWS:
+	initial import
+
+	* /cvsroot/run-free/run-free/INSTALL, /cvsroot/run-free/run-free/config.cache:
+	New file.
+
+	* /cvsroot/run-free/run-free/INSTALL, /cvsroot/run-free/run-free/config.cache:
+	initial import
+
+	* /cvsroot/run-free/run-free/COPYING, /cvsroot/run-free/run-free/ChangeLog:
+	New file.
+
+	* /cvsroot/run-free/run-free/COPYING, /cvsroot/run-free/run-free/ChangeLog:
+	initial import
+
+	* /cvsroot/run-free/run-free/AUTHORS, /cvsroot/run-free/run-free/Makefile.am, /cvsroot/run-free/run-free/Makefile.in, /cvsroot/run-free/run-free/config.log, /cvsroot/run-free/run-free/configure:
+	New file.
+
+	* /cvsroot/run-free/run-free/AUTHORS, /cvsroot/run-free/run-free/Makefile.am, /cvsroot/run-free/run-free/Makefile.in, /cvsroot/run-free/run-free/config.log, /cvsroot/run-free/run-free/configure:
+	initial import
+
+	* /cvsroot/run-free/run-free/aclocal.m4: New file.
+
+	* /cvsroot/run-free/run-free/aclocal.m4: initial import
+
 2001-11-03  parasyte@scyld.my.net  <parasyte@scyld>
 
 	* /cvsroot/run-free/run-free/README: corrected readme file
