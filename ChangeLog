@@ -1,3 +1,18 @@
+2001-11-16  parasyte@scyld.my.net  <parasyte@scyld>
+
+	* /cvsroot/run-free/run-free/src/run_free/run_history.cc:
+	fixed uniqueness problem whith history
+
+2001-11-09  parasyte@scyld.my.net  <parasyte@scyld>
+
+	* /cvsroot/run-free/run-free/ChangeLog: updated changelog
+
+	* /cvsroot/run-free/run-free/src/run_free/run_free.cc:
+	woops, messed up an ifdef
+
+	* /cvsroot/run-free/run-free/ChangeLog, /cvsroot/run-free/run-free/Makefile, /cvsroot/run-free/run-free/Makefile.in, /cvsroot/run-free/run-free/config.log, /cvsroot/run-free/run-free/src/run_free/.run-free.hst, /cvsroot/run-free/run-free/src/run_free/.run-free.tmp, /cvsroot/run-free/run-free/src/run_free/run_free.cc, /cvsroot/run-free/run-free/src/run_free/run_history.cc:
+	fixed bug in runClicked:bad string len calculation
+
 2001-11-09  parasyte@scyld.my.net  <parasyte@scyld>
 
 	* /cvsroot/run-free/run-free/src/run_free/run_free.cc:
