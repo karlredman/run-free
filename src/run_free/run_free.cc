@@ -70,7 +70,7 @@ int my_system(const char *command)
 
 #ifdef DEBUG
 	g_print("my_system: running command: %s %s %s\n", argv[0], argv[1], argv[2]);
-#ifdef DEBUG
+#endif
 
       execve("/bin/sh", argv, environ);
       exit(127);
