@@ -1,24 +1,29 @@
 README file for run-free.
 
-Original Author: Karl N. Redman (A.K.A. parasyte of knowledge) - parasyte@enteract.com
+Original Author: Karl N. Redman (A.K.A. parasyte of knowledge) 
+	parasyte@enteract.com
+
 Project home page: run-free.sourceforge.net
 
 
 DESCRIPTION:
 
-run-free is a free, GNU licensed command line launcher for your chosen X Windows desktop environment. 
-It's purpose is allow the user to enter command lines at the GUI level without having to launch a 
-terminal/xterm. The program was inspired by Gnome Run found in Red Hat distributions and is a complete 
+run-free is a free, GNU licensed command line launcher for your chosen X 
+Windows desktop environment. It's purpose is allow the user to enter command 
+lines at the GUI level without having to launch a terminal/xterm. The program 
+was inspired by Gnome Run found in Red Hat distributions and is a complete 
 rewrite of same using GTK. 
 
 
-While run-free is currently in it's early development stage it does have the following features:
+While run-free is currently in it's early development stage it does have 
+the following features:
 
        Program output may be viewed optionally from a launched terminal. 
        A somewhat working file browser 
        Command line editing 
        Command line history (somewhat working) 
-       Relatively decent keystroke operation (as opposed to being run only through the mouse) 
+       Relatively decent keystroke operation (as opposed to being run 
+	only through the mouse) 
 
 Future versions are expected to contain the following features:
 
@@ -27,30 +32,30 @@ Future versions are expected to contain the following features:
        vi, emacs, whatever else, command line editing (by configuration choice) 
        better configuration support (right now everything is compiled in) 
        configurable keystroke support 
-       documentation on how to get it to work best under each popular window manager. 
-
 
 
 
 OPERAION:
 
-The run-free and run-free-kbhit programs must be in your execution path. To do this add
+The run-free and run-free-kbhit programs must be in your execution path. 
+To do this add run-free must be run from a directory that is writable by 
+the user executing the program.
 
-run-free must be run from a directory that is writable by the user executing the program.
+You can execute run-free from within your window manager via hotkey if you 
+desire (the main reason I made the program to begin with).
 
-You can execute run-free from within your window manager via hotkey if you desire (the main 
-reason I made the program to begin with).
+Use run-free by entering a comand line in the entry box and press enter or 
+click the 'run' button.  To see output from you command click the 'run in 
+terminal' radio button. By default run-free uses an xterm to display command 
+output from a 'run in terminal' mode. You can change this by editing the 
+header file run-free.h and recompiling the program (I use Eterm myself).
 
-Use run-free by entering a comand line in the entry box and press enter or click the 'run' 
-button.  To see output from you command click the 'run in terminal' radio button. By default
-run-free uses an xterm to display command output from a 'run in terminal' mode. You can change 
-this by editing the header file run-free.h and recompiling the program (I use Eterm myself).
-
-You can reexecute a previous command using your arrow-down key or by scrolling through the 
-entry box list.
+You can reexecute a previous command using your arrow-down key or by 
+scrolling through the entry box list.
 
 The keystrokes that run free allows are as follows:
-	DOWN-arrow 	= move through history or move around the different buttons
+	DOWN-arrow 	= move through history or move around 
+				the different buttons
 	UP-arrow 	= move around the different buttons
 	TAB 		= same as UP-arrow key 
 	CTRL-t		= (control + t) toggle 'run in terminal' mode
@@ -61,46 +66,56 @@ The keystrokes that run free allows are as follows:
 
 DETAILS:
 
-run-free is made up of two programs: run-free and run-free-kbhit. I estimate that the run-free-kbhit program
-may go away at some point but it is used currently because run-free started out as a quick and dirty program.
-run-free executes run-free-kbhit when the program is operation in 'run in terminal' mode. A history file called
-.run-free is created in the directory where run-free is executed from when a command is executed. 
+run-free is made up of two programs: run-free and run-free-kbhit. I estimate 
+that the run-free-kbhit program may go away at some point but it is used 
+currently because run-free started out as a quick and dirty program.  
+run-free executes run-free-kbhit when the program is operation in 'run in 
+terminal' mode. A history file called .run-free is created in the directory 
+where run-free is executed from when a command is executed. 
 
 
 DEVELOPMENT:
-The run-free tarball contains an RPM spec file for creating a .rpm package if desired. I've included this spec file
-in order to allow users of other operating systems to test out and build the package if they so desire.
+The run-free tarball contains an RPM spec file for creating a .rpm 
+package if desired. I've included this spec file in order to allow users 
+of other operating systems to test out and build the package if they so desire.
 
 
 BUILDING:
 
 	Building from tarball:
 		
-		(NOTE: see the INSTALL file for more details on building from a tarball)
+		(NOTE: see the INSTALL file for more details on building from 
+			a tarball)
 	
-		1. unpack the tarball somewhere writable by you (i.e. "tar zxvf run-free-1.0.0.tar.gz")
+		1. unpack the tarball somewhere writable by you 
+			(i.e. "tar zxvf run-free-1.0.0.tar.gz")
 
-		2. go to the run-free directory tree and run configure (i.e. "./configure")
+		2. go to the run-free directory tree and run configure 
+			(i.e. "./configure")
 
 		3. run make
 
-		4. run make install (you can run "make uninstall" later if you want to remove the programs)	
+		4. run make install (you can run "make uninstall" later 
+			if you want to remove the programs)	
 
 		5. start using the program
 
 
 	Building for RPM:
 
-		1. unpack the tarball somewhere writable by you (i.e. "tar zxvf run-free-1.0.0.tar.gz")
+		1. unpack the tarball somewhere writable by you 
+			(i.e. "tar zxvf run-free-1.0.0.tar.gz")
 
 		2. go to the run-free directory
 
-		3. build the source and binary rpms with the command "rpm -ba run-free.spec"
+		3. build the source and binary rpms with the command 
+			"rpm -ba run-free.spec"
 
-		4. If all goes well, then run free will have built and you'll have the binary
-			and source RPMs for installation. To install the binary RPM just run
-			"rpm -i [file_name]" (where file_name = the name of the rpm binary
-			package that is created). You can run "rpm -qa |sort" to check 
+		4. If all goes well, then run free will have built and you'll 
+			have the binary and source RPMs for installation. To 
+			install the binary RPM just run "rpm -i [file_name]" 
+			(where file_name = the name of the rpm binary package 
+			that is created). You can run "rpm -qa |sort" to check
 			that run-free has been installed properly.
 
 
