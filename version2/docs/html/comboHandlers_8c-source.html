@@ -17,7 +17,7 @@
 	<td><a href="http://sourceforge.net/projects/run-free/" target="top">Sourceforge Page</a></td>
 	<td><a href="http://cvs.sourceforge.net/viewcvs.py/run-free/" target="top">CVS Repository</a></td>
 	<td><a href="http://freshmeat.net/projects/run-free/" target="top">Freshmeat.net Page</a></td>
-	<td><a href="http://sourceforge.net/project/showfiles.php?group_id=39135&package_id=31325" target="top">Download project</a></td>
+	<td><a href="https://sourceforge.net/project/showfiles.php?group_id=39135&package_id=112782" target="top">Download project</a></td>
 	<td><a href="http://www.sleepingstill.com" target="top">Author's Homepage</a></td>
 </tr>
 </table>
@@ -83,7 +83,7 @@
 00054 <span class="comment">    is populated in reverse of the file contents to accomidate for</span>
 00055 <span class="comment">    (only) a file that is appended to.</span>
 00056 <span class="comment">*/</span>
-<a name="l00057"></a><a class="code" href="comboHandlers_8h.html#a2">00057</a> GList *<a class="code" href="comboHandlers_8h.html#a2">readHistory</a>(GList* list, <span class="keywordtype">char</span> *filename)
+<a name="l00057"></a><a class="code" href="comboHandlers_8h.html#a2">00057</a> GList *<a class="code" href="comboHandlers_8h.html#a2">readHistory</a>(GList *list, <span class="keywordtype">char</span> *filename)
 00058 {
 00059   FILE *fp;
 00060 <span class="comment"></span>
@@ -111,147 +111,150 @@
 00082       <span class="comment">//ok, try a different file</span>
 00083       <span class="comment">//TODO</span>
 00084       <span class="comment">//else pop up a dialog</span>
-00085     }
-00086 
-00087   <span class="comment">//max line length is the system max (this could be huge!)</span>
-00088   <span class="keywordtype">char</span> line[<a class="code" href="comboHandlers_8h.html#a0">RF_LINE_MAX_LEN</a>+1];
-00089   <span class="keywordtype">int</span> c;
-00090   <span class="keywordtype">int</span> i =0, numItems =0;
-00091   <span class="comment">//char *string;</span>
-00092 
-00093   memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
-00094 
-00095   <span class="keywordflow">do</span>
-00096     {
-00097       <span class="keywordflow">if</span>( (c = fgetc(fp)) == EOF)
-00098         {
-00099           <span class="comment">//dprint("end of file\n");</span>
-00100           <span class="keywordflow">break</span>;
-00101         }
-00102       <span class="keywordflow">if</span>(c != <span class="charliteral">'\n'</span>)
-00103         {
-00104           line[i] = c;
-00105           i++;
-00106           <span class="keywordflow">continue</span>;
-00107         }
-00108       <span class="keywordflow">else</span>
-00109         {
-00110           i=0;
-00111           <span class="keywordflow">if</span>(strcmp(line, <span class="stringliteral">"\n"</span>) == 0)
-00112             {
-00113               memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
-00114               <span class="keywordflow">continue</span>;
-00115             }
-00116         }
-00117 
-00118       list = g_list_prepend(list, strdup(line));
-00119       numItems++;
-00120 
-00121       memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
-00122     }<span class="keywordflow">while</span>(1);
-00123 
-00124   fclose(fp);
-00125 
-00126   <span class="comment">//list = g_list_reverse(list);</span>
+00085       g_print(<span class="stringliteral">"could not open history file\n"</span>);
+00086     }
+00087 
+00088   <span class="comment">//max line length is the system max (this could be huge!)</span>
+00089   <span class="keywordtype">char</span> line[<a class="code" href="comboHandlers_8h.html#a0">RF_LINE_MAX_LEN</a>+1];
+00090   <span class="keywordtype">int</span> c;
+00091   <span class="keywordtype">int</span> i =0, numItems =0;
+00092   <span class="comment">//char *string;</span>
+00093 
+00094   memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
+00095 
+00096   <span class="keywordflow">do</span>
+00097     {
+00098       <span class="keywordflow">if</span>( (c = fgetc(fp)) == EOF)
+00099         {
+00100           <span class="comment">//dprint("end of file\n");</span>
+00101           <span class="keywordflow">break</span>;
+00102         }
+00103       <span class="keywordflow">if</span>(c != <span class="charliteral">'\n'</span>)
+00104         {
+00105           <span class="keywordflow">if</span>(i &gt;= <a class="code" href="comboHandlers_8h.html#a0">RF_LINE_MAX_LEN</a>)
+00106             <a class="code" href="debug_8h.html#a3">dprint</a>(<span class="stringliteral">"HISTORY LINE LEN TOO LONG!\n"</span>);
+00107 
+00108           line[i] = c;
+00109           i++;
+00110           <span class="keywordflow">continue</span>;
+00111         }
+00112       <span class="keywordflow">else</span>
+00113         {
+00114           i=0;
+00115           <span class="keywordflow">if</span>(strcmp(line, <span class="stringliteral">"\n"</span>) == 0)
+00116             {
+00117               memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
+00118               <span class="keywordflow">continue</span>;
+00119             }
+00120         }
+00121 
+00122       list = g_list_prepend(list, strdup(line));
+00123       numItems++;
+00124 
+00125       memset(line, <span class="charliteral">'\0'</span>, <span class="keyword">sizeof</span>(line));
+00126     }<span class="keywordflow">while</span>(1);
 00127 
-00128   <span class="comment">//eliminate duplicates</span>
-00129   GList *newList = NULL;
-00130 
-00131   i=0;
-00132 
-00133   <span class="comment">//this is how we set the combo box length</span>
-00134   <span class="comment">//int loop_num = RF_MAX_HISTLIST_LEN-1;</span>
-00135   <span class="keywordtype">int</span> loop_num = <a class="code" href="main_8h.html#a6">history_len</a> -1;
+00128   fclose(fp);
+00129 
+00130   <span class="comment">//list = g_list_reverse(list);</span>
+00131 
+00132   <span class="comment">//eliminate duplicates</span>
+00133   GList *newList = NULL;
+00134 
+00135   i=0;
 00136 
-00137   
-00138   <span class="comment">//weed out duplicates and only keep the first instance of a history</span>
-00139   <span class="comment">//line</span>
-00140   <span class="keywordflow">for</span>(;i &lt; loop_num &amp;&amp; (list != NULL); i++, 
-00141         list = g_list_next(list))
-00142         {
-00143 
-00144           <span class="comment">//see if we've seen this one before</span>
-00145            <span class="keywordflow">if</span>(g_list_find_custom(newList, list-&gt;data,
-00146                                  (GCompareFunc)strcmp) == NULL) 
-00147             {
-00148               <span class="comment">//put the old command in the combo box</span>
-00149               newList = g_list_append(newList, (<span class="keywordtype">char</span> *)list-&gt;data);
-00150             }
-00151            <span class="keywordflow">else</span>
-00152              {
-00153                <span class="comment">//increase the number of loops we're going to try and</span>
-00154                <span class="comment">// grab the next one (unless NULL happens on next)</span>
-00155                ++loop_num;
-00156              }
-00157         }<span class="comment">//end for</span>
-00158 
-00159   newList = g_list_prepend(newList, <span class="stringliteral">""</span>);
-00160   <span class="keywordflow">return</span>(newList);
-00161 }
-00162 <span class="comment"></span>
-00163 <span class="comment">/** </span>
-00164 <span class="comment">    \brief Free up a GList and all it's members.</span>
+00137   <span class="comment">//this is how we set the combo box length</span>
+00138   <span class="comment">//int loop_num = RF_MAX_HISTLIST_LEN-1;</span>
+00139   <span class="keywordtype">int</span> loop_num = <a class="code" href="main_8h.html#a6">history_len</a> -1;
+00140 
+00141   <span class="comment">//weed out duplicates and only keep the first instance of a history</span>
+00142   <span class="comment">//line</span>
+00143   <span class="keywordflow">for</span>(;i &lt; loop_num &amp;&amp; (list != NULL); i++, 
+00144         list = g_list_next(list))
+00145         {
+00146 
+00147           <span class="comment">//see if we've seen this one before</span>
+00148            <span class="keywordflow">if</span>(g_list_find_custom(newList, list-&gt;data,
+00149                                  (GCompareFunc)strcmp) == NULL) 
+00150             {
+00151               <span class="comment">//put the old command in the combo box</span>
+00152               newList = g_list_append(newList, (<span class="keywordtype">char</span> *)list-&gt;data);
+00153             }
+00154            <span class="keywordflow">else</span>
+00155              {
+00156                <span class="comment">//increase the number of loops we're going to try and</span>
+00157                <span class="comment">// grab the next one (unless NULL happens on next)</span>
+00158                ++loop_num;
+00159              }
+00160         }<span class="comment">//end for</span>
+00161 
+00162   newList = g_list_prepend(newList, <span class="stringliteral">""</span>);
+00163   <span class="keywordflow">return</span>(newList);
+00164 }
 00165 <span class="comment"></span>
-00166 <span class="comment">    \author Karl N. Redman</span>
-00167 <span class="comment"></span>
-00168 <span class="comment">    \param list A pointer to a GList to be freed</span>
-00169 <span class="comment"></span>
-00170 <span class="comment">    \par Purpose:</span>
-00171 <span class="comment">    Frees the points in the GList and then the GList pointer itself.</span>
-00172 <span class="comment">*/</span>
-<a name="l00173"></a><a class="code" href="comboHandlers_8h.html#a1">00173</a> <span class="keywordtype">void</span> <a class="code" href="comboHandlers_8h.html#a1">freeList</a>(GList *list)
-00174 {
-00175   <span class="keywordtype">int</span> i =0;
-00176   <span class="keywordflow">for</span>(; i &lt; (<span class="keywordtype">int</span>)g_list_length(list); i++, list = list-&gt;next)
-00177     free(list-&gt;data);
-00178   
-00179   g_list_free(list);
-00180 }
-00181 
-00182 <span class="comment"></span>
-00183 <span class="comment">/** </span>
-00184 <span class="comment">    \brief write a history file.</span>
+00166 <span class="comment">/** </span>
+00167 <span class="comment">    \brief Free up a GList and all it's members.</span>
+00168 <span class="comment"></span>
+00169 <span class="comment">    \author Karl N. Redman</span>
+00170 <span class="comment"></span>
+00171 <span class="comment">    \param list A pointer to a GList to be freed</span>
+00172 <span class="comment"></span>
+00173 <span class="comment">    \par Purpose:</span>
+00174 <span class="comment">    Frees the points in the GList and then the GList pointer itself.</span>
+00175 <span class="comment">*/</span>
+<a name="l00176"></a><a class="code" href="comboHandlers_8h.html#a1">00176</a> <span class="keywordtype">void</span> <a class="code" href="comboHandlers_8h.html#a1">freeList</a>(GList *list)
+00177 {
+00178   <span class="keywordtype">int</span> i =0;
+00179   <span class="keywordflow">for</span>(; i &lt; (<span class="keywordtype">int</span>)g_list_length(list); i++, list = list-&gt;next)
+00180     g_free(list-&gt;data);
+00181   
+00182   g_list_free(list);
+00183 }
+00184 
 00185 <span class="comment"></span>
-00186 <span class="comment">    \author Karl N. Redman</span>
-00187 <span class="comment"></span>
-00188 <span class="comment">    \param command the command to append to the file</span>
-00189 <span class="comment">    \param filename the file to append the command to</span>
+00186 <span class="comment">/** </span>
+00187 <span class="comment">    \brief write a history file.</span>
+00188 <span class="comment"></span>
+00189 <span class="comment">    \author Karl N. Redman</span>
 00190 <span class="comment"></span>
-00191 <span class="comment">    \par</span>
-00192 <span class="comment">    Purpose:</span>
-00193 <span class="comment">    Appends the command to the end of the file</span>
-00194 <span class="comment">*/</span>
-<a name="l00195"></a><a class="code" href="comboHandlers_8h.html#a3">00195</a> <span class="keywordtype">int</span> <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(<span class="keywordtype">char</span> *command, <span class="keywordtype">char</span> *filename)
-00196 {
-00197   <span class="comment">//always writes to the end of the file</span>
-00198 
-00199   FILE *fp;
-00200   <span class="keywordtype">int</span> retval = 0;
-00201   <span class="keywordtype">int</span> wLen = 0;
-00202 
-00203   
-00204   fp = fopen(filename, <span class="stringliteral">"a+"</span>);
-00205   <span class="keywordflow">if</span>(fp == NULL)
-00206     {<span class="comment"></span>
-00207 <span class="comment">      /**\todo FIX THIS I'm not handling file operations properly</span>
-00208 <span class="comment">      -probably tired at the time... -parasyte.</span>
-00209 <span class="comment">      */</span>
-00210       <span class="comment">//display dialog</span>
-00211     }
-00212 
-00213   <span class="comment">//write command line to file</span>
-00214   <span class="keywordflow">if</span>((wLen = fputs(<a class="code" href="main_8h.html#a8">command</a>, fp)) &gt; 0)
-00215     {
-00216       retval = -1;
-00217     }
-00218   <span class="comment">//else write a new line</span>
-00219    fputs(<span class="stringliteral">"\n"</span>, fp);
-00220 
-00221   fclose(fp);                   <span class="comment">// close file</span>
-00222 
-00223   <span class="keywordflow">return</span> retval;
-00224 }
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 16:19:43 2004 for run-free by
+00191 <span class="comment">    \param command the command to append to the file</span>
+00192 <span class="comment">    \param filename the file to append the command to</span>
+00193 <span class="comment"></span>
+00194 <span class="comment">    \par</span>
+00195 <span class="comment">    Purpose:</span>
+00196 <span class="comment">    Appends the command to the end of the file</span>
+00197 <span class="comment">*/</span>
+<a name="l00198"></a><a class="code" href="comboHandlers_8h.html#a3">00198</a> <span class="keywordtype">int</span> <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(<span class="keywordtype">char</span> *command, <span class="keywordtype">char</span> *filename)
+00199 {
+00200   <span class="comment">//always writes to the end of the file</span>
+00201 
+00202   FILE *fp;
+00203   <span class="keywordtype">int</span> retval = 0;
+00204   <span class="keywordtype">int</span> wLen = 0;
+00205 
+00206   
+00207   fp = fopen(filename, <span class="stringliteral">"a+"</span>);
+00208   <span class="keywordflow">if</span>(fp == NULL)
+00209     {<span class="comment"></span>
+00210 <span class="comment">      /**\todo FIX THIS I'm not handling file operations properly</span>
+00211 <span class="comment">      -probably tired at the time... -parasyte.</span>
+00212 <span class="comment">      */</span>
+00213       <span class="comment">//display dialog</span>
+00214     }
+00215 
+00216   <span class="comment">//write command line to file</span>
+00217   <span class="keywordflow">if</span>((wLen = fputs(<a class="code" href="main_8h.html#a8">command</a>, fp)) &gt; 0)
+00218     {
+00219       retval = -1;
+00220     }
+00221   <span class="comment">//else write a new line</span>
+00222    fputs(<span class="stringliteral">"\n"</span>, fp);
+00223 
+00224   fclose(fp);                   <span class="comment">// close file</span>
+00225 
+00226   <span class="keywordflow">return</span> retval;
+00227 }
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Thu Mar 18 07:26:17 2004 for run-free by
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border=0 > 
 </a>1.3.5 </small></address>

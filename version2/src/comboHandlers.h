@@ -42,7 +42,8 @@
 #define RF_LINE_MAX_LEN sysconf(ARG_MAX)
 #else
 /// use a standard line length
-#define RF_LINE_MAX_LEN 255
+//#define RF_LINE_MAX_LEN 255
+#define RF_LINE_MAX_LEN 1026
 #endif //RF_BIG_VALUES
 #endif //RF_DEFAULT_LINE_MAX_LEN
 //@}

@@ -17,7 +17,7 @@
 	<td><a href="http://sourceforge.net/projects/run-free/" target="top">Sourceforge Page</a></td>
 	<td><a href="http://cvs.sourceforge.net/viewcvs.py/run-free/" target="top">CVS Repository</a></td>
 	<td><a href="http://freshmeat.net/projects/run-free/" target="top">Freshmeat.net Page</a></td>
-	<td><a href="http://sourceforge.net/project/showfiles.php?group_id=39135&package_id=31325" target="top">Download project</a></td>
+	<td><a href="https://sourceforge.net/project/showfiles.php?group_id=39135&package_id=112782" target="top">Download project</a></td>
 	<td><a href="http://www.sleepingstill.com" target="top">Author's Homepage</a></td>
 </tr>
 </table>
@@ -336,198 +336,201 @@
 00307       exit(0);
 00308     }
 00309 
-00310   <span class="comment">//post handle command line options </span>
-00311   <span class="keywordflow">if</span>(!gui)
-00312     {
-00313         <a class="code" href="kbhit_8c.html#a1">do_kbhit</a>();
-00314       
-00315       <span class="comment">//cleanup</span>
-00316       <a class="code" href="comboHandlers_8h.html#a1">freeList</a>(<a class="code" href="comboBox_8h.html#a3">cbitems</a>);
-00317       g_free(<a class="code" href="main_8h.html#a5">history_file</a>);
-00318       g_free(<a class="code" href="main_8h.html#a4">home_directory</a>);
-00319       g_free(<a class="code" href="main_8h.html#a8">command</a>);
-00320       g_free(<a class="code" href="main_8h.html#a7">terminal_path</a>);
-00321     }
-00322   <span class="keywordflow">else</span>
-00323     {
-00324       <span class="comment">//already did this</span>
-00325       <span class="comment">//gtk_set_locale ();</span>
-00326       <span class="comment">//gtk_init (&amp;argc, &amp;argv);</span>
-00327     
-00328       <span class="comment">//create the main window</span>
-00329       <a class="code" href="interface_8h.html#a0">mainWindow</a> = <a class="code" href="interface_8c.html#a0">create_mainWindow</a> ();
-00330       gtk_widget_show (<a class="code" href="interface_8h.html#a0">mainWindow</a>);
-00331 
-00332       <span class="comment">//we create it but don't show it until it's needed</span>
-00333       <a class="code" href="interface_8h.html#a1">fileselection</a> = <a class="code" href="interface_8c.html#a1">create_fileselection</a> ();
-00334 
-00335       <span class="comment">//set the state of the run_in_term button</span>
-00336       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
-00337         {
-00338           <a class="code" href="main_8h.html#a0">run_in_term</a> = FALSE;  <span class="comment">/* cheezy */</span>
-00339           gtk_button_clicked(GTK_BUTTON(<a class="code" href="interface_8h.html#a2">checkbutton</a>)); 
-00340         }
-00341 
-00342       <span class="comment">//initialize the combo box in history mode</span>
-00343       <a class="code" href="callbacks_8h.html#a18">combo_init</a>(<a class="code" href="comboBox_8h.html#a1">RF_HISTORY_MODE</a>);
-00344 
-00345       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a8">command</a> !=NULL)
-00346         {
-00347           <span class="comment">//gtk_entry_set_text(combo_entry1, command);</span>
-00348           gtk_entry_set_text(GTK_ENTRY(GTK_COMBO(<a class="code" href="interface_8h.html#a4">combo1</a>)-&gt;entry), <a class="code" href="main_8h.html#a8">command</a>);
-00349           <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"startup command"</span>, <a class="code" href="main_8h.html#a8">command</a>);
-00350         }
-00351       
-00352       <span class="comment">//run the program</span>
-00353       gtk_main ();
-00354     }
-00355 
-00356   <span class="keywordflow">return</span> 0;
-00357 }
+00310 
+00311   <span class="comment">//post handle command line options </span>
+00312   <span class="keywordflow">if</span>(!gui)
+00313     {
+00314         <a class="code" href="kbhit_8c.html#a1">do_kbhit</a>();
+00315       
+00316       <span class="comment">//cleanup</span>
+00317       <a class="code" href="comboHandlers_8h.html#a1">freeList</a>(<a class="code" href="comboBox_8h.html#a3">cbitems</a>);
+00318       g_free(<a class="code" href="main_8h.html#a5">history_file</a>);
+00319       g_free(<a class="code" href="main_8h.html#a4">home_directory</a>);
+00320       g_free(<a class="code" href="main_8h.html#a8">command</a>);
+00321       g_free(<a class="code" href="main_8h.html#a7">terminal_path</a>);
+00322     }
+00323   <span class="keywordflow">else</span>
+00324     {
+00325       <span class="comment">//already did this</span>
+00326       <span class="comment">//gtk_set_locale ();</span>
+00327       <span class="comment">//gtk_init (&amp;argc, &amp;argv);</span>
+00328     
+00329       <span class="comment">//create the main window</span>
+00330       <a class="code" href="interface_8h.html#a0">mainWindow</a> = <a class="code" href="interface_8c.html#a0">create_mainWindow</a> ();
+00331       gtk_widget_show (<a class="code" href="interface_8h.html#a0">mainWindow</a>);
+00332 
+00333       <span class="comment">//we create it but don't show it until it's needed</span>
+00334       <a class="code" href="interface_8h.html#a1">fileselection</a> = <a class="code" href="interface_8c.html#a1">create_fileselection</a> ();
+00335 
+00336       <span class="comment">//set the state of the run_in_term button</span>
+00337       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
+00338         {
+00339           <a class="code" href="main_8h.html#a0">run_in_term</a> = FALSE;  <span class="comment">/* cheezy */</span>
+00340           gtk_button_clicked(GTK_BUTTON(<a class="code" href="interface_8h.html#a2">checkbutton</a>)); 
+00341         }
+00342 
+00343       <span class="comment">//initialize the combo box in history mode</span>
+00344       <span class="comment">//combo_init(RF_HISTORY_MODE);</span>
+00345       <a class="code" href="comboBox_8h.html#a5">combo_init</a>(<a class="code" href="comboBox_8h.html#a0">RF_EXAMPLE_MODE</a>);
+00346       <a class="code" href="comboBox_8h.html#a5">combo_init</a>(<a class="code" href="comboBox_8h.html#a1">RF_HISTORY_MODE</a>);
+00347 
+00348       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a8">command</a> !=NULL)
+00349         {
+00350           <span class="comment">//gtk_entry_set_text(combo_entry1, command);</span>
+00351           gtk_entry_set_text(GTK_ENTRY(GTK_COMBO(<a class="code" href="interface_8h.html#a4">combo1</a>)-&gt;entry), <a class="code" href="main_8h.html#a8">command</a>);
+00352           <a class="code" href="debug_8h.html#a5">dprint_s2</a>(<span class="stringliteral">"startup command"</span>, <a class="code" href="main_8h.html#a8">command</a>);
+00353         }
+00354       
+00355       <span class="comment">//run the program</span>
+00356       gtk_main ();
+00357     }
 00358 
-00359 
-00360 <span class="preprocessor">#include &lt;sys/types.h&gt;</span>
-00361 <span class="preprocessor">#include &lt;unistd.h&gt;</span>
-00362 <span class="comment"></span>
-00363 <span class="comment">/** </span>
-00364 <span class="comment">    \brief Internal custom "system" call</span>
+00359   <span class="keywordflow">return</span> 0;
+00360 }
+00361 
+00362 
+00363 <span class="preprocessor">#include &lt;sys/types.h&gt;</span>
+00364 <span class="preprocessor">#include &lt;unistd.h&gt;</span>
 00365 <span class="comment"></span>
-00366 <span class="comment">    \author Karl N. Redman</span>
-00367 <span class="comment"></span>
-00368 <span class="comment">    \param command The command we want to run</span>
-00369 <span class="comment"></span>
-00370 <span class="comment">    &lt;b&gt;</span>
-00371 <span class="comment">    Purpose:&lt;/b&gt; </span>
-00372 <span class="comment">    Execute the command in a way that is consistant with the</span>
-00373 <span class="comment">    design of run-free.</span>
-00374 <span class="comment">    </span>
-00375 <span class="comment">    \note</span>
-00376 <span class="comment">    This is a custom system() type call in order to handle</span>
-00377 <span class="comment">    environment settings properly (in the future) if this program is</span>
-00378 <span class="comment">    to be a setuid application (which is in the works) </span>
-00379 <span class="comment">*/</span>
-<a name="l00380"></a><a class="code" href="main_8h.html#a10">00380</a> <span class="keywordtype">void</span> <a class="code" href="main_8h.html#a10">run_command</a>(<span class="keywordtype">char</span> *command)
-00381 {
-00382 
-00383   <span class="keywordtype">char</span> pre[64], post[64], *buffer;
-00384 
-00385   <span class="comment">//anything except NULL is allowed.</span>
-00386   <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a8">command</a>)
-00387     <span class="keywordflow">return</span>;
-00388 
-00389   <span class="comment">//populate parts of the command</span>
-00390   <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
-00391     {
-00392       <span class="comment">//we want to run this in a terminal so act accordingly</span>
-00393       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00394         {
-00395           <span class="comment">//endable user alias settings (i.e. ls --color)</span>
-00396           strcpy(pre,<span class="stringliteral">" -e bash -i -c \'"</span>);
-00397         }
-00398       <span class="keywordflow">else</span>
-00399         {
-00400           strcpy(pre,<span class="stringliteral">" -e sh -c \'"</span>);
-00401         }
-00402 
-00403       <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a2">no_kbhit</a>)
-00404         {
-00405           <span class="comment">//alsways show "HIT ANY KEY"</span>
-00406           <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
-00407             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00408               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
-00409             <span class="keywordflow">else</span>
-00410               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
-00411           <span class="keywordflow">else</span>
-00412             strcpy(post, <span class="stringliteral">"; run-free -k \'&amp;"</span>);
-00413         }
-00414       <span class="keywordflow">else</span>
-00415         <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
-00416             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00417               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
-00418             <span class="keywordflow">else</span>
-00419               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
-00420         <span class="keywordflow">else</span>
-00421           strcpy(post, <span class="stringliteral">"; \'&amp;"</span>);
-00422         
-00423 
-00424       <span class="comment">//allocate a buffer</span>
-00425       buffer = g_malloc(strlen(<a class="code" href="main_8h.html#a7">terminal_path</a>)
-00426                       +strlen(pre)
-00427                       +strlen(<a class="code" href="main_8h.html#a8">command</a>)
-00428                       +strlen(post)
-00429                       +1);
-00430       
-00431       <span class="comment">//populate the buffer with the command</span>
-00432       sprintf(buffer, <span class="stringliteral">"%s%s%s%s"</span>, <a class="code" href="main_8h.html#a7">terminal_path</a>, pre, <a class="code" href="main_8h.html#a8">command</a>, post);
-00433     }
-00434   <span class="keywordflow">else</span>
-00435     {
-00436       <span class="comment">//no terminal, we must want to just execute something in the</span>
-00437       <span class="comment">//background</span>
-00438       strcpy(pre, <span class="stringliteral">""</span>);
-00439       strcpy(post, <span class="stringliteral">" &amp;"</span>);
-00440 
-00441       <span class="comment">//allocate a buffer</span>
-00442       buffer = g_malloc( +strlen(pre)
-00443                       +strlen(<a class="code" href="main_8h.html#a8">command</a>)
-00444                       +strlen(post)
-00445                       +1);
-00446       
-00447       <span class="comment">//populate the buffer with the command</span>
-00448       sprintf(buffer, <span class="stringliteral">"%s%s%s"</span>, pre, <a class="code" href="main_8h.html#a8">command</a>, post);
-00449     }
-00450       
-00451 
-00452 
-00453   <span class="comment">//fork the program to execute the command</span>
-00454   <span class="keywordtype">int</span> pid = fork();
+00366 <span class="comment">/** </span>
+00367 <span class="comment">    \brief Internal custom "system" call</span>
+00368 <span class="comment"></span>
+00369 <span class="comment">    \author Karl N. Redman</span>
+00370 <span class="comment"></span>
+00371 <span class="comment">    \param command The command we want to run</span>
+00372 <span class="comment"></span>
+00373 <span class="comment">    &lt;b&gt;</span>
+00374 <span class="comment">    Purpose:&lt;/b&gt; </span>
+00375 <span class="comment">    Execute the command in a way that is consistant with the</span>
+00376 <span class="comment">    design of run-free.</span>
+00377 <span class="comment">    </span>
+00378 <span class="comment">    \note</span>
+00379 <span class="comment">    This is a custom system() type call in order to handle</span>
+00380 <span class="comment">    environment settings properly (in the future) if this program is</span>
+00381 <span class="comment">    to be a setuid application (which is in the works) </span>
+00382 <span class="comment">*/</span>
+<a name="l00383"></a><a class="code" href="main_8h.html#a10">00383</a> <span class="keywordtype">void</span> <a class="code" href="main_8h.html#a10">run_command</a>(<span class="keywordtype">char</span> *command)
+00384 {
+00385 
+00386   <span class="keywordtype">char</span> pre[64], post[64], *buffer;
+00387 
+00388   <span class="comment">//anything except NULL is allowed.</span>
+00389   <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a8">command</a>)
+00390     <span class="keywordflow">return</span>;
+00391 
+00392   <span class="comment">//populate parts of the command</span>
+00393   <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
+00394     {
+00395       <span class="comment">//we want to run this in a terminal so act accordingly</span>
+00396       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00397         {
+00398           <span class="comment">//endable user alias settings (i.e. ls --color)</span>
+00399           strcpy(pre,<span class="stringliteral">" -e bash -i -c \'"</span>);
+00400         }
+00401       <span class="keywordflow">else</span>
+00402         {
+00403           strcpy(pre,<span class="stringliteral">" -e sh -c \'"</span>);
+00404         }
+00405 
+00406       <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a2">no_kbhit</a>)
+00407         {
+00408           <span class="comment">//alsways show "HIT ANY KEY"</span>
+00409           <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
+00410             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00411               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
+00412             <span class="keywordflow">else</span>
+00413               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
+00414           <span class="keywordflow">else</span>
+00415             strcpy(post, <span class="stringliteral">"; run-free -k \'&amp;"</span>);
+00416         }
+00417       <span class="keywordflow">else</span>
+00418         <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
+00419             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00420               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
+00421             <span class="keywordflow">else</span>
+00422               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
+00423         <span class="keywordflow">else</span>
+00424           strcpy(post, <span class="stringliteral">"; \'&amp;"</span>);
+00425         
+00426 
+00427       <span class="comment">//allocate a buffer</span>
+00428       buffer = g_malloc(strlen(<a class="code" href="main_8h.html#a7">terminal_path</a>)
+00429                       +strlen(pre)
+00430                       +strlen(<a class="code" href="main_8h.html#a8">command</a>)
+00431                       +strlen(post)
+00432                       +1);
+00433       
+00434       <span class="comment">//populate the buffer with the command</span>
+00435       sprintf(buffer, <span class="stringliteral">"%s%s%s%s"</span>, <a class="code" href="main_8h.html#a7">terminal_path</a>, pre, <a class="code" href="main_8h.html#a8">command</a>, post);
+00436     }
+00437   <span class="keywordflow">else</span>
+00438     {
+00439       <span class="comment">//no terminal, we must want to just execute something in the</span>
+00440       <span class="comment">//background</span>
+00441       strcpy(pre, <span class="stringliteral">""</span>);
+00442       strcpy(post, <span class="stringliteral">" &amp;"</span>);
+00443 
+00444       <span class="comment">//allocate a buffer</span>
+00445       buffer = g_malloc( +strlen(pre)
+00446                       +strlen(<a class="code" href="main_8h.html#a8">command</a>)
+00447                       +strlen(post)
+00448                       +1);
+00449       
+00450       <span class="comment">//populate the buffer with the command</span>
+00451       sprintf(buffer, <span class="stringliteral">"%s%s%s"</span>, pre, <a class="code" href="main_8h.html#a8">command</a>, post);
+00452     }
+00453       
+00454 
 00455 
-00456   <span class="comment">//if we are the child...</span>
-00457   <span class="keywordflow">if</span>(pid == 0)
-00458     {
-00459       <span class="comment">//update the history file</span>
-00460       <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(<a class="code" href="main_8h.html#a8">command</a>, <a class="code" href="main_8h.html#a5">history_file</a>);
-00461 
-00462       <span class="comment">//populate the command to execute </span>
-00463       <span class="keywordtype">char</span> * argv[4];
-00464       argv[0] = <span class="stringliteral">"sh"</span>;
-00465       argv[1] = <span class="stringliteral">"-c"</span>;
-00466       argv[2] = (<span class="keywordtype">char</span> *)buffer;
-00467       argv[3] = 0;
-00468 <span class="comment"></span>
-00469 <span class="comment">      /**\warning</span>
-00470 <span class="comment">         NOTE: this function is a potential security problem because we are not</span>
-00471 <span class="comment">         replacing the environment. if this is ever going to be a SUID</span>
-00472 <span class="comment">         application then I need to handle this. I'll work on this in the</span>
-00473 <span class="comment">         future -parasyte</span>
-00474 <span class="comment">      */</span>
-00475       <span class="comment">//execute the program</span>
-00476       execve(<span class="stringliteral">"/bin/sh"</span>, argv, <a class="code" href="main_8c.html#a4">environ</a>);
-00477       
-00478       <span class="comment">//free memory</span>
-00479       g_free(buffer);
-00480 
-00481       <span class="comment">//exit properly</span>
-00482       exit(0);
-00483     }
-00484   <span class="keywordflow">else</span>
-00485     {
-00486       g_free(buffer);
-00487 
-00488       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a1">die</a>)
-00489         {
-00490           <span class="comment">//kill the main program</span>
-00491           gtk_main_quit();
-00492         }
-00493       <span class="keywordflow">else</span>
-00494         {
-00495           <span class="comment">//update the history list</span>
-00496           <a class="code" href="callbacks_8h.html#a18">combo_init</a>(<a class="code" href="comboBox_8h.html#a4">combo_mode</a>);
-00497         }
-00498     }
-00499 }
-00500 
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 16:19:43 2004 for run-free by
+00456   <span class="comment">//fork the program to execute the command</span>
+00457   <span class="keywordtype">int</span> pid = fork();
+00458 
+00459   <span class="comment">//if we are the child...</span>
+00460   <span class="keywordflow">if</span>(pid == 0)
+00461     {
+00462       <span class="comment">//update the history file</span>
+00463       <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(<a class="code" href="main_8h.html#a8">command</a>, <a class="code" href="main_8h.html#a5">history_file</a>);
+00464 
+00465       <span class="comment">//populate the command to execute </span>
+00466       <span class="keywordtype">char</span> * argv[4];
+00467       argv[0] = <span class="stringliteral">"sh"</span>;
+00468       argv[1] = <span class="stringliteral">"-c"</span>;
+00469       argv[2] = (<span class="keywordtype">char</span> *)buffer;
+00470       argv[3] = 0;
+00471 <span class="comment"></span>
+00472 <span class="comment">      /**\warning</span>
+00473 <span class="comment">         NOTE: this function is a potential security problem because we are not</span>
+00474 <span class="comment">         replacing the environment. if this is ever going to be a SUID</span>
+00475 <span class="comment">         application then I need to handle this. I'll work on this in the</span>
+00476 <span class="comment">         future -parasyte</span>
+00477 <span class="comment">      */</span>
+00478       <span class="comment">//execute the program</span>
+00479       execve(<span class="stringliteral">"/bin/sh"</span>, argv, <a class="code" href="main_8c.html#a4">environ</a>);
+00480       
+00481       <span class="comment">//free memory</span>
+00482       g_free(buffer);
+00483 
+00484       <span class="comment">//exit properly</span>
+00485       exit(0);
+00486     }
+00487   <span class="keywordflow">else</span>
+00488     {
+00489       g_free(buffer);
+00490 
+00491       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a1">die</a>)
+00492         {
+00493           <span class="comment">//kill the main program</span>
+00494           gtk_main_quit();
+00495         }
+00496       <span class="keywordflow">else</span>
+00497         {
+00498           <span class="comment">//update the history list</span>
+00499           <a class="code" href="comboBox_8h.html#a5">combo_init</a>(<a class="code" href="comboBox_8h.html#a4">combo_mode</a>);
+00500         }
+00501     }
+00502 }
+00503 
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Thu Mar 18 07:26:17 2004 for run-free by
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border=0 > 
 </a>1.3.5 </small></address>

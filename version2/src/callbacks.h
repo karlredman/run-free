@@ -100,9 +100,6 @@ on_fileselection_delete_event          (GtkWidget       *widget,
                                         GdkEvent        *event,
                                         gpointer         user_data);
 
-///initialize combo box attributes
-int combo_init();
-
 ///calculate the combo box positions
 static void //MOVE THIS
 gtk_combo_get_pos (GtkCombo * combo,

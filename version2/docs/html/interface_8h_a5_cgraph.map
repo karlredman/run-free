@@ -10,11 +10,12 @@ rect $callbacks_8c.html#a13 225,346 385,365
 rect $callbacks_8c.html#a16 212,389 399,408
 rect $callbacks_8c.html#a12 237,218 373,237
 rect $callbacks_8c.html#a15 228,432 383,450
-rect $callbacks_8h.html#a19 472,129 600,148
+rect $callbacks_8h.html#a18 472,129 600,148
 rect $interface_8c.html#a2 479,86 593,105
 rect $main_8h.html#a10 489,222 583,241
 rect $comboHandlers_8h.html#a3 675,222 755,241
 rect $callbacks_8c.html#a19 659,86 771,105
-rect $callbacks_8h.html#a18 679,42 751,61
+rect $comboBox_8h.html#a5 679,42 751,61
+rect $comboHandlers_8h.html#a2 820,42 897,61
 rect $comboHandlers_8h.html#a1 509,316 563,334
 rect $callbacks_8c.html#a14 464,389 608,408

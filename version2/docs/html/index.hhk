@@ -38,9 +38,8 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html"><param name="Name" value="callbacks.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a18"><param name="Name" value="combo_init"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a20"><param name="Name" value="dialog_ok_clicked"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a19"><param name="Name" value="gtk_combo_get_pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a19"><param name="Name" value="dialog_ok_clicked"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a18"><param name="Name" value="gtk_combo_get_pos"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a16"><param name="Name" value="handle_options_display"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a4"><param name="Name" value="on_browseButton_clicked"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a7"><param name="Name" value="on_cancel_button1_clicked"></OBJECT>
@@ -83,7 +82,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="combo_init"><param name="Name" value="combo_init"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a18"><param name="Name" value="callbacks.h"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="comboBox_8c.html#a0"><param name="Name" value="comboBox.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="comboBox_8h.html#a5"><param name="Name" value="comboBox.h"></OBJECT>
   </UL>
@@ -175,7 +173,7 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="dialog_ok_clicked"><param name="Name" value="dialog_ok_clicked"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8c.html#a19"><param name="Name" value="callbacks.c"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a20"><param name="Name" value="callbacks.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a19"><param name="Name" value="callbacks.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="die"><param name="Name" value="die"></OBJECT>
   <UL>
@@ -234,7 +232,7 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="gtk_combo_get_pos"><param name="Name" value="gtk_combo_get_pos"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8c.html#a18"><param name="Name" value="callbacks.c"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a19"><param name="Name" value="callbacks.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="callbacks_8h.html#a18"><param name="Name" value="callbacks.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="handle_options_display"><param name="Name" value="handle_options_display"></OBJECT>
   <UL>

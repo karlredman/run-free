@@ -101,6 +101,7 @@ int combo_init(unsigned int mode)
       gtk_combo_set_use_arrows_always(GTK_COMBO(combo1), 1);
     }
 
+  
   if((unsigned int)mode == RF_HISTORY_MODE)
     {
       GtkList *oldList = NULL;
@@ -109,10 +110,18 @@ int combo_init(unsigned int mode)
       
       if (GTK_LIST(oldList)->children != NULL)
 	gtk_list_remove_items (oldList, (GList *)oldList->children);
-      
+
       cbitems = NULL;
+      //cbitems = g_list_append(cbitems, "");
+      //cbitems = g_list_append(cbitems, "a");
+      //cbitems = g_list_append(cbitems, "b");
+      //cbitems = g_list_append(cbitems, "c");
+      //cbitems = g_list_append(cbitems, "d");
+      //cbitems = g_list_append(cbitems, "e");
+      //cbitems = g_list_append(cbitems, "f");
+      
       cbitems = readHistory(cbitems, history_file);
-      gtk_combo_set_popdown_strings(GTK_COMBO(combo1), cbitems);
+      gtk_combo_set_popdown_strings(GTK_COMBO(combo1), (GList *)cbitems);
       gtk_combo_set_use_arrows_always(GTK_COMBO(combo1), 1);
     }
 

@@ -73,7 +73,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a1';
-        func-mem-ref-line = '173';
+        func-mem-ref-line = '176';
         func-mem-ref-name = 'freeList';
     };
       func-mem-referenceto = {
@@ -241,12 +241,12 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {
@@ -516,6 +516,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'combo1';
     };
       func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+      func-mem-referenceto = {
         func-mem-ref-id = 'comboBox_8h_1a4';
         func-mem-ref-line = '41';
         func-mem-ref-name = 'combo_mode';
@@ -587,12 +592,12 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {
@@ -1044,7 +1049,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a1';
-        func-mem-ref-line = '173';
+        func-mem-ref-line = '176';
         func-mem-ref-name = 'freeList';
     };
       func-mem-referenceto = {
@@ -1171,12 +1176,12 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {
@@ -1487,6 +1492,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'combo1';
     };
       func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+      func-mem-referenceto = {
         func-mem-ref-id = 'comboBox_8h_1a4';
         func-mem-ref-line = '41';
         func-mem-ref-name = 'combo_mode';
@@ -1558,12 +1568,12 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {
@@ -1884,39 +1894,6 @@ _EnD_oF_dEf_TeXt_;
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
-int
-_EnD_oF_dEf_TeXt_;
-      func-mem-name = 'combo_init';
-      func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
-      func-mem-desc-line = '104';
-      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-initialize combo box attributes
-_EnD_oF_dEf_TeXt_;
-      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      func-mem-referenceby = {
-        func-mem-ref-id = 'main_8c_1a5';
-        func-mem-ref-line = '78';
-        func-mem-ref-name = 'main';
-    };
-      func-mem-referenceby = {
-        func-mem-ref-id = 'callbacks_8c_1a9';
-        func-mem-ref-line = '299';
-        func-mem-ref-name = 'on_mainWindow_key_press_event';
-    };
-      func-mem-referenceby = {
-        func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
-        func-mem-ref-name = 'run_command';
-    };
-    }; /* func-member */
-    func-member = {
-      func-mem-kind = 'function';
-      func-mem-id   = 'callbacks_8h_1a19';
-      func-mem-virt = normal;
-      func-mem-prot = public;
-      func-mem-type = <<_EnD_oF_dEf_TeXt_
 void
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'gtk_combo_get_pos';
@@ -1951,7 +1928,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'width';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
-      func-mem-desc-line = '112';
+      func-mem-desc-line = '109';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 calculate the combo box positions
 _EnD_oF_dEf_TeXt_;
@@ -1966,7 +1943,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'callbacks_8h_1a20';
+      func-mem-id   = 'callbacks_8h_1a19';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -1986,7 +1963,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'user_data';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/callbacks.h';
-      func-mem-desc-line = '117';
+      func-mem-desc-line = '114';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 handle a dialog ok button click
 _EnD_oF_dEf_TeXt_;
@@ -2080,6 +2057,21 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-line = '34';
         func-mem-ref-name = 'RF_HISTORY_MODE';
     };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '383';
+        func-mem-ref-name = 'run_command';
+    };
     }; /* func-member */
     };
   file-full-name  = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboBox.c';
@@ -2162,6 +2154,21 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-line = '34';
         func-mem-ref-name = 'RF_HISTORY_MODE';
     };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a5';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'callbacks_8c_1a9';
+        func-mem-ref-line = '299';
+        func-mem-ref-name = 'on_mainWindow_key_press_event';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8c_1a10';
+        func-mem-ref-line = '383';
+        func-mem-ref-name = 'run_command';
+    };
     }; /* func-member */
     };
     var = {
@@ -2227,7 +2234,7 @@ _EnD_oF_dEf_TeXt_;
     };
       var-mem-referenceby = {
         var-mem-ref-id = 'main_8c_1a10';
-        var-mem-ref-line = '380';
+        var-mem-ref-line = '383';
         var-mem-ref-name = 'run_command';
     };
     }; /* var-member */
@@ -2301,7 +2308,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8h_1a0';
-        func-mem-ref-line = '45';
+        func-mem-ref-line = '46';
         func-mem-ref-name = 'RF_LINE_MAX_LEN';
     };
       func-mem-referenceby = {
@@ -2326,7 +2333,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'list';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
-      func-mem-desc-line = '174';
+      func-mem-desc-line = '177';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 free a GList object and all it's members
 _EnD_oF_dEf_TeXt_;
@@ -2372,7 +2379,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.c';
-      func-mem-desc-line = '196';
+      func-mem-desc-line = '199';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 write to a history file (append)
 _EnD_oF_dEf_TeXt_;
@@ -2404,7 +2411,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceby = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
     }; /* func-member */
@@ -2444,7 +2451,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'list';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
-      func-mem-desc-line = '51';
+      func-mem-desc-line = '52';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 free a GList object and all it's members
 _EnD_oF_dEf_TeXt_;
@@ -2490,7 +2497,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
-      func-mem-desc-line = '53';
+      func-mem-desc-line = '54';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 read a history file
 _EnD_oF_dEf_TeXt_;
@@ -2521,7 +2528,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8h_1a0';
-        func-mem-ref-line = '45';
+        func-mem-ref-line = '46';
         func-mem-ref-name = 'RF_LINE_MAX_LEN';
     };
       func-mem-referenceby = {
@@ -2552,7 +2559,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'filename';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/comboHandlers.h';
-      func-mem-desc-line = '55';
+      func-mem-desc-line = '56';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 write to a history file (append)
 _EnD_oF_dEf_TeXt_;
@@ -2584,7 +2591,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceby = {
         func-mem-ref-id = 'main_8c_1a10';
-        func-mem-ref-line = '380';
+        func-mem-ref-line = '383';
         func-mem-ref-name = 'run_command';
     };
     }; /* func-member */
@@ -3542,6 +3549,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'combo1';
     };
       func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+      func-mem-referenceto = {
         func-mem-ref-id = 'comboBox_8h_1a4';
         func-mem-ref-line = '41';
         func-mem-ref-name = 'combo_mode';
@@ -3593,7 +3605,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a1';
-        func-mem-ref-line = '173';
+        func-mem-ref-line = '176';
         func-mem-ref-name = 'freeList';
     };
       func-mem-referenceto = {
@@ -3657,6 +3669,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'OPTARG_HISTORY_LEN';
     };
       func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8h_1a0';
+        func-mem-ref-line = '33';
+        func-mem-ref-name = 'RF_EXAMPLE_MODE';
+    };
+      func-mem-referenceto = {
         func-mem-ref-id = 'commonDefs_8h_1a0';
         func-mem-ref-line = '39';
         func-mem-ref-name = 'RF_HISTORY_FILENAME';
@@ -3693,7 +3710,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'command';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/parasyte/sandbox/sourceforge/run-free/version2/src/main.c';
-      func-mem-desc-line = '381';
+      func-mem-desc-line = '384';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Run a command.
 _EnD_oF_dEf_TeXt_;
@@ -3717,6 +3734,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-id = 'main_8h_1a9';
         func-mem-ref-line = '57';
         func-mem-ref-name = 'bash_shell_mode';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboBox_8h_1a4';
@@ -3765,7 +3787,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {
@@ -3840,6 +3862,11 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-name = 'bash_shell_mode';
     };
       func-mem-referenceto = {
+        func-mem-ref-id = 'comboBox_8c_1a5';
+        func-mem-ref-line = '44';
+        func-mem-ref-name = 'combo_init';
+    };
+      func-mem-referenceto = {
         func-mem-ref-id = 'comboBox_8h_1a4';
         func-mem-ref-line = '41';
         func-mem-ref-name = 'combo_mode';
@@ -3886,7 +3913,7 @@ _EnD_oF_dEf_TeXt_;
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'comboHandlers_8c_1a3';
-        func-mem-ref-line = '195';
+        func-mem-ref-line = '198';
         func-mem-ref-name = 'writeHistory';
     };
       func-mem-referenceby = {

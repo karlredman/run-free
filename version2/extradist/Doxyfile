@@ -69,8 +69,8 @@ RECURSIVE              = YES
 EXCLUDE                = 
 EXCLUDE_SYMLINKS       = NO
 EXCLUDE_PATTERNS       = 
-EXAMPLE_PATH           = /home/parasyte/sandbox/projects/programming/current/run-free2/extradist/ \
-                         /home/parasyte/sandbox/projects/programming/current/run-free2/
+EXAMPLE_PATH           = /home/parasyte/sandbox/sourceforge/run-free/version2/extradist/ \
+                         /home/parasyte/sandbox/sourceforge/run-free/version2/
 EXAMPLE_PATTERNS       = 
 EXAMPLE_RECURSIVE      = NO
 IMAGE_PATH             = 

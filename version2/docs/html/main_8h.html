@@ -17,7 +17,7 @@
 	<td><a href="http://sourceforge.net/projects/run-free/" target="top">Sourceforge Page</a></td>
 	<td><a href="http://cvs.sourceforge.net/viewcvs.py/run-free/" target="top">CVS Repository</a></td>
 	<td><a href="http://freshmeat.net/projects/run-free/" target="top">Freshmeat.net Page</a></td>
-	<td><a href="http://sourceforge.net/project/showfiles.php?group_id=39135&package_id=31325" target="top">Download project</a></td>
+	<td><a href="https://sourceforge.net/project/showfiles.php?group_id=39135&package_id=112782" target="top">Download project</a></td>
 	<td><a href="http://www.sleepingstill.com" target="top">Author's Homepage</a></td>
 </tr>
 </table>
@@ -119,131 +119,131 @@ Run a command.
 <dl compact><dt><b>Warning:</b></dt><dd>NOTE: this function is a potential security problem because we are not replacing the environment. if this is ever going to be a SUID application then I need to handle this. I'll work on this in the future -parasyte </dd></dl>
 
 <p>
-Definition at line <a class="el" href="main_8c-source.html#l00380">380</a> of file <a class="el" href="main_8c-source.html">main.c</a>.
+Definition at line <a class="el" href="main_8c-source.html#l00383">383</a> of file <a class="el" href="main_8c-source.html">main.c</a>.
 <p>
-References <a class="el" href="main_8h-source.html#l00057">bash_shell_mode</a>, <a class="el" href="callbacks_8h.html#a18">combo_init()</a>, <a class="el" href="comboBox_8h-source.html#l00041">combo_mode</a>, <a class="el" href="main_8h-source.html#l00054">command</a>, <a class="el" href="main_8h-source.html#l00039">die</a>, <a class="el" href="main_8c-source.html#l00071">environ</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00041">keep_open</a>, <a class="el" href="main_8h-source.html#l00040">no_kbhit</a>, <a class="el" href="main_8h-source.html#l00038">run_in_term</a>, <a class="el" href="main_8h-source.html#l00051">terminal_path</a>, and <a class="el" href="comboHandlers_8c-source.html#l00195">writeHistory()</a>.
+References <a class="el" href="main_8h-source.html#l00057">bash_shell_mode</a>, <a class="el" href="comboBox_8c-source.html#l00044">combo_init()</a>, <a class="el" href="comboBox_8h-source.html#l00041">combo_mode</a>, <a class="el" href="main_8h-source.html#l00054">command</a>, <a class="el" href="main_8h-source.html#l00039">die</a>, <a class="el" href="main_8c-source.html#l00071">environ</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00041">keep_open</a>, <a class="el" href="main_8h-source.html#l00040">no_kbhit</a>, <a class="el" href="main_8h-source.html#l00038">run_in_term</a>, <a class="el" href="main_8h-source.html#l00051">terminal_path</a>, and <a class="el" href="comboHandlers_8c-source.html#l00198">writeHistory()</a>.
 <p>
 Referenced by <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, and <a class="el" href="callbacks_8c-source.html#l00352">on_runButton_clicked()</a>.
 <p>
-<div class="fragment"><pre>00381 {
-00382 
-00383   <span class="keywordtype">char</span> pre[64], post[64], *buffer;
-00384 
-00385   <span class="comment">//anything except NULL is allowed.</span>
-00386   <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a8">command</a>)
-00387     <span class="keywordflow">return</span>;
-00388 
-00389   <span class="comment">//populate parts of the command</span>
-00390   <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
-00391     {
-00392       <span class="comment">//we want to run this in a terminal so act accordingly</span>
-00393       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00394         {
-00395           <span class="comment">//endable user alias settings (i.e. ls --color)</span>
-00396           strcpy(pre,<span class="stringliteral">" -e bash -i -c \'"</span>);
-00397         }
-00398       <span class="keywordflow">else</span>
-00399         {
-00400           strcpy(pre,<span class="stringliteral">" -e sh -c \'"</span>);
-00401         }
-00402 
-00403       <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a2">no_kbhit</a>)
-00404         {
-00405           <span class="comment">//alsways show "HIT ANY KEY"</span>
-00406           <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
-00407             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00408               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
-00409             <span class="keywordflow">else</span>
-00410               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
-00411           <span class="keywordflow">else</span>
-00412             strcpy(post, <span class="stringliteral">"; run-free -k \'&amp;"</span>);
-00413         }
-00414       <span class="keywordflow">else</span>
-00415         <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
-00416             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
-00417               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
-00418             <span class="keywordflow">else</span>
-00419               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
-00420         <span class="keywordflow">else</span>
-00421           strcpy(post, <span class="stringliteral">"; \'&amp;"</span>);
-00422         
-00423 
-00424       <span class="comment">//allocate a buffer</span>
-00425       buffer = g_malloc(strlen(terminal_path)
-00426                       +strlen(pre)
-00427                       +strlen(command)
-00428                       +strlen(post)
-00429                       +1);
-00430       
-00431       <span class="comment">//populate the buffer with the command</span>
-00432       sprintf(buffer, <span class="stringliteral">"%s%s%s%s"</span>, terminal_path, pre, command, post);
-00433     }
-00434   <span class="keywordflow">else</span>
-00435     {
-00436       <span class="comment">//no terminal, we must want to just execute something in the</span>
-00437       <span class="comment">//background</span>
-00438       strcpy(pre, <span class="stringliteral">""</span>);
-00439       strcpy(post, <span class="stringliteral">" &amp;"</span>);
-00440 
-00441       <span class="comment">//allocate a buffer</span>
-00442       buffer = g_malloc( +strlen(pre)
-00443                       +strlen(command)
-00444                       +strlen(post)
-00445                       +1);
-00446       
-00447       <span class="comment">//populate the buffer with the command</span>
-00448       sprintf(buffer, <span class="stringliteral">"%s%s%s"</span>, pre, command, post);
-00449     }
-00450       
-00451 
-00452 
-00453   <span class="comment">//fork the program to execute the command</span>
-00454   <span class="keywordtype">int</span> pid = fork();
+<div class="fragment"><pre>00384 {
+00385 
+00386   <span class="keywordtype">char</span> pre[64], post[64], *buffer;
+00387 
+00388   <span class="comment">//anything except NULL is allowed.</span>
+00389   <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a8">command</a>)
+00390     <span class="keywordflow">return</span>;
+00391 
+00392   <span class="comment">//populate parts of the command</span>
+00393   <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a0">run_in_term</a>)
+00394     {
+00395       <span class="comment">//we want to run this in a terminal so act accordingly</span>
+00396       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00397         {
+00398           <span class="comment">//endable user alias settings (i.e. ls --color)</span>
+00399           strcpy(pre,<span class="stringliteral">" -e bash -i -c \'"</span>);
+00400         }
+00401       <span class="keywordflow">else</span>
+00402         {
+00403           strcpy(pre,<span class="stringliteral">" -e sh -c \'"</span>);
+00404         }
+00405 
+00406       <span class="keywordflow">if</span>(!<a class="code" href="main_8h.html#a2">no_kbhit</a>)
+00407         {
+00408           <span class="comment">//alsways show "HIT ANY KEY"</span>
+00409           <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
+00410             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00411               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
+00412             <span class="keywordflow">else</span>
+00413               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
+00414           <span class="keywordflow">else</span>
+00415             strcpy(post, <span class="stringliteral">"; run-free -k \'&amp;"</span>);
+00416         }
+00417       <span class="keywordflow">else</span>
+00418         <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a3">keep_open</a>)
+00419             <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a9">bash_shell_mode</a> == TRUE)
+00420               strcpy(post, <span class="stringliteral">";  bash -i \'&amp;"</span>);
+00421             <span class="keywordflow">else</span>
+00422               strcpy(post, <span class="stringliteral">";  sh \'&amp;"</span>);
+00423         <span class="keywordflow">else</span>
+00424           strcpy(post, <span class="stringliteral">"; \'&amp;"</span>);
+00425         
+00426 
+00427       <span class="comment">//allocate a buffer</span>
+00428       buffer = g_malloc(strlen(terminal_path)
+00429                       +strlen(pre)
+00430                       +strlen(command)
+00431                       +strlen(post)
+00432                       +1);
+00433       
+00434       <span class="comment">//populate the buffer with the command</span>
+00435       sprintf(buffer, <span class="stringliteral">"%s%s%s%s"</span>, terminal_path, pre, command, post);
+00436     }
+00437   <span class="keywordflow">else</span>
+00438     {
+00439       <span class="comment">//no terminal, we must want to just execute something in the</span>
+00440       <span class="comment">//background</span>
+00441       strcpy(pre, <span class="stringliteral">""</span>);
+00442       strcpy(post, <span class="stringliteral">" &amp;"</span>);
+00443 
+00444       <span class="comment">//allocate a buffer</span>
+00445       buffer = g_malloc( +strlen(pre)
+00446                       +strlen(command)
+00447                       +strlen(post)
+00448                       +1);
+00449       
+00450       <span class="comment">//populate the buffer with the command</span>
+00451       sprintf(buffer, <span class="stringliteral">"%s%s%s"</span>, pre, command, post);
+00452     }
+00453       
+00454 
 00455 
-00456   <span class="comment">//if we are the child...</span>
-00457   <span class="keywordflow">if</span>(pid == 0)
-00458     {
-00459       <span class="comment">//update the history file</span>
-00460       <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(command, history_file);
-00461 
-00462       <span class="comment">//populate the command to execute </span>
-00463       <span class="keywordtype">char</span> * argv[4];
-00464       argv[0] = <span class="stringliteral">"sh"</span>;
-00465       argv[1] = <span class="stringliteral">"-c"</span>;
-00466       argv[2] = (<span class="keywordtype">char</span> *)buffer;
-00467       argv[3] = 0;
-00468 <span class="comment"></span>
-00469 <span class="comment">      /**\warning</span>
-00470 <span class="comment">         NOTE: this function is a potential security problem because we are not</span>
-00471 <span class="comment">         replacing the environment. if this is ever going to be a SUID</span>
-00472 <span class="comment">         application then I need to handle this. I'll work on this in the</span>
-00473 <span class="comment">         future -parasyte</span>
-00474 <span class="comment">      */</span>
-00475       <span class="comment">//execute the program</span>
-00476       execve(<span class="stringliteral">"/bin/sh"</span>, argv, environ);
-00477       
-00478       <span class="comment">//free memory</span>
-00479       g_free(buffer);
-00480 
-00481       <span class="comment">//exit properly</span>
-00482       exit(0);
-00483     }
-00484   <span class="keywordflow">else</span>
-00485     {
-00486       g_free(buffer);
-00487 
-00488       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a1">die</a>)
-00489         {
-00490           <span class="comment">//kill the main program</span>
-00491           gtk_main_quit();
-00492         }
-00493       <span class="keywordflow">else</span>
-00494         {
-00495           <span class="comment">//update the history list</span>
-00496           <a class="code" href="callbacks_8h.html#a18">combo_init</a>(combo_mode);
-00497         }
-00498     }
-00499 }
+00456   <span class="comment">//fork the program to execute the command</span>
+00457   <span class="keywordtype">int</span> pid = fork();
+00458 
+00459   <span class="comment">//if we are the child...</span>
+00460   <span class="keywordflow">if</span>(pid == 0)
+00461     {
+00462       <span class="comment">//update the history file</span>
+00463       <a class="code" href="comboHandlers_8h.html#a3">writeHistory</a>(command, history_file);
+00464 
+00465       <span class="comment">//populate the command to execute </span>
+00466       <span class="keywordtype">char</span> * argv[4];
+00467       argv[0] = <span class="stringliteral">"sh"</span>;
+00468       argv[1] = <span class="stringliteral">"-c"</span>;
+00469       argv[2] = (<span class="keywordtype">char</span> *)buffer;
+00470       argv[3] = 0;
+00471 <span class="comment"></span>
+00472 <span class="comment">      /**\warning</span>
+00473 <span class="comment">         NOTE: this function is a potential security problem because we are not</span>
+00474 <span class="comment">         replacing the environment. if this is ever going to be a SUID</span>
+00475 <span class="comment">         application then I need to handle this. I'll work on this in the</span>
+00476 <span class="comment">         future -parasyte</span>
+00477 <span class="comment">      */</span>
+00478       <span class="comment">//execute the program</span>
+00479       execve(<span class="stringliteral">"/bin/sh"</span>, argv, environ);
+00480       
+00481       <span class="comment">//free memory</span>
+00482       g_free(buffer);
+00483 
+00484       <span class="comment">//exit properly</span>
+00485       exit(0);
+00486     }
+00487   <span class="keywordflow">else</span>
+00488     {
+00489       g_free(buffer);
+00490 
+00491       <span class="keywordflow">if</span>(<a class="code" href="main_8h.html#a1">die</a>)
+00492         {
+00493           <span class="comment">//kill the main program</span>
+00494           gtk_main_quit();
+00495         }
+00496       <span class="keywordflow">else</span>
+00497         {
+00498           <span class="comment">//update the history list</span>
+00499           <a class="code" href="comboBox_8h.html#a5">combo_init</a>(combo_mode);
+00500         }
+00501     }
+00502 }
 </pre></div>    </td>
   </tr>
 </table>
@@ -251,8 +251,9 @@ Referenced by <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entr
 <p>
 Here is the call graph for this function:<p><center><img src="main_8h_a10_cgraph.png" border="0" usemap="#main_8h_a10_cgraph_map" alt=""></center>
 <map name="main_8h_a10_cgraph_map">
-<area href="callbacks_8h.html#a18" shape="rect" coords="163,5,235,24" alt="">
+<area href="comboBox_8h.html#a5" shape="rect" coords="163,5,235,24" alt="">
 <area href="comboHandlers_8h.html#a3" shape="rect" coords="159,48,239,66" alt="">
+<area href="comboHandlers_8h.html#a2" shape="rect" coords="287,5,364,24" alt="">
 </map>
 <hr><h2>Variable Documentation</h2>
 <a class="anchor" name="a9" doxytag="main.h::bash_shell_mode" ></a><p>
@@ -278,7 +279,7 @@ execute bash in interactive mode
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00057">57</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a8" doxytag="main.h::command" ></a><p>
@@ -304,7 +305,7 @@ the command line entered in the entry box
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00054">54</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, <a class="el" href="main_8c-source.html#l00380">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00195">writeHistory()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, <a class="el" href="main_8c-source.html#l00383">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00198">writeHistory()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a1" doxytag="main.h::die" ></a><p>
@@ -330,7 +331,7 @@ do not die unles killed
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00039">39</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a5" doxytag="main.h::history_file" ></a><p>
@@ -356,7 +357,7 @@ the history file
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00049">49</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="comboBox_8c-source.html#l00044">combo_init()</a>, <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, <a class="el" href="callbacks_8c-source.html#l00352">on_runButton_clicked()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="comboBox_8c-source.html#l00044">combo_init()</a>, <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, <a class="el" href="callbacks_8c-source.html#l00352">on_runButton_clicked()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a6" doxytag="main.h::history_len" ></a><p>
@@ -434,7 +435,7 @@ keep the terminal open
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00041">41</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00099">on_combo_entry1_key_press_event()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a2" doxytag="main.h::no_kbhit" ></a><p>
@@ -460,7 +461,7 @@ do not allow kbhit
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00040">40</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a0" doxytag="main.h::run_in_term" ></a><p>
@@ -486,7 +487,7 @@ toggle run_in_term checkbox
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00038">38</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00223">on_checkbutton_toggled()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00223">on_checkbutton_toggled()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
 <a class="anchor" name="a7" doxytag="main.h::terminal_path" ></a><p>
@@ -512,10 +513,10 @@ this is the path to a terminal program
 <p>
 Definition at line <a class="el" href="main_8h-source.html#l00051">51</a> of file <a class="el" href="main_8h-source.html">main.h</a>.
 <p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
+Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00058">on_mainWindow_destroy()</a>, and <a class="el" href="main_8c-source.html#l00383">run_command()</a>.    </td>
   </tr>
 </table>
-<hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 16:19:45 2004 for run-free by
+<hr size="1"><address style="align: right;"><small>Generated on Thu Mar 18 07:26:19 2004 for run-free by
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border=0 > 
 </a>1.3.5 </small></address>

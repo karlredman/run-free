@@ -307,6 +307,7 @@ main (int argc, char *argv[], char *env[])
       exit(0);
     }
 
+
   //post handle command line options 
   if(!gui)
     {
@@ -340,6 +341,8 @@ main (int argc, char *argv[], char *env[])
 	}
 
       //initialize the combo box in history mode
+      //combo_init(RF_HISTORY_MODE);
+      combo_init(RF_EXAMPLE_MODE);
       combo_init(RF_HISTORY_MODE);
 
       if(command !=NULL)

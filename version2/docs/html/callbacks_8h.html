@@ -17,7 +17,7 @@
 	<td><a href="http://sourceforge.net/projects/run-free/" target="top">Sourceforge Page</a></td>
 	<td><a href="http://cvs.sourceforge.net/viewcvs.py/run-free/" target="top">CVS Repository</a></td>
 	<td><a href="http://freshmeat.net/projects/run-free/" target="top">Freshmeat.net Page</a></td>
-	<td><a href="http://sourceforge.net/project/showfiles.php?group_id=39135&package_id=31325" target="top">Download project</a></td>
+	<td><a href="https://sourceforge.net/project/showfiles.php?group_id=39135&package_id=112782" target="top">Download project</a></td>
 	<td><a href="http://www.sleepingstill.com" target="top">Author's Homepage</a></td>
 </tr>
 </table>
@@ -94,50 +94,15 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Handle options display.  <a href="#a16"></a><br><br></td></tr>
 <tr><td class="memItemLeft" nowrap align=right valign=top>gboolean&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a17">on_fileselection_delete_event</a> (GtkWidget *widget, GdkEvent *event, gpointer user_data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a18">combo_init</a> ()</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a18">gtk_combo_get_pos</a> (GtkCombo *combo, gint *x, gint *y, gint *height, gint *width)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">initialize combo box attributes  <a href="#a18"></a><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a19">gtk_combo_get_pos</a> (GtkCombo *combo, gint *x, gint *y, gint *height, gint *width)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">calculate the combo box positions  <a href="#a18"></a><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a19">dialog_ok_clicked</a> (GtkButton *button, gpointer user_data)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">calculate the combo box positions  <a href="#a19"></a><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="callbacks_8h.html#a20">dialog_ok_clicked</a> (GtkButton *button, gpointer user_data)</td></tr>
-
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">handle a dialog ok button click  <a href="#a20"></a><br><br></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">handle a dialog ok button click  <a href="#a19"></a><br><br></td></tr>
 </table>
 <hr><h2>Function Documentation</h2>
-<a class="anchor" name="a18" doxytag="callbacks.h::combo_init" ></a><p>
-<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
-  <tr>
-    <td class="mdRow">
-      <table cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td class="md" nowrap valign="top"> int combo_init </td>
-          <td class="md" valign="top">(&nbsp;</td>
-          <td class="mdname1" valign="top" nowrap>          </td>
-          <td class="md" valign="top">&nbsp;)&nbsp;</td>
-          <td class="md" nowrap></td>
-        </tr>
-
-      </table>
-    </td>
-  </tr>
-</table>
-<table cellspacing=5 cellpadding=0 border=0>
-  <tr>
-    <td>
-      &nbsp;
-    </td>
-    <td>
-
-<p>
-initialize combo box attributes 
-<p>
-
-<p>
-Referenced by <a class="el" href="main_8c-source.html#l00078">main()</a>, <a class="el" href="callbacks_8c-source.html#l00299">on_mainWindow_key_press_event()</a>, and <a class="el" href="main_8c-source.html#l00380">run_command()</a>.    </td>
-  </tr>
-</table>
-<a class="anchor" name="a20" doxytag="callbacks.h::dialog_ok_clicked" ></a><p>
+<a class="anchor" name="a19" doxytag="callbacks.h::dialog_ok_clicked" ></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -186,7 +151,7 @@ Referenced by <a class="el" href="interface_8c-source.html#l00328">keystrokes_di
 </pre></div>    </td>
   </tr>
 </table>
-<a class="anchor" name="a19" doxytag="callbacks.h::gtk_combo_get_pos" ></a><p>
+<a class="anchor" name="a18" doxytag="callbacks.h::gtk_combo_get_pos" ></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -565,7 +530,7 @@ handle when a keypress event occures in the combo box.
 <p>
 Definition at line <a class="el" href="callbacks_8c-source.html#l00099">99</a> of file <a class="el" href="callbacks_8c-source.html">callbacks.c</a>.
 <p>
-References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="main_8h-source.html#l00039">die</a>, <a class="el" href="callbacks_8h.html#a19">gtk_combo_get_pos()</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00041">keep_open</a>, <a class="el" href="interface_8c-source.html#l00328">keystrokes_dialog()</a>, <a class="el" href="main_8c-source.html#l00380">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00195">writeHistory()</a>.
+References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="main_8h-source.html#l00039">die</a>, <a class="el" href="callbacks_8h.html#a18">gtk_combo_get_pos()</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00041">keep_open</a>, <a class="el" href="interface_8c-source.html#l00328">keystrokes_dialog()</a>, <a class="el" href="main_8c-source.html#l00383">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00198">writeHistory()</a>.
 <p>
 Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWindow()</a>.
 <p>
@@ -623,7 +588,7 @@ Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWi
 00153             old_height =0, old_width =0; 
 00154 
 00155           <span class="comment">//we have to grab the combo position</span>
-00156           <a class="code" href="callbacks_8h.html#a19">gtk_combo_get_pos</a>(GTK_COMBO(combo1), &amp;x, &amp;y, &amp;height, &amp;width);
+00156           <a class="code" href="callbacks_8h.html#a18">gtk_combo_get_pos</a>(GTK_COMBO(combo1), &amp;x, &amp;y, &amp;height, &amp;width);
 00157 
 00158           <span class="comment">//see if we have the focus</span>
 00159           <span class="keywordflow">if</span> (!GTK_WIDGET_HAS_FOCUS (GTK_COMBO(combo1)-&gt;entry))
@@ -677,12 +642,13 @@ Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWi
 <p>
 Here is the call graph for this function:<p><center><img src="callbacks_8h_a2_cgraph.png" border="0" usemap="#callbacks_8h_a2_cgraph_map" alt=""></center>
 <map name="callbacks_8h_a2_cgraph_map">
-<area href="callbacks_8h.html#a19" shape="rect" coords="285,5,413,23" alt="">
+<area href="callbacks_8h.html#a18" shape="rect" coords="285,5,413,23" alt="">
 <area href="interface_8c.html#a2" shape="rect" coords="292,47,407,66" alt="">
 <area href="main_8h.html#a10" shape="rect" coords="303,90,396,109" alt="">
 <area href="comboHandlers_8h.html#a3" shape="rect" coords="480,134,560,153" alt="">
 <area href="callbacks_8c.html#a19" shape="rect" coords="464,47,576,66" alt="">
-<area href="callbacks_8h.html#a18" shape="rect" coords="484,90,556,109" alt="">
+<area href="comboBox_8h.html#a5" shape="rect" coords="484,90,556,109" alt="">
+<area href="comboHandlers_8h.html#a2" shape="rect" coords="625,90,703,109" alt="">
 </map>
 <a class="anchor" name="a3" doxytag="callbacks.h::on_combo_key_press_event" ></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
@@ -894,7 +860,7 @@ called when the main window is destroyed
 <p>
 Definition at line <a class="el" href="callbacks_8c-source.html#l00058">58</a> of file <a class="el" href="callbacks_8c-source.html">callbacks.c</a>.
 <p>
-References <a class="el" href="comboBox_8h-source.html#l00039">cbitems</a>, <a class="el" href="main_8h-source.html#l00054">command</a>, <a class="el" href="comboHandlers_8c-source.html#l00173">freeList()</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00048">home_directory</a>, and <a class="el" href="main_8h-source.html#l00051">terminal_path</a>.
+References <a class="el" href="comboBox_8h-source.html#l00039">cbitems</a>, <a class="el" href="main_8h-source.html#l00054">command</a>, <a class="el" href="comboHandlers_8c-source.html#l00176">freeList()</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8h-source.html#l00048">home_directory</a>, and <a class="el" href="main_8h-source.html#l00051">terminal_path</a>.
 <p>
 Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWindow()</a>.
 <p>
@@ -967,7 +933,7 @@ Handle a keypress event at the toplevel window level.
 <p>
 Definition at line <a class="el" href="callbacks_8c-source.html#l00299">299</a> of file <a class="el" href="callbacks_8c-source.html">callbacks.c</a>.
 <p>
-References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="callbacks_8h.html#a18">combo_init()</a>, <a class="el" href="comboBox_8h-source.html#l00041">combo_mode</a>, <a class="el" href="interface_8c-source.html#l00328">keystrokes_dialog()</a>, <a class="el" href="comboBox_8h-source.html#l00034">RF_HISTORY_MODE</a>, and <a class="el" href="comboBox_8h-source.html#l00035">RF_MAX_MODE</a>.
+References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="comboBox_8c-source.html#l00044">combo_init()</a>, <a class="el" href="comboBox_8h-source.html#l00041">combo_mode</a>, <a class="el" href="interface_8c-source.html#l00328">keystrokes_dialog()</a>, <a class="el" href="comboBox_8h-source.html#l00034">RF_HISTORY_MODE</a>, and <a class="el" href="comboBox_8h-source.html#l00035">RF_MAX_MODE</a>.
 <p>
 Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWindow()</a>.
 <p>
@@ -993,7 +959,7 @@ Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWi
 00321           <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="comboBox_8h.html#a4">combo_mode</a> &gt;= <a class="code" href="comboBox_8h.html#a2">RF_MAX_MODE</a>)
 00322             <a class="code" href="comboBox_8h.html#a4">combo_mode</a> = <a class="code" href="comboBox_8h.html#a1">RF_HISTORY_MODE</a>;
 00323         
-00324           <a class="code" href="callbacks_8h.html#a18">combo_init</a>(combo_mode);
+00324           <a class="code" href="comboBox_8h.html#a5">combo_init</a>(combo_mode);
 00325         }
 00326     }
 00327   <span class="keywordflow">else</span> <span class="keywordflow">if</span>(event-&gt;keyval == GDK_h)
@@ -1017,8 +983,9 @@ Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWi
 <p>
 Here is the call graph for this function:<p><center><img src="callbacks_8h_a9_cgraph.png" border="0" usemap="#callbacks_8h_a9_cgraph_map" alt=""></center>
 <map name="callbacks_8h_a9_cgraph_map">
-<area href="callbacks_8h.html#a18" shape="rect" coords="299,5,371,24" alt="">
+<area href="comboBox_8h.html#a5" shape="rect" coords="299,5,371,24" alt="">
 <area href="interface_8c.html#a2" shape="rect" coords="277,48,392,66" alt="">
+<area href="comboHandlers_8h.html#a2" shape="rect" coords="460,5,537,24" alt="">
 <area href="callbacks_8c.html#a19" shape="rect" coords="443,48,555,66" alt="">
 </map>
 <a class="anchor" name="a6" doxytag="callbacks.h::on_ok_button1_clicked" ></a><p>
@@ -1311,7 +1278,7 @@ Execute the command in the combo entry box.
 <p>
 Definition at line <a class="el" href="callbacks_8c-source.html#l00352">352</a> of file <a class="el" href="callbacks_8c-source.html">callbacks.c</a>.
 <p>
-References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8c-source.html#l00380">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00195">writeHistory()</a>.
+References <a class="el" href="interface_8h-source.html#l00046">combo1</a>, <a class="el" href="main_8h-source.html#l00049">history_file</a>, <a class="el" href="main_8c-source.html#l00383">run_command()</a>, and <a class="el" href="comboHandlers_8c-source.html#l00198">writeHistory()</a>.
 <p>
 Referenced by <a class="el" href="interface_8c-source.html#l00047">create_mainWindow()</a>.
 <p>
@@ -1332,7 +1299,8 @@ Here is the call graph for this function:<p><center><img src="callbacks_8h_a10_c
 <map name="callbacks_8h_a10_cgraph_map">
 <area href="main_8h.html#a10" shape="rect" coords="201,5,295,24" alt="">
 <area href="comboHandlers_8h.html#a3" shape="rect" coords="343,49,423,68" alt="">
-<area href="callbacks_8h.html#a18" shape="rect" coords="347,5,419,24" alt="">
+<area href="comboBox_8h.html#a5" shape="rect" coords="347,5,419,24" alt="">
+<area href="comboHandlers_8h.html#a2" shape="rect" coords="471,5,548,24" alt="">
 </map>
 <a class="anchor" name="a12" doxytag="callbacks.h::on_whoEntry_activate" ></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
@@ -1428,7 +1396,7 @@ Here is the call graph for this function:<p><center><img src="callbacks_8h_a14_c
 <map name="callbacks_8h_a14_cgraph_map">
 <area href="callbacks_8c.html#a14" shape="rect" coords="224,5,368,23" alt="">
 </map>
-<hr size="1"><address style="align: right;"><small>Generated on Wed Mar 17 16:19:44 2004 for run-free by
+<hr size="1"><address style="align: right;"><small>Generated on Thu Mar 18 07:26:18 2004 for run-free by
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border=0 > 
 </a>1.3.5 </small></address>

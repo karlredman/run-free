@@ -54,7 +54,7 @@
     is populated in reverse of the file contents to accomidate for
     (only) a file that is appended to.
 */
-GList *readHistory(GList* list, char *filename)
+GList *readHistory(GList *list, char *filename)
 {
   FILE *fp;
 
@@ -82,6 +82,7 @@ GList *readHistory(GList* list, char *filename)
       //ok, try a different file
       //TODO
       //else pop up a dialog
+      g_print("could not open history file\n");
     }
 
   //max line length is the system max (this could be huge!)
@@ -101,6 +102,9 @@ GList *readHistory(GList* list, char *filename)
 	}
       if(c != '\n')
 	{
+	  if(i >= RF_LINE_MAX_LEN)
+	    dprint("HISTORY LINE LEN TOO LONG!\n");
+
 	  line[i] = c;
 	  i++;
 	  continue;
@@ -134,7 +138,6 @@ GList *readHistory(GList* list, char *filename)
   //int loop_num = RF_MAX_HISTLIST_LEN-1;
   int loop_num = history_len -1;
 
-  
   //weed out duplicates and only keep the first instance of a history
   //line
   for(;i < loop_num && (list != NULL); i++, 
@@ -174,7 +177,7 @@ void freeList(GList *list)
 {
   int i =0;
   for(; i < (int)g_list_length(list); i++, list = list->next)
-    free(list->data);
+    g_free(list->data);
   
   g_list_free(list);
 }
