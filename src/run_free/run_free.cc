@@ -67,6 +67,11 @@ int my_system(const char *command)
       argv[1] = "-c";
       argv[2] = (char *)command;
       argv[3] = 0;
+
+#ifdef DEBUG
+	g_print("my_system: running command: %s %s %s\n", argv[0], argv[1], argv[2]);
+#ifdef DEBUG
+
       execve("/bin/sh", argv, environ);
       exit(127);
     }
@@ -152,6 +157,7 @@ void runClicked(GtkWidget *widget, gpointer data)
 
   char *s;
   char *commandLine;
+  int retval = 0;
 
   //get the entry field from the combo and set it to a local var
   s = gtk_entry_get_text(GTK_ENTRY( GTK_COMBO(data)->entry));
@@ -168,7 +174,7 @@ if(s)
     int sLen = strlen(s);
 
     //calculate the commandLine Length
-    int cLen = sLen+beLen+eeLen+1;
+    int cLen = sLen+beLen+eeLen;
 
 
   //check if "run in term" toggled and
@@ -197,13 +203,14 @@ if(s)
     {
       //create a commandLine array
       commandLine = new char[cLen];
-      memset(commandLine, 0, sizeof(*commandLine));
+      memset(commandLine, '0', sizeof(*commandLine));
 
       //copy the formated peices into the commandLine
       memcpy(&commandLine[0], begExCommand, beLen);
       memcpy(&commandLine[beLen], s, sLen);
       memcpy(&commandLine[beLen+sLen], endExCommand, eeLen);
 
+      commandLine[cLen] = '\0';
     }
 
 #ifdef DEBUG
@@ -220,6 +227,12 @@ if(s)
   if(strlen(s) > 0)
     {
       writeHistory(s);		// save history
+
+      if(retval = -1)
+	{
+	  
+	}
+
       cleanUp();		// clean up
       if (commandLine != NULL)	// delete commandLine
 	delete [] commandLine;

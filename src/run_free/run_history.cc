@@ -23,6 +23,11 @@ int writeHistory(char *s)
 
   //create file
   fp = fopen(RF_HISTORY_FILE_NAME, "a+");
+
+  if(fp == NULL)
+    {
+      
+    }
   
   //write command line to file
   if((wLen = fputs(s, fp)) > 0)
