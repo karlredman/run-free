@@ -1,5 +1,14 @@
-Welcome to the Sourceforge.net run-free repository.
+This is a cvs import of my (very old) run-free project on sourceforge.net
 
+https://sourceforge.net/projects/run-free/
+
+Full conversion to github is pending. 
+For now see the sourceforge project page (above) for project information
+
+## Description: 
+run-free is a GUI command line launcher application for your Xwindows desktop. It is designed to be key-driven and flexible. The purpose for run-free is to be able to flexibly run command line programs and such from your X desktop.
+
+## Project Notes:
 This directory structure has changed to accomidate for new versions of
 run-free now and in the future. The directories are named by the
 runfree toplevel version number (i.e. if you are trying to get to
@@ -13,5 +22,4 @@ others by this same author.
 
 Sincerely, 
 Karl N. Redman
-(A.K.A. Parasyte Of Knowledge)
-parasyte@sleepingstill.com
+karl.redman@gmail.com
