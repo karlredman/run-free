@@ -1,0 +1,12 @@
+#static/* linguist-vendored
+#*.cc linguist-language=cpp
+*.c linguist-language=c
+docs/* linguist-documentation
+*docs/* linguist-documentation
+#*.html linguist-vendored=true
+*.am linguist-vendored
+*.sh linguist-vendored
+Makefile linguist-vendored
+makefile linguist-vendored
+Makefile* linguist-vendored
+config* linguist-vendored
